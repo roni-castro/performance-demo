@@ -21,7 +21,12 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#25292e"
       },
-      "package": "com.ronicesarrc.demo"
+      "package": "com.ronicesarrc.demo",
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_MEDIA_LOCATION"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -46,6 +51,7 @@
       "eas": {
         "projectId": "f0d8ca3f-a83c-4f44-8178-0ed56625ffe7"
       }
-    }
+    },
+    "owner": "ronicesarrc"
   }
 }
