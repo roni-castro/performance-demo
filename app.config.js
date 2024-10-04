@@ -1,6 +1,32 @@
-{
+const IS_DEV = process.env.APP_VARIANT === 'development';
+const IS_PREVIEW = process.env.APP_VARIANT === 'preview';
+
+const getAppName = () => {
+  if (IS_DEV) {
+    return 'Demo (Dev)';
+  }
+  if (IS_PREVIEW) {
+    return 'Demo (Preview)';
+  }
+
+  return 'Demo: Emoji Stickers';
+};
+
+const getUniqueIdentifier = () => {
+  if (IS_DEV) {
+    return 'com.ronicesarrc.demo.dev';
+  }
+
+  if (IS_PREVIEW) {
+    return 'com.ronicesarrc.demo.preview';
+  }
+
+  return 'com.ronicesarrc.demo';
+};
+
+export default {
   "expo": {
-    "name": "demo",
+    "name": getAppName(),
     "slug": "demo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,15 +39,17 @@
       "backgroundColor": "#25292e"
     },
     "ios": {
+      "buildNumber": "1",
       "supportsTablet": true,
-      "bundleIdentifier": "com.ronicesarrc.demo"
+      "bundleIdentifier": getUniqueIdentifier(),
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#25292e"
       },
-      "package": "com.ronicesarrc.demo",
+      "package": getUniqueIdentifier(),
       "permissions": [
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE",
@@ -54,4 +82,4 @@
     },
     "owner": "ronicesarrc"
   }
-}
+};
