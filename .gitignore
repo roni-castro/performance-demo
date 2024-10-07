@@ -21,3 +21,6 @@ expo-env.d.ts
 
 /android
 /ios
+
+#service account json
+service-account-file.json
