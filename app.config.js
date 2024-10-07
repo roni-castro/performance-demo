@@ -42,6 +42,9 @@ export default {
       "buildNumber": "1",
       "supportsTablet": true,
       "bundleIdentifier": getUniqueIdentifier(),
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access your photos."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -79,6 +82,12 @@ export default {
         "projectId": "f0d8ca3f-a83c-4f44-8178-0ed56625ffe7"
       }
     },
-    "owner": "ronicesarrc"
+    "owner": "ronicesarrc",
+    "updates": {
+      "url": "https://u.expo.dev/f0d8ca3f-a83c-4f44-8178-0ed56625ffe7"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
   }
 };
