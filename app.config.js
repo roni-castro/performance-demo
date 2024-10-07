@@ -44,7 +44,6 @@ export default {
       "bundleIdentifier": getUniqueIdentifier(),
     },
     "android": {
-      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#25292e"
