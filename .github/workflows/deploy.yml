@@ -1,8 +1,8 @@
 name: Build bundle and deploy
 on:
   push:
-    branches:
-      - main
+    # REQUIRED: push main(default) branch is necessary for this action to update its fingerprint database
+    branches: [main]
 jobs:
   bundleDeploy:
     runs-on: ubuntu-latest
@@ -13,9 +13,8 @@ jobs:
       pull-requests: write # Allow comments on PRs
       # REQUIRED: Allow updating fingerprint in action caches
       actions: write
-      # Following permissions are required for private repos
+      # OPTIONAL: Allow reading of repo contents for private projects
       contents: read
-      packages: write
     
     steps:
       - name: 🏗 Checkout repository
@@ -40,19 +39,17 @@ jobs:
         run: npx expo prebuild
 
       - name: 📷 Check fingerprint
+        id: fingerprint
         uses: expo/expo-github-action/fingerprint@main
         with:
-          fingerprint-installation-cache: true
+          fingerprint-installation-cache: false
           packager: npm
 
       - name: Log fingerprint condition
         id: log_fingerprint
         run: |
           # Access the fingerprint_diff output from a previous step
-          fingerprint_diff="${{ steps.fingerprint.outputs['fingerprint-diff'] }}"
-
-          # Log the raw value for debugging
-          echo "Raw fingerprint_diff: '$fingerprint_diff'"
+          fingerprint_diff="${{ steps.fingerprint.outputs.fingerprint-diff }}"
 
           # Check if the fingerprint_diff is empty
           if [ -z "$fingerprint_diff" ]; then
