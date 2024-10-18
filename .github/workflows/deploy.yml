@@ -39,8 +39,16 @@ jobs:
       - name: 📷 Check fingerprint
         uses: expo/expo-github-action/fingerprint@main
 
+      - name: Log fingerprint condition
+        run: |
+          if [[ ${{ steps.fingerprint.outputs.fingerprint-diff }} == '[]' ]]; then
+            echo "No native changes detected"
+          else
+            echo "Native changes detected"
+          fi
+
       - name: 🚀 Create OTA update
-        if: ${{ !steps.fingerprint.outputs.includes-changes }}
+        if: ${{ steps.fingerprint.outputs.fingerprint-diff == '[]' }}
         run: eas update --branch preview --auto --non-interactive 
 
   buildAndroid:
