@@ -1,0 +1,76 @@
+name: Build bundle and deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  bundleDeploy:
+    runs-on: ubuntu-latest
+    # REQUIRED: limit concurrency when pushing main(default) branch to prevent conflict for this action to update its fingerprint database
+    concurrency: fingerprint-${{ github.event_name != 'pull_request' && 'main' || github.run_id }}
+    permissions:
+      # REQUIRED: Allow comments of PRs
+      pull-requests: write # Allow comments on PRs
+      # REQUIRED: Allow updating fingerprint in action caches
+      actions: write
+    outputs:
+      changes-detected: ${{ steps.fingerprint.outputs.includes-changes }}
+    
+    steps:
+      - name: 🏗 Setup repo
+        uses: actions/checkout@v3
+
+      - name: 🏗 Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: npm
+
+      - name: 🏗 Setup EAS
+        uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: 📷 Check fingerprint
+        uses: expo/expo-github-action/fingerprint@main
+
+      - name: 🚀 Create OTA update
+        if: ${{ !steps.fingerprint.outputs.includes-changes }}
+        run: eas update --branch preview --auto --non-interactive 
+
+  buildAndroid:
+    name: Build and Submit Android
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}-build-android
+    needs: [ bundleDeploy ]
+
+    steps:
+      - name: 🏗 Setup repo
+        uses: actions/checkout@v3
+
+      - name: 🏗 Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: npm
+
+      - name: 🏗 Setup EAS
+        uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: 🏗️ Build android
+        run: npm run android:build
+
+      - name: 🚀 Submit android
+        run: npm run android:submit
+        

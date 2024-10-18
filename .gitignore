@@ -24,3 +24,5 @@ expo-env.d.ts
 
 #service account json
 service-account-file.json
+
+settings.json
