@@ -45,21 +45,21 @@ jobs:
           fingerprint-installation-cache: false
           packager: npm
 
-      - name: Log fingerprint condition
-        id: log_fingerprint
-        run: |
-          # Access the fingerprint_diff output from a previous step
-          fingerprint_diff="${{ steps.fingerprint.outputs.fingerprint-diff }}"
+      # - name: Log fingerprint condition
+      #   id: log_fingerprint
+      #   run: |
+      #     # Access the fingerprint_diff output from a previous step
+      #     fingerprint_diff="${{ steps.fingerprint.outputs.fingerprint-diff }}"
 
-          # Check if the fingerprint_diff is empty
-          if [ -z "$fingerprint_diff" ]; then
-            echo 'fingerprint_diff is not set or is empty'
-          elif [ "$fingerprint_diff" == "[]" ]; then
-            echo "fingerprint_diff: []"
-          else
-            # Log the fingerprint_diff as a JSON array
-            echo "fingerprint_diff: $fingerprint_diff"
-          fi
+      #     # Check if the fingerprint_diff is empty
+      #     if [ -z "$fingerprint_diff" ]; then
+      #       echo 'fingerprint_diff is not set or is empty'
+      #     elif [ "$fingerprint_diff" == "[]" ]; then
+      #       echo "fingerprint_diff: []"
+      #     else
+      #       # Log the fingerprint_diff as a JSON array
+      #       echo "fingerprint_diff: $fingerprint_diff"
+      #     fi
 
       - name: 🚀 Create OTA update
         if: ${{ steps.fingerprint.outputs.fingerprint-diff == '[]' }}
