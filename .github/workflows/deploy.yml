@@ -58,7 +58,7 @@ jobs:
 
       - name: 🚀 Create OTA update
         if: ${{ steps.fingerprint.outputs.fingerprint-diff == '[]' }}
-        run: eas update --branch preview --auto --non-interactive 
+        run: eas update --branch production --auto --non-interactive 
 
   buildAndroid:
     name: Build and Submit Android
@@ -86,9 +86,6 @@ jobs:
       - name: 📦 Install dependencies
         run: npm install
 
-      - name: 🏗️ Build android
-        run: npm run android:build
-
-      - name: 🚀 Submit android
-        run: npm run android:submit
+      - name: 🚀 Build android and Submit android
+        run: eas build --platform android --auto-submit
         
