@@ -55,8 +55,7 @@ export default {
       "permissions": [
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE",
-        "android.permission.ACCESS_MEDIA_LOCATION",
-        "android.permission.CAMERA"
+        "android.permission.ACCESS_MEDIA_LOCATION"
       ]
     },
     "web": {
