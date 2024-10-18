@@ -44,20 +44,20 @@ jobs:
       - name: Log fingerprint condition
         run: |
           # Get the fingerprint-diff output from the previous step
-          fingerprint_diff="${{ steps.fingerprint.outputs.fingerprint-diff }}"
+          includes_native_changes="${{ steps.fingerprint.outputs.includes-changes }}"
 
           # Log the fingerprint_diff value
-          echo "Fingerprint diff: $fingerprint_diff"
+          echo "includes_native_changes: $includes_native_changes"
 
-          # Check if it's an empty array
-          if [[ "$fingerprint_diff" == '[]' ]]; then
+          # Check if it's empty
+          if [ -z "$includes_native_changes" ]; then
             echo "No native changes detected"
           else
             echo "Native changes detected"
           fi
 
       - name: 🚀 Create OTA update
-        if: ${{ steps.fingerprint.outputs.fingerprint-diff == '[]' }}
+        if: ${{ !steps.fingerprint.outputs.includes-changes }}
         run: eas update --channel production --auto --non-interactive 
 
   buildAndroid:
