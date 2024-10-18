@@ -36,6 +36,9 @@ jobs:
       - name: 📦 Install dependencies
         run: npm install
 
+      - name: 📦 Generate Android and iOS folder
+        run: npx expo prebuild
+
       - name: 📷 Check fingerprint
         uses: expo/expo-github-action/fingerprint@main
         with:
@@ -43,14 +46,21 @@ jobs:
           packager: npm
 
       - name: Log fingerprint condition
+        id: log_fingerprint
         run: |
-          # Access the fingerprint-diff output
+          # Access the fingerprint_diff output from a previous step
           fingerprint_diff="${{ steps.fingerprint.outputs['fingerprint-diff'] }}"
 
+          # Log the raw value for debugging
+          echo "Raw fingerprint_diff: '$fingerprint_diff'"
+
           # Check if the fingerprint_diff is empty
-          if [ "$fingerprint_diff" == "[]" ]; then
-            echo 'fingerprint_diff: []'
+          if [ -z "$fingerprint_diff" ]; then
+            echo 'fingerprint_diff is not set or is empty'
+          elif [ "$fingerprint_diff" == "[]" ]; then
+            echo "fingerprint_diff: []"
           else
+            # Log the fingerprint_diff as a JSON array
             echo "fingerprint_diff: $fingerprint_diff"
           fi
 
