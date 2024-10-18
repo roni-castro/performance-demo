@@ -44,17 +44,14 @@ jobs:
 
       - name: Log fingerprint condition
         run: |
-          # Get the fingerprint-diff output from the previous step
-          includes_native_changes="${{ steps.fingerprint.outputs.fingerprint-diff != '[]' }}"
+          # Access the fingerprint-diff output
+          fingerprint_diff="${{ steps.fingerprint.outputs['fingerprint-diff'] }}"
 
-          # Log the fingerprint_diff value
-          echo "includes_native_changes: $includes_native_changes"
-
-          # Check if it's empty
-          if [ -z "$includes_native_changes" ]; then
-            echo "No native changes detected"
+          # Check if the fingerprint_diff is empty
+          if [ "$fingerprint_diff" == "[]" ]; then
+            echo 'fingerprint_diff: []'
           else
-            echo "Native changes detected"
+            echo "fingerprint_diff: $fingerprint_diff"
           fi
 
       - name: 🚀 Create OTA update
