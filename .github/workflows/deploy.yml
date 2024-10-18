@@ -13,7 +13,9 @@ jobs:
       pull-requests: write # Allow comments on PRs
       # REQUIRED: Allow updating fingerprint in action caches
       actions: write
+      # Following permissions are required for private repos
       contents: read
+      packages: write
     outputs:
       changes-detected: ${{ steps.fingerprint.outputs.includes-changes }}
     
@@ -41,7 +43,14 @@ jobs:
 
       - name: Log fingerprint condition
         run: |
-          if [[ ${{ steps.fingerprint.outputs.fingerprint-diff }} == '[]' ]]; then
+          # Get the fingerprint-diff output from the previous step
+          fingerprint_diff="${{ steps.fingerprint.outputs.fingerprint-diff }}"
+
+          # Log the fingerprint_diff value
+          echo "Fingerprint diff: $fingerprint_diff"
+
+          # Check if it's an empty array
+          if [[ "$fingerprint_diff" == '[]' ]]; then
             echo "No native changes detected"
           else
             echo "Native changes detected"
