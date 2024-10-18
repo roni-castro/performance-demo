@@ -38,6 +38,10 @@ jobs:
 
       - name: 📷 Check fingerprint
         uses: expo/expo-github-action/fingerprint@main
+        with:
+          fingerprint-installation-cache: true
+          packager: npm
+        
 
       - name: Log fingerprint condition
         run: |
