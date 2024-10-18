@@ -13,12 +13,13 @@ jobs:
       pull-requests: write # Allow comments on PRs
       # REQUIRED: Allow updating fingerprint in action caches
       actions: write
+      contents: read
     outputs:
       changes-detected: ${{ steps.fingerprint.outputs.includes-changes }}
     
     steps:
-      - name: 🏗 Setup repo
-        uses: actions/checkout@v3
+      - name: 🏗 Checkout repository
+        uses: actions/checkout@v4
 
       - name: 🏗 Setup Node
         uses: actions/setup-node@v3
@@ -50,8 +51,8 @@ jobs:
     needs: [ bundleDeploy ]
 
     steps:
-      - name: 🏗 Setup repo
-        uses: actions/checkout@v3
+      - name: 🏗 Checkout repository
+        uses: actions/checkout@v4
 
       - name: 🏗 Setup Node
         uses: actions/setup-node@v3
