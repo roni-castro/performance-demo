@@ -16,8 +16,6 @@ jobs:
       # Following permissions are required for private repos
       contents: read
       packages: write
-    outputs:
-      changes-detected: ${{ steps.fingerprint.outputs.includes-changes }}
     
     steps:
       - name: 🏗 Checkout repository
@@ -44,7 +42,7 @@ jobs:
       - name: Log fingerprint condition
         run: |
           # Get the fingerprint-diff output from the previous step
-          includes_native_changes="${{ steps.fingerprint.outputs.includes-changes }}"
+          includes_native_changes="${{ steps.fingerprint.outputs.fingerprint-diff != '[]' }}"
 
           # Log the fingerprint_diff value
           echo "includes_native_changes: $includes_native_changes"
@@ -57,7 +55,7 @@ jobs:
           fi
 
       - name: 🚀 Create OTA update
-        if: ${{ !steps.fingerprint.outputs.includes-changes }}
+        if: ${{ steps.fingerprint.outputs.fingerprint-diff == '[]' }}
         run: eas update --channel production --auto --non-interactive 
 
   buildAndroid:
