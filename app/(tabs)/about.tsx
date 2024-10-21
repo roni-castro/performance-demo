@@ -1,20 +1,16 @@
-import { StyleSheet, Text, View } from 'react-native';
+import CartProductsGrid from '@/features/complexFlatList/CartProductsGrid';
+import useToggle from '@/hooks/useToggle';
+import { Button } from 'react-native';
 
 export default function About() {
+  const [isScreenShown, showScreen] = useToggle();
+
+  if (!isScreenShown) {
+    return (
+      <Button title="Show screen" onPress={() => showScreen()} />
+    );
+  }
   return (
-    <View style={styles.container}>
-        <Text style={styles.text}>About screen</Text>
-    </View>
+    <CartProductsGrid />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#25292e',
-    alignItems: 'center',
-  },
-  text: {
-    color: '#fff',
-  },
-});
