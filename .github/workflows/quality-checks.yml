@@ -1,0 +1,29 @@
+name: quality checks
+on: pull_request
+
+concurrency:
+  group: pull_request-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  quality-checks:
+    name: Quality checks
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Lint code
+        run: npm run lint

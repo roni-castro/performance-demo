@@ -3,32 +3,32 @@ const IS_PREVIEW = process.env.APP_VARIANT === 'preview';
 
 const getAppName = () => {
   if (IS_DEV) {
-    return 'Demo (Dev)';
+    return 'Performance Demo (Dev)';
   }
   if (IS_PREVIEW) {
-    return 'Demo (Preview)';
+    return ' Performance Demo (Preview)';
   }
 
-  return 'Demo: Emoji Stickers';
+  return 'Performance Demo';
 };
 
 const getUniqueIdentifier = () => {
   if (IS_DEV) {
-    return 'com.ronicesarrc.demo.dev';
+    return 'com.ronicesarrc.performance.demo.dev';
   }
 
   if (IS_PREVIEW) {
-    return 'com.ronicesarrc.demo.preview';
+    return 'com.ronicesarrc.performance.demo.preview';
   }
 
-  return 'com.ronicesarrc.demo';
+  return 'com.ronicesarrc.performance.demo';
 };
 
 export default {
   "expo": {
     "name": getAppName(),
-    "slug": "demo",
-    "version": "1.0.2",
+    "slug": "performance-demo",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -79,12 +79,12 @@ export default {
     },
     "extra": {
       "eas": {
-        "projectId": "f0d8ca3f-a83c-4f44-8178-0ed56625ffe7"
+        "projectId": "7378a355-7de3-4fbe-b404-b7511e10d0c3"
       }
     },
     "owner": "ronicesarrc",
     "updates": {
-      "url": "https://u.expo.dev/f0d8ca3f-a83c-4f44-8178-0ed56625ffe7"
+      "url": "https://u.expo.dev/7378a355-7de3-4fbe-b404-b7511e10d0c3"
     },
     "runtimeVersion": {
       "policy": "appVersion"
