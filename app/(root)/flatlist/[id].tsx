@@ -8,7 +8,7 @@ export default function FlatListWithGrid() {
   
   useEffect(() => {
     navigation.setOptions({ title: `FlatList with ${params.id}` });
-  }, [navigation]);
+  }, [navigation, params.id]);
 
   return (
     <CartProductsGrid shouldUseNestedFlatList={params.id === 'nested-grid'} />

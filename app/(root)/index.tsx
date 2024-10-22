@@ -1,9 +1,9 @@
 import Button from "@/components/Button";
 import Section from '@/components/Section';
 import { router } from "expo-router";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet } from "react-native";
 
-export default function Home() {
+export default function FlatLists() {
   return (
     <Section title="FlatLists" style={styles.container}>
       <Button

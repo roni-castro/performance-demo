@@ -1,6 +1,6 @@
 import { Stack } from "expo-router";
 
-export default () => {
+export default function FlatListLayout() {
   return (
     <Stack
       screenOptions={{
@@ -14,4 +14,4 @@ export default () => {
       <Stack.Screen name="[id]" />
     </Stack>
   );
-};
+}

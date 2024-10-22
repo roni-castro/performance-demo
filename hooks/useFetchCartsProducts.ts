@@ -1,6 +1,6 @@
-import { fetchPostsService } from '@/data/services/carts';
-import { Cart } from '@/data/types/Cart';
-import { useEffect, useState } from 'react';
+import { fetchPostsService } from "@/data/services/carts";
+import { Cart } from "@/data/types/Cart";
+import { useCallback, useEffect, useState } from "react";
 
 const useFetchCartsProducts = () => {
   const [data, setData] = useState<Cart[]>([]);
@@ -9,44 +9,47 @@ const useFetchCartsProducts = () => {
   const [page, setPage] = useState(0);
   const [hasNextPage, setHasNextPage] = useState(true);
   const [isFetching, setIsFetching] = useState(false);
-  const [isRefreshing, setIsRefreshing] = useState(false); 
+  const [isRefreshing, setIsRefreshing] = useState(false);
 
-  const fetchCartsProducts = async (shouldRefresh = false) => {
-    setIsFetching(true);
-    
-    if (shouldRefresh) {
-      setIsRefreshing(true); 
-      setData([]); 
-      setPage(0); 
-    }
+  const fetchCartsProducts = useCallback(
+    async (shouldRefresh = false) => {
+      setIsFetching(true);
 
-    try {
-      const result = await fetchPostsService(page, shouldRefresh);
-      setData((prevData) => [...prevData, ...result.carts]); 
-      setHasNextPage(result.carts.length > 0); 
-      setPage((prevPage) => prevPage + 1); 
-    } catch (err: any) {
-      setError(err);
-    } finally {
-      setLoading(false);
-      setIsFetching(false);
-      setIsRefreshing(false); 
-    }
-  };
+      if (shouldRefresh) {
+        setIsRefreshing(true);
+        setData([]);
+        setPage(0);
+      }
+
+      try {
+        const result = await fetchPostsService(page, shouldRefresh);
+        setData((prevData) => [...prevData, ...result.carts]);
+        setHasNextPage(result.carts.length > 0);
+        setPage((prevPage) => prevPage + 1);
+      } catch (err: any) {
+        setError(err);
+      } finally {
+        setLoading(false);
+        setIsFetching(false);
+        setIsRefreshing(false);
+      }
+    },
+    [page]
+  );
 
   useEffect(() => {
-    fetchCartsProducts(); 
-  }, []); 
+    fetchCartsProducts();
+  }, [fetchCartsProducts]);
 
   return {
     data,
     error,
-    fetchNextPage: () => fetchCartsProducts(), 
-    refreshPosts: () => fetchCartsProducts(true), 
+    fetchNextPage: () => fetchCartsProducts(),
+    refreshPosts: () => fetchCartsProducts(true),
     hasNextPage,
     isFetching,
-    isRefreshing, 
-    status: loading ? 'loading' : error ? 'error' : 'success',
+    isRefreshing,
+    status: loading ? "loading" : error ? "error" : "success",
   };
 };
 

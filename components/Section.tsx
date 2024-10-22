@@ -1,4 +1,3 @@
-import { PropsWithChildren, ReactNode } from 'react';
 import { Text, View, ViewProps } from 'react-native';
 
 type CategoryProps = {
