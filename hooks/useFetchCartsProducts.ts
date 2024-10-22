@@ -1,41 +1,43 @@
 import { fetchPostsService } from "@/data/services/carts";
 import { Cart } from "@/data/types/Cart";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
+
+type Status = "idle" | "loading" | "error" | "success" | "refreshing";
 
 const useFetchCartsProducts = () => {
   const [data, setData] = useState<Cart[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState<Error | null>(null);
-  const [page, setPage] = useState(0);
   const [hasNextPage, setHasNextPage] = useState(true);
-  const [isFetching, setIsFetching] = useState(false);
-  const [isRefreshing, setIsRefreshing] = useState(false);
+  const isFetching = status === "loading";
+  const isRefreshing = status === "refreshing";
+  const pageRef = useRef(0);
 
-  const fetchCartsProducts = useCallback(
-    async (shouldRefresh = false) => {
-      setIsFetching(true);
+  const fetchCartsProducts = useCallback(async (shouldRefresh = false) => {
+    setStatus("loading");
 
-      if (shouldRefresh) {
-        setIsRefreshing(true);
-        setData([]);
-        setPage(0);
+    if (shouldRefresh) {
+      setStatus("refreshing");
+      setData([]);
+      pageRef.current = 0;
+    }
+
+    try {
+      const result = await fetchPostsService(pageRef.current);
+      setData((prevData) => [...prevData, ...result.carts]);
+      setHasNextPage(result.carts.length > 0);
+
+      if (result.carts.length > 0) {
+        pageRef.current += 1;
+      } else {
+        setHasNextPage(false);
       }
-
-      try {
-        const result = await fetchPostsService(page, shouldRefresh);
-        setData((prevData) => [...prevData, ...result.carts]);
-        setHasNextPage(result.carts.length > 0);
-        setPage((prevPage) => prevPage + 1);
-      } catch (err: any) {
-        setError(err);
-      } finally {
-        setLoading(false);
-        setIsFetching(false);
-        setIsRefreshing(false);
-      }
-    },
-    [page]
-  );
+      setStatus("success");
+    } catch (err: any) {
+      setError(err);
+      setStatus("error");
+    }
+  }, []);
 
   useEffect(() => {
     fetchCartsProducts();
@@ -44,12 +46,16 @@ const useFetchCartsProducts = () => {
   return {
     data,
     error,
-    fetchNextPage: () => fetchCartsProducts(),
+    fetchNextPage: () => {
+      if (hasNextPage && !isFetching) {
+        fetchCartsProducts();
+      }
+    },
     refreshPosts: () => fetchCartsProducts(true),
     hasNextPage,
     isFetching,
     isRefreshing,
-    status: loading ? "loading" : error ? "error" : "success",
+    status,
   };
 };
 
