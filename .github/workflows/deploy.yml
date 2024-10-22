@@ -1,4 +1,4 @@
-name: Build bundle and deploy
+name: Build app
 on:
   push:
     # REQUIRED: push main(default) branch is necessary for this action to update its fingerprint database
@@ -91,6 +91,6 @@ jobs:
       - name: 📦 Install dependencies
         run: npm install
 
-      - name: 🚀 Build android on EAS and Submit android
-        run: eas build --platform android --auto-submit --non-interactive --no-wait
+      - name: 🚀 Build android on EAS
+        run: eas build --platform android --non-interactive --no-wait
         
