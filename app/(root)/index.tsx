@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-import Section from '@/components/Section';
+import Section from "@/components/Section";
 import { router } from "expo-router";
 import { StyleSheet } from "react-native";
 
@@ -23,6 +23,6 @@ export default function FlatLists() {
 const styles = StyleSheet.create({
   container: {
     margin: 8,
-    gap: 8
+    gap: 8,
   },
 });
