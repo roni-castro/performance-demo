@@ -66,6 +66,7 @@ const CartProductsGrid = ({ shouldUseNestedFlatList = false }) => {
         />
       }
       onEndReached={onEndReached}
+      ItemSeparatorComponent={() => <View style={styles.cardSeparator} />}
       ListFooterComponent={
         isFetching && !isRefreshing ? (
           <ActivityIndicator size="large" color="#000" />
@@ -77,7 +78,6 @@ const CartProductsGrid = ({ shouldUseNestedFlatList = false }) => {
 
 const styles = StyleSheet.create({
   cartContainer: {
-    marginVertical: 10,
     padding: 10,
     backgroundColor: "#c0c0c0",
     elevation: 1,
@@ -93,6 +93,9 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
     marginBottom: 5,
+  },
+  cardSeparator: {
+    height: 16,
   },
 });
 
