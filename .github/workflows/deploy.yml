@@ -15,7 +15,7 @@ jobs:
       actions: write
       # OPTIONAL: Allow reading of repo contents for private projects
       contents: read
-    
+
     steps:
       - name: 🏗 Checkout repository
         uses: actions/checkout@v4
@@ -45,32 +45,35 @@ jobs:
           fingerprint-installation-cache: false
           packager: npm
 
-      # - name: Log fingerprint condition
-      #   id: log_fingerprint
-      #   run: |
-      #     # Access the fingerprint_diff output from a previous step
-      #     fingerprint_diff="${{ steps.fingerprint.outputs.fingerprint-diff }}"
+      - name: 👀 Debug fingerprint
+        run: |
+          echo "isFingerPrintEmpty=${{ steps.fingerprint.outputs.fingerprint-diff == '[]' }}"
+          echo "previous-fingerprint=${{ steps.base-commit.outputs.previous-fingerprint }}"
+          echo "current-fingerprint=${{ steps.base-commit.outputs.current-fingerprint }}"
+          echo "previous-git-commit=${{ steps.base-commit.outputs.previous-git-commit }}"
+          echo "current-git-commit=${{ steps.base-commit.outputs.current-git-commit }}"
 
-      #     # Check if the fingerprint_diff is empty
-      #     if [ -z "$fingerprint_diff" ]; then
-      #       echo 'fingerprint_diff is not set or is empty'
-      #     elif [ "$fingerprint_diff" == "[]" ]; then
-      #       echo "fingerprint_diff: []"
-      #     else
-      #       # Log the fingerprint_diff as a JSON array
-      #       echo "fingerprint_diff: $fingerprint_diff"
-      #     fi
+      - name: 📄 Save fingerprint diff to a temporary file
+        run: |
+          # Create a JSON file with the fingerprint diff
+          echo '${{ steps.fingerprint.outputs.fingerprint-diff }}' > fingerprint_diff.json
+
+      - name: 📦 Upload fingerprint diff artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: fingerprint-diff
+          path: fingerprint_diff.json
 
       - name: 🚀 Create OTA update
         if: ${{ steps.fingerprint.outputs.fingerprint-diff == '[]' }}
-        run: eas update --channel preview --auto --non-interactive 
+        run: eas update --channel preview --auto --non-interactive
 
   buildAndroid:
     name: Build and Submit Android
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}-build-android
-    needs: [ bundleDeploy ]
+    needs: [bundleDeploy]
 
     steps:
       - name: 🏗 Checkout repository
@@ -93,4 +96,3 @@ jobs:
 
       - name: 🚀 Build android on EAS
         run: eas build --platform android --profile preview --non-interactive --no-wait
-        
