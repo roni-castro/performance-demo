@@ -1,7 +1,8 @@
+import { Product } from '@/data/types/Cart';
 import { memo } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 
-const ProductItem = memo(({ title, price, thumbnail }) => {
+const ProductItem = memo(({ title, price, thumbnail }: Product) => {
   return (
      <View style={styles.productContainer}>
       <Image

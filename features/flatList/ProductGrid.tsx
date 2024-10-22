@@ -1,7 +1,13 @@
+import { Product } from '@/data/types/Cart';
 import { StyleSheet, View } from 'react-native';
 import ProductItem from './ProductItem';
 
-const ProductGrid = ({ products, numColumns = 2 }) => {
+type ProductGridProps = {
+  products: Product[];
+  numColumns?: number;
+}
+
+const ProductGrid = ({ products, numColumns = 2 }: ProductGridProps) => {
   return (
     <View>
       {products.map((_, index) => (

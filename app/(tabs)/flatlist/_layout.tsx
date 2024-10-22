@@ -1,6 +1,6 @@
 import { Stack } from "expo-router";
 
-export default function Root() {
+export default () => {
   return (
     <Stack
       screenOptions={{
@@ -11,18 +11,7 @@ export default function Root() {
         headerTintColor: "#fff",
       }}
     >
-      <Stack.Screen
-        name="index"
-        options={{
-          title: "Home",
-        }}
-      />
-      <Stack.Screen
-        name="flatlist"
-        options={{
-          headerShown: false,
-        }}
-      />
+      <Stack.Screen name="[id]" />
     </Stack>
   );
-}
+};

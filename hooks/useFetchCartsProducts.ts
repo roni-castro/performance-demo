@@ -1,15 +1,17 @@
+import { fetchPostsService } from '@/data/services/carts';
+import { Cart } from '@/data/types/Cart';
 import { useEffect, useState } from 'react';
 
-const useFetchPosts = () => {
-  const [data, setData] = useState([]);
+const useFetchCartsProducts = () => {
+  const [data, setData] = useState<Cart[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<Error | null>(null);
   const [page, setPage] = useState(0);
   const [hasNextPage, setHasNextPage] = useState(true);
   const [isFetching, setIsFetching] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false); 
 
-  const fetchPosts = async (shouldRefresh = false) => {
+  const fetchCartsProducts = async (shouldRefresh = false) => {
     setIsFetching(true);
     
     if (shouldRefresh) {
@@ -19,13 +21,11 @@ const useFetchPosts = () => {
     }
 
     try {
-      const response = await fetch(`https://dummyjson.com/carts?limit=10&skip=${(shouldRefresh ? 0 : page) * 10}`);
-      const result = await response.json();
-      
+      const result = await fetchPostsService(page, shouldRefresh);
       setData((prevData) => [...prevData, ...result.carts]); 
       setHasNextPage(result.carts.length > 0); 
       setPage((prevPage) => prevPage + 1); 
-    } catch (err) {
+    } catch (err: any) {
       setError(err);
     } finally {
       setLoading(false);
@@ -35,14 +35,14 @@ const useFetchPosts = () => {
   };
 
   useEffect(() => {
-    fetchPosts(); 
+    fetchCartsProducts(); 
   }, []); 
 
   return {
     data,
     error,
-    fetchNextPage: () => fetchPosts(), 
-    refreshPosts: () => fetchPosts(true), 
+    fetchNextPage: () => fetchCartsProducts(), 
+    refreshPosts: () => fetchCartsProducts(true), 
     hasNextPage,
     isFetching,
     isRefreshing, 
@@ -50,4 +50,4 @@ const useFetchPosts = () => {
   };
 };
 
-export default useFetchPosts;
+export default useFetchCartsProducts;
