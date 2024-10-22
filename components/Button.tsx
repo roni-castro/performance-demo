@@ -9,11 +9,15 @@ interface ButtonProps extends RNButtonProps {
   title: string;
   onPress: () => void;
   fullWidth?: boolean;
-};
+}
 
 export default function Button({ title, onPress, fullWidth }: ButtonProps) {
   return (
-    <TouchableOpacity style={[styles.button, fullWidth && styles.buttonFullWidth]} onPress={onPress} activeOpacity={0.8}>
+    <TouchableOpacity
+      style={[styles.button, fullWidth && styles.buttonFullWidth]}
+      onPress={onPress}
+      activeOpacity={0.8}
+    >
       <Text style={styles.buttonLabel}>{title}</Text>
     </TouchableOpacity>
   );
@@ -25,7 +29,6 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     padding: 16,
     alignItems: "center",
-
   },
   buttonFullWidth: {
     width: "100%",

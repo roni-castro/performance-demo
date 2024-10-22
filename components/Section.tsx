@@ -1,8 +1,8 @@
-import { Text, View, ViewProps } from 'react-native';
+import { Text, View, ViewProps } from "react-native";
 
 type CategoryProps = {
-  title: string
-} & ViewProps
+  title: string;
+} & ViewProps;
 
 export default function Section({ title, children, style }: CategoryProps) {
   return (
@@ -10,12 +10,12 @@ export default function Section({ title, children, style }: CategoryProps) {
       <Text style={styles.title}>{title}</Text>
       {children}
     </View>
-  )
+  );
 }
 
 const styles = {
   container: {
-    borderColor: '#25292e',
+    borderColor: "#25292e",
     borderWidth: 2,
     borderRadius: 8,
     padding: 8,
@@ -23,6 +23,6 @@ const styles = {
   },
   title: {
     fontSize: 18,
-    fontWeight: 'bold' as const,
+    fontWeight: "bold" as const,
   },
-}
+};
