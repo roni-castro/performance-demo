@@ -63,7 +63,7 @@ jobs:
 
       - name: 🚀 Create OTA update
         if: ${{ steps.fingerprint.outputs.fingerprint-diff == '[]' }}
-        run: eas update --channel production --auto --non-interactive 
+        run: eas update --channel preview --auto --non-interactive 
 
   buildAndroid:
     name: Build and Submit Android
