@@ -2,7 +2,7 @@ name: quality checks
 on: pull_request
 
 concurrency:
-  group: ${{ github.head_ref }}
+  group: pull_request-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
