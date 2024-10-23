@@ -1,11 +1,11 @@
-export interface CartsResponse {
-  carts: Cart[];
+export interface OrdersResponse {
+  orders: Order[];
   total: number;
   skip: number;
   limit: number;
 }
 
-export interface Cart {
+export interface Order {
   id: number;
   products: Product[];
   total: number;

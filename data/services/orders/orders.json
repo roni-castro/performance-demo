@@ -1,0 +1,6622 @@
+[
+  {
+    "id": 1,
+    "products": [
+      {
+        "id": 1,
+        "title": "Product 1",
+        "price": 83.75,
+        "quantity": 4,
+        "total": 335,
+        "discountPercentage": 13.89,
+        "discountedTotal": 288.47,
+        "thumbnail": "https://dummyimage.com/187/cf04f3/fff&text=Product+1"
+      },
+      {
+        "id": 2,
+        "title": "Product 2 - Durable Gizmo",
+        "price": 600.9,
+        "quantity": 6,
+        "total": 3605.4,
+        "discountPercentage": 12.81,
+        "discountedTotal": 3143.55,
+        "thumbnail": "https://dummyimage.com/266/c594ae/fff&text=Product+2"
+      },
+      {
+        "id": 3,
+        "title": "Product 3 - Incredible Widget",
+        "price": 593.35,
+        "quantity": 6,
+        "total": 3560.1,
+        "discountPercentage": 6.08,
+        "discountedTotal": 3343.65,
+        "thumbnail": "https://dummyimage.com/300/487385/fff&text=Product+3"
+      },
+      {
+        "id": 4,
+        "title": "Product 4 - Fantastic Widget",
+        "price": 836.14,
+        "quantity": 7,
+        "total": 5852.98,
+        "discountPercentage": 11.26,
+        "discountedTotal": 5193.93,
+        "thumbnail": "https://dummyimage.com/251/be06d2/fff&text=Product+4"
+      },
+      {
+        "id": 5,
+        "title": "Product 5",
+        "price": 631.81,
+        "quantity": 5,
+        "total": 3159.05,
+        "discountPercentage": 3.13,
+        "discountedTotal": 3060.17,
+        "thumbnail": "https://dummyimage.com/237/62c267/fff&text=Product+5"
+      },
+      {
+        "id": 6,
+        "title": "Product 6",
+        "price": 996.01,
+        "quantity": 6,
+        "total": 5976.06,
+        "discountPercentage": 19.14,
+        "discountedTotal": 4832.24,
+        "thumbnail": "https://dummyimage.com/271/3c067b/fff&text=Product+6"
+      },
+      {
+        "id": 7,
+        "title": "Product 7 - Amazing Accessory",
+        "price": 275.54,
+        "quantity": 8,
+        "total": 2204.32,
+        "discountPercentage": 11.6,
+        "discountedTotal": 1948.62,
+        "thumbnail": "https://dummyimage.com/285/a20659/fff&text=Product+7"
+      }
+    ],
+    "total": 24692.91,
+    "discountedTotal": 19838.28,
+    "userId": 12,
+    "totalProducts": 7,
+    "totalQuantity": 42
+  },
+  {
+    "id": 2,
+    "products": [
+      {
+        "id": 8,
+        "title": "Product 1",
+        "price": 125.54,
+        "quantity": 4,
+        "total": 502.16,
+        "discountPercentage": 13.37,
+        "discountedTotal": 435.02,
+        "thumbnail": "https://dummyimage.com/226/1e7790/fff&text=Product+1"
+      },
+      {
+        "id": 9,
+        "title": "Product 2",
+        "price": 992.48,
+        "quantity": 9,
+        "total": 8932.32,
+        "discountPercentage": 13.26,
+        "discountedTotal": 7747.89,
+        "thumbnail": "https://dummyimage.com/159/fefc69/fff&text=Product+2"
+      },
+      {
+        "id": 10,
+        "title": "Product 3",
+        "price": 79.9,
+        "quantity": 4,
+        "total": 319.6,
+        "discountPercentage": 5.04,
+        "discountedTotal": 303.49,
+        "thumbnail": "https://dummyimage.com/223/b96a0e/fff&text=Product+3"
+      },
+      {
+        "id": 11,
+        "title": "Product 4 - High-Quality Device",
+        "price": 355.72,
+        "quantity": 8,
+        "total": 2845.76,
+        "discountPercentage": 15.83,
+        "discountedTotal": 2395.28,
+        "thumbnail": "https://dummyimage.com/191/2de897/fff&text=Product+4"
+      },
+      {
+        "id": 12,
+        "title": "Product 5 - High-Quality Product",
+        "price": 629.07,
+        "quantity": 2,
+        "total": 1258.14,
+        "discountPercentage": 17.51,
+        "discountedTotal": 1037.84,
+        "thumbnail": "https://dummyimage.com/201/f43fdf/fff&text=Product+5"
+      },
+      {
+        "id": 13,
+        "title": "Product 6 - Versatile Widget",
+        "price": 178.42,
+        "quantity": 6,
+        "total": 1070.52,
+        "discountPercentage": 7.09,
+        "discountedTotal": 994.62,
+        "thumbnail": "https://dummyimage.com/277/f42c3b/fff&text=Product+6"
+      },
+      {
+        "id": 14,
+        "title": "Product 7 - Amazing Widget",
+        "price": 560.29,
+        "quantity": 6,
+        "total": 3361.74,
+        "discountPercentage": 14.52,
+        "discountedTotal": 2873.62,
+        "thumbnail": "https://dummyimage.com/293/ee362e/fff&text=Product+7"
+      },
+      {
+        "id": 15,
+        "title": "Product 8 - Amazing Widget",
+        "price": 283.47,
+        "quantity": 3,
+        "total": 850.41,
+        "discountPercentage": 1.06,
+        "discountedTotal": 841.4,
+        "thumbnail": "https://dummyimage.com/294/f4e4e3/fff&text=Product+8"
+      }
+    ],
+    "total": 19140.65,
+    "discountedTotal": 16342.29,
+    "userId": 66,
+    "totalProducts": 8,
+    "totalQuantity": 42
+  },
+  {
+    "id": 3,
+    "products": [
+      {
+        "id": 16,
+        "title": "Product 1",
+        "price": 175.02,
+        "quantity": 6,
+        "total": 1050.12,
+        "discountPercentage": 0.53,
+        "discountedTotal": 1044.55,
+        "thumbnail": "https://dummyimage.com/222/8c04c9/fff&text=Product+1"
+      },
+      {
+        "id": 17,
+        "title": "Product 2 - High-Quality Appliance",
+        "price": 371.06,
+        "quantity": 9,
+        "total": 3339.54,
+        "discountPercentage": 11.53,
+        "discountedTotal": 2954.49,
+        "thumbnail": "https://dummyimage.com/230/5baaef/fff&text=Product+2"
+      },
+      {
+        "id": 18,
+        "title": "Product 3",
+        "price": 329.37,
+        "quantity": 6,
+        "total": 1976.22,
+        "discountPercentage": 13.36,
+        "discountedTotal": 1712.2,
+        "thumbnail": "https://dummyimage.com/285/6c532f/fff&text=Product+3"
+      },
+      {
+        "id": 19,
+        "title": "Product 4",
+        "price": 315.15,
+        "quantity": 10,
+        "total": 3151.5,
+        "discountPercentage": 0.84,
+        "discountedTotal": 3125.03,
+        "thumbnail": "https://dummyimage.com/252/5b75ab/fff&text=Product+4"
+      },
+      {
+        "id": 20,
+        "title": "Product 5",
+        "price": 361.01,
+        "quantity": 6,
+        "total": 2166.06,
+        "discountPercentage": 1.56,
+        "discountedTotal": 2132.27,
+        "thumbnail": "https://dummyimage.com/288/2dc365/fff&text=Product+5"
+      },
+      {
+        "id": 21,
+        "title": "Product 6 - Super Device",
+        "price": 106.58,
+        "quantity": 2,
+        "total": 213.16,
+        "discountPercentage": 10.97,
+        "discountedTotal": 189.78,
+        "thumbnail": "https://dummyimage.com/159/91eb7d/fff&text=Product+6"
+      },
+      {
+        "id": 22,
+        "title": "Product 7",
+        "price": 289.26,
+        "quantity": 8,
+        "total": 2314.08,
+        "discountPercentage": 12.19,
+        "discountedTotal": 2031.99,
+        "thumbnail": "https://dummyimage.com/267/5c5963/fff&text=Product+7"
+      }
+    ],
+    "total": 14210.68,
+    "discountedTotal": 13932.15,
+    "userId": 62,
+    "totalProducts": 7,
+    "totalQuantity": 47
+  },
+  {
+    "id": 4,
+    "products": [
+      {
+        "id": 23,
+        "title": "Product 1 - Innovative Accessory",
+        "price": 51.44,
+        "quantity": 7,
+        "total": 360.08,
+        "discountPercentage": 6.14,
+        "discountedTotal": 337.97,
+        "thumbnail": "https://dummyimage.com/260/82f024/fff&text=Product+1"
+      },
+      {
+        "id": 24,
+        "title": "Product 2 - Versatile Gizmo",
+        "price": 60.13,
+        "quantity": 8,
+        "total": 481.04,
+        "discountPercentage": 19.01,
+        "discountedTotal": 389.59,
+        "thumbnail": "https://dummyimage.com/219/e388d9/fff&text=Product+2"
+      },
+      {
+        "id": 25,
+        "title": "Product 3 - Premium Gadget",
+        "price": 806.61,
+        "quantity": 2,
+        "total": 1613.22,
+        "discountPercentage": 7.21,
+        "discountedTotal": 1496.91,
+        "thumbnail": "https://dummyimage.com/177/4e507e/fff&text=Product+3"
+      },
+      {
+        "id": 26,
+        "title": "Product 4 - Amazing Accessory",
+        "price": 469.99,
+        "quantity": 7,
+        "total": 3289.93,
+        "discountPercentage": 6.54,
+        "discountedTotal": 3074.77,
+        "thumbnail": "https://dummyimage.com/252/5d67fe/fff&text=Product+4"
+      },
+      {
+        "id": 27,
+        "title": "Product 5 - High-Quality Product",
+        "price": 137.18,
+        "quantity": 7,
+        "total": 960.26,
+        "discountPercentage": 8.71,
+        "discountedTotal": 876.62,
+        "thumbnail": "https://dummyimage.com/178/f32a8a/fff&text=Product+5"
+      },
+      {
+        "id": 28,
+        "title": "Product 6 - Innovative Device",
+        "price": 745.51,
+        "quantity": 7,
+        "total": 5218.57,
+        "discountPercentage": 10.4,
+        "discountedTotal": 4675.84,
+        "thumbnail": "https://dummyimage.com/168/2be11/fff&text=Product+6"
+      },
+      {
+        "id": 29,
+        "title": "Product 7",
+        "price": 674.9,
+        "quantity": 8,
+        "total": 5399.2,
+        "discountPercentage": 1.19,
+        "discountedTotal": 5334.95,
+        "thumbnail": "https://dummyimage.com/299/7b3bba/fff&text=Product+7"
+      },
+      {
+        "id": 30,
+        "title": "Product 8 - Durable Widget",
+        "price": 113.36,
+        "quantity": 5,
+        "total": 566.8,
+        "discountPercentage": 15.62,
+        "discountedTotal": 478.27,
+        "thumbnail": "https://dummyimage.com/205/eb26ad/fff&text=Product+8"
+      }
+    ],
+    "total": 17889.1,
+    "discountedTotal": 16101.98,
+    "userId": 2,
+    "totalProducts": 8,
+    "totalQuantity": 51
+  },
+  {
+    "id": 5,
+    "products": [
+      {
+        "id": 31,
+        "title": "Product 1 - Versatile Accessory",
+        "price": 467.87,
+        "quantity": 10,
+        "total": 4678.7,
+        "discountPercentage": 2.74,
+        "discountedTotal": 4550.5,
+        "thumbnail": "https://dummyimage.com/212/8ba4/fff&text=Product+1"
+      },
+      {
+        "id": 32,
+        "title": "Product 2",
+        "price": 636.75,
+        "quantity": 4,
+        "total": 2547,
+        "discountPercentage": 18.68,
+        "discountedTotal": 2071.22,
+        "thumbnail": "https://dummyimage.com/173/a4a894/fff&text=Product+2"
+      },
+      {
+        "id": 33,
+        "title": "Product 3 - Super Product",
+        "price": 819.21,
+        "quantity": 9,
+        "total": 7372.89,
+        "discountPercentage": 5.78,
+        "discountedTotal": 6946.74,
+        "thumbnail": "https://dummyimage.com/280/23e0c9/fff&text=Product+3"
+      },
+      {
+        "id": 34,
+        "title": "Product 4 - Super Item",
+        "price": 21.87,
+        "quantity": 8,
+        "total": 174.96,
+        "discountPercentage": 12.51,
+        "discountedTotal": 153.07,
+        "thumbnail": "https://dummyimage.com/277/6edc6f/fff&text=Product+4"
+      },
+      {
+        "id": 35,
+        "title": "Product 5 - Innovative Widget",
+        "price": 326.62,
+        "quantity": 1,
+        "total": 326.62,
+        "discountPercentage": 0.44,
+        "discountedTotal": 325.18,
+        "thumbnail": "https://dummyimage.com/240/6e0f7d/fff&text=Product+5"
+      },
+      {
+        "id": 36,
+        "title": "Product 6",
+        "price": 541.57,
+        "quantity": 8,
+        "total": 4332.56,
+        "discountPercentage": 3.04,
+        "discountedTotal": 4200.85,
+        "thumbnail": "https://dummyimage.com/177/d016f6/fff&text=Product+6"
+      }
+    ],
+    "total": 19432.73,
+    "discountedTotal": 16976.43,
+    "userId": 66,
+    "totalProducts": 6,
+    "totalQuantity": 40
+  },
+  {
+    "id": 6,
+    "products": [
+      {
+        "id": 37,
+        "title": "Product 1",
+        "price": 388.49,
+        "quantity": 7,
+        "total": 2719.43,
+        "discountPercentage": 1.65,
+        "discountedTotal": 2674.56,
+        "thumbnail": "https://dummyimage.com/290/aa8bc7/fff&text=Product+1"
+      },
+      {
+        "id": 38,
+        "title": "Product 2",
+        "price": 944.52,
+        "quantity": 6,
+        "total": 5667.12,
+        "discountPercentage": 11.91,
+        "discountedTotal": 4992.17,
+        "thumbnail": "https://dummyimage.com/258/fcdcc/fff&text=Product+2"
+      },
+      {
+        "id": 39,
+        "title": "Product 3",
+        "price": 90.43,
+        "quantity": 1,
+        "total": 90.43,
+        "discountPercentage": 10.51,
+        "discountedTotal": 80.93,
+        "thumbnail": "https://dummyimage.com/254/ba87c6/fff&text=Product+3"
+      },
+      {
+        "id": 40,
+        "title": "Product 4 - Fantastic Widget",
+        "price": 587.92,
+        "quantity": 10,
+        "total": 5879.2,
+        "discountPercentage": 11.72,
+        "discountedTotal": 5190.16,
+        "thumbnail": "https://dummyimage.com/239/de70b2/fff&text=Product+4"
+      },
+      {
+        "id": 41,
+        "title": "Product 5",
+        "price": 227.59,
+        "quantity": 2,
+        "total": 455.18,
+        "discountPercentage": 7.2,
+        "discountedTotal": 422.41,
+        "thumbnail": "https://dummyimage.com/184/fba17a/fff&text=Product+5"
+      },
+      {
+        "id": 42,
+        "title": "Product 6",
+        "price": 919.77,
+        "quantity": 5,
+        "total": 4598.85,
+        "discountPercentage": 1,
+        "discountedTotal": 4552.86,
+        "thumbnail": "https://dummyimage.com/167/efe14/fff&text=Product+6"
+      },
+      {
+        "id": 43,
+        "title": "Product 7",
+        "price": 583.75,
+        "quantity": 7,
+        "total": 4086.25,
+        "discountPercentage": 1.65,
+        "discountedTotal": 4018.83,
+        "thumbnail": "https://dummyimage.com/265/3fd2e9/fff&text=Product+7"
+      },
+      {
+        "id": 44,
+        "title": "Product 8",
+        "price": 360.94,
+        "quantity": 7,
+        "total": 2526.58,
+        "discountPercentage": 13.3,
+        "discountedTotal": 2190.54,
+        "thumbnail": "https://dummyimage.com/151/a2f9bd/fff&text=Product+8"
+      },
+      {
+        "id": 45,
+        "title": "Product 9",
+        "price": 810.61,
+        "quantity": 3,
+        "total": 2431.83,
+        "discountPercentage": 15.52,
+        "discountedTotal": 2054.41,
+        "thumbnail": "https://dummyimage.com/169/162db5/fff&text=Product+9"
+      }
+    ],
+    "total": 28454.87,
+    "discountedTotal": 24232.17,
+    "userId": 22,
+    "totalProducts": 9,
+    "totalQuantity": 48
+  },
+  {
+    "id": 7,
+    "products": [
+      {
+        "id": 46,
+        "title": "Product 1 - Incredible Widget",
+        "price": 90.28,
+        "quantity": 7,
+        "total": 631.96,
+        "discountPercentage": 0.9,
+        "discountedTotal": 626.27,
+        "thumbnail": "https://dummyimage.com/257/d5c845/fff&text=Product+1"
+      },
+      {
+        "id": 47,
+        "title": "Product 2 - Durable Tool",
+        "price": 837,
+        "quantity": 7,
+        "total": 5859,
+        "discountPercentage": 3.53,
+        "discountedTotal": 5652.18,
+        "thumbnail": "https://dummyimage.com/239/119c27/fff&text=Product+2"
+      }
+    ],
+    "total": 6490.96,
+    "discountedTotal": 5358.94,
+    "userId": 11,
+    "totalProducts": 2,
+    "totalQuantity": 14
+  },
+  {
+    "id": 8,
+    "products": [
+      {
+        "id": 48,
+        "title": "Product 1 - Fantastic Tool",
+        "price": 819.58,
+        "quantity": 2,
+        "total": 1639.16,
+        "discountPercentage": 9.7,
+        "discountedTotal": 1480.16,
+        "thumbnail": "https://dummyimage.com/237/d16c07/fff&text=Product+1"
+      },
+      {
+        "id": 49,
+        "title": "Product 2",
+        "price": 485.53,
+        "quantity": 4,
+        "total": 1942.12,
+        "discountPercentage": 8.18,
+        "discountedTotal": 1783.25,
+        "thumbnail": "https://dummyimage.com/279/a565af/fff&text=Product+2"
+      },
+      {
+        "id": 50,
+        "title": "Product 3",
+        "price": 669.81,
+        "quantity": 5,
+        "total": 3349.05,
+        "discountPercentage": 7.17,
+        "discountedTotal": 3108.92,
+        "thumbnail": "https://dummyimage.com/185/7c0fe5/fff&text=Product+3"
+      },
+      {
+        "id": 51,
+        "title": "Product 4 - High-Quality Widget",
+        "price": 264.74,
+        "quantity": 4,
+        "total": 1058.96,
+        "discountPercentage": 9.49,
+        "discountedTotal": 958.46,
+        "thumbnail": "https://dummyimage.com/227/9fadb2/fff&text=Product+4"
+      },
+      {
+        "id": 52,
+        "title": "Product 5 - Essential Appliance",
+        "price": 256.34,
+        "quantity": 6,
+        "total": 1538.04,
+        "discountPercentage": 1.72,
+        "discountedTotal": 1511.59,
+        "thumbnail": "https://dummyimage.com/191/6c791a/fff&text=Product+5"
+      },
+      {
+        "id": 53,
+        "title": "Product 6 - Amazing Tool",
+        "price": 35.93,
+        "quantity": 5,
+        "total": 179.65,
+        "discountPercentage": 3.54,
+        "discountedTotal": 173.29,
+        "thumbnail": "https://dummyimage.com/285/8bde3f/fff&text=Product+6"
+      },
+      {
+        "id": 54,
+        "title": "Product 7",
+        "price": 783.22,
+        "quantity": 7,
+        "total": 5482.54,
+        "discountPercentage": 1.4,
+        "discountedTotal": 5405.78,
+        "thumbnail": "https://dummyimage.com/271/d30f5d/fff&text=Product+7"
+      }
+    ],
+    "total": 15189.52,
+    "discountedTotal": 12514.65,
+    "userId": 40,
+    "totalProducts": 7,
+    "totalQuantity": 33
+  },
+  {
+    "id": 9,
+    "products": [
+      {
+        "id": 55,
+        "title": "Product 1 - Fantastic Tool",
+        "price": 466.98,
+        "quantity": 4,
+        "total": 1867.92,
+        "discountPercentage": 7.05,
+        "discountedTotal": 1736.23,
+        "thumbnail": "https://dummyimage.com/297/6c63c5/fff&text=Product+1"
+      }
+    ],
+    "total": 1867.92,
+    "discountedTotal": 1593.9,
+    "userId": 7,
+    "totalProducts": 1,
+    "totalQuantity": 4
+  },
+  {
+    "id": 10,
+    "products": [
+      {
+        "id": 56,
+        "title": "Product 1 - Fantastic Tool",
+        "price": 656.12,
+        "quantity": 8,
+        "total": 5248.96,
+        "discountPercentage": 10.7,
+        "discountedTotal": 4687.32,
+        "thumbnail": "https://dummyimage.com/257/e1970c/fff&text=Product+1"
+      },
+      {
+        "id": 57,
+        "title": "Product 2",
+        "price": 756.74,
+        "quantity": 8,
+        "total": 6053.92,
+        "discountPercentage": 2.03,
+        "discountedTotal": 5931.03,
+        "thumbnail": "https://dummyimage.com/244/af003/fff&text=Product+2"
+      },
+      {
+        "id": 58,
+        "title": "Product 3",
+        "price": 512.8,
+        "quantity": 10,
+        "total": 5128,
+        "discountPercentage": 12.66,
+        "discountedTotal": 4478.8,
+        "thumbnail": "https://dummyimage.com/243/889508/fff&text=Product+3"
+      },
+      {
+        "id": 59,
+        "title": "Product 4 - High-Quality Gadget",
+        "price": 11.96,
+        "quantity": 8,
+        "total": 95.68,
+        "discountPercentage": 5.59,
+        "discountedTotal": 90.33,
+        "thumbnail": "https://dummyimage.com/184/23db70/fff&text=Product+4"
+      },
+      {
+        "id": 60,
+        "title": "Product 5 - High-Quality Item",
+        "price": 345.17,
+        "quantity": 1,
+        "total": 345.17,
+        "discountPercentage": 12.52,
+        "discountedTotal": 301.95,
+        "thumbnail": "https://dummyimage.com/196/969e66/fff&text=Product+5"
+      },
+      {
+        "id": 61,
+        "title": "Product 6",
+        "price": 309.18,
+        "quantity": 10,
+        "total": 3091.8,
+        "discountPercentage": 1.82,
+        "discountedTotal": 3035.53,
+        "thumbnail": "https://dummyimage.com/270/2885d7/fff&text=Product+6"
+      },
+      {
+        "id": 62,
+        "title": "Product 7 - Fantastic Item",
+        "price": 97.22,
+        "quantity": 3,
+        "total": 291.66,
+        "discountPercentage": 4.21,
+        "discountedTotal": 279.38,
+        "thumbnail": "https://dummyimage.com/198/987ca7/fff&text=Product+7"
+      },
+      {
+        "id": 63,
+        "title": "Product 8 - High-Quality Appliance",
+        "price": 948.87,
+        "quantity": 8,
+        "total": 7590.96,
+        "discountPercentage": 15.37,
+        "discountedTotal": 6424.23,
+        "thumbnail": "https://dummyimage.com/215/f42043/fff&text=Product+8"
+      },
+      {
+        "id": 64,
+        "title": "Product 9 - High-Quality Equipment",
+        "price": 922.67,
+        "quantity": 7,
+        "total": 6458.69,
+        "discountPercentage": 9.68,
+        "discountedTotal": 5833.49,
+        "thumbnail": "https://dummyimage.com/226/32747d/fff&text=Product+9"
+      },
+      {
+        "id": 65,
+        "title": "Product 10",
+        "price": 423.84,
+        "quantity": 7,
+        "total": 2966.88,
+        "discountPercentage": 0.86,
+        "discountedTotal": 2941.36,
+        "thumbnail": "https://dummyimage.com/164/7b300e/fff&text=Product+10"
+      }
+    ],
+    "total": 37271.72,
+    "discountedTotal": 35527.4,
+    "userId": 86,
+    "totalProducts": 10,
+    "totalQuantity": 70
+  },
+  {
+    "id": 11,
+    "products": [
+      {
+        "id": 66,
+        "title": "Product 1",
+        "price": 921.72,
+        "quantity": 9,
+        "total": 8295.48,
+        "discountPercentage": 11.85,
+        "discountedTotal": 7312.47,
+        "thumbnail": "https://dummyimage.com/168/138bf/fff&text=Product+1"
+      },
+      {
+        "id": 67,
+        "title": "Product 2",
+        "price": 246.26,
+        "quantity": 2,
+        "total": 492.52,
+        "discountPercentage": 17.19,
+        "discountedTotal": 407.86,
+        "thumbnail": "https://dummyimage.com/213/aee107/fff&text=Product+2"
+      },
+      {
+        "id": 68,
+        "title": "Product 3",
+        "price": 649.56,
+        "quantity": 8,
+        "total": 5196.48,
+        "discountPercentage": 17.94,
+        "discountedTotal": 4264.23,
+        "thumbnail": "https://dummyimage.com/162/5f7e87/fff&text=Product+3"
+      }
+    ],
+    "total": 13984.48,
+    "discountedTotal": 13542.57,
+    "userId": 63,
+    "totalProducts": 3,
+    "totalQuantity": 19
+  },
+  {
+    "id": 12,
+    "products": [
+      {
+        "id": 69,
+        "title": "Product 1",
+        "price": 107.38,
+        "quantity": 5,
+        "total": 536.9,
+        "discountPercentage": 8.61,
+        "discountedTotal": 490.67,
+        "thumbnail": "https://dummyimage.com/226/7183d8/fff&text=Product+1"
+      },
+      {
+        "id": 70,
+        "title": "Product 2",
+        "price": 825.05,
+        "quantity": 5,
+        "total": 4125.25,
+        "discountPercentage": 5.03,
+        "discountedTotal": 3917.75,
+        "thumbnail": "https://dummyimage.com/293/7ca525/fff&text=Product+2"
+      },
+      {
+        "id": 71,
+        "title": "Product 3 - Premium Product",
+        "price": 5.84,
+        "quantity": 4,
+        "total": 23.36,
+        "discountPercentage": 0.63,
+        "discountedTotal": 23.21,
+        "thumbnail": "https://dummyimage.com/296/99ba12/fff&text=Product+3"
+      },
+      {
+        "id": 72,
+        "title": "Product 4",
+        "price": 428.78,
+        "quantity": 7,
+        "total": 3001.46,
+        "discountPercentage": 2.02,
+        "discountedTotal": 2940.83,
+        "thumbnail": "https://dummyimage.com/286/e6926f/fff&text=Product+4"
+      },
+      {
+        "id": 73,
+        "title": "Product 5 - Versatile Accessory",
+        "price": 312.23,
+        "quantity": 2,
+        "total": 624.46,
+        "discountPercentage": 16.13,
+        "discountedTotal": 523.73,
+        "thumbnail": "https://dummyimage.com/191/de19fd/fff&text=Product+5"
+      },
+      {
+        "id": 74,
+        "title": "Product 6 - Incredible Equipment",
+        "price": 816.35,
+        "quantity": 5,
+        "total": 4081.75,
+        "discountPercentage": 4.27,
+        "discountedTotal": 3907.46,
+        "thumbnail": "https://dummyimage.com/208/2076e/fff&text=Product+6"
+      },
+      {
+        "id": 75,
+        "title": "Product 7",
+        "price": 661.51,
+        "quantity": 8,
+        "total": 5292.08,
+        "discountPercentage": 4.3,
+        "discountedTotal": 5064.52,
+        "thumbnail": "https://dummyimage.com/228/b348ab/fff&text=Product+7"
+      },
+      {
+        "id": 76,
+        "title": "Product 8 - Fantastic Product",
+        "price": 423.93,
+        "quantity": 1,
+        "total": 423.93,
+        "discountPercentage": 0.04,
+        "discountedTotal": 423.76,
+        "thumbnail": "https://dummyimage.com/270/9fcc84/fff&text=Product+8"
+      }
+    ],
+    "total": 18109.19,
+    "discountedTotal": 14849.54,
+    "userId": 47,
+    "totalProducts": 8,
+    "totalQuantity": 37
+  },
+  {
+    "id": 13,
+    "products": [
+      {
+        "id": 77,
+        "title": "Product 1",
+        "price": 932.9,
+        "quantity": 7,
+        "total": 6530.3,
+        "discountPercentage": 17.67,
+        "discountedTotal": 5376.4,
+        "thumbnail": "https://dummyimage.com/299/e748ed/fff&text=Product+1"
+      },
+      {
+        "id": 78,
+        "title": "Product 2 - High-Quality Widget",
+        "price": 979.71,
+        "quantity": 8,
+        "total": 7837.68,
+        "discountPercentage": 12.71,
+        "discountedTotal": 6841.51,
+        "thumbnail": "https://dummyimage.com/215/ad7b1e/fff&text=Product+2"
+      },
+      {
+        "id": 79,
+        "title": "Product 3",
+        "price": 312.48,
+        "quantity": 3,
+        "total": 937.44,
+        "discountPercentage": 13.03,
+        "discountedTotal": 815.29,
+        "thumbnail": "https://dummyimage.com/276/45a10e/fff&text=Product+3"
+      },
+      {
+        "id": 80,
+        "title": "Product 4",
+        "price": 946.75,
+        "quantity": 6,
+        "total": 5680.5,
+        "discountPercentage": 3.99,
+        "discountedTotal": 5453.85,
+        "thumbnail": "https://dummyimage.com/233/3c73ac/fff&text=Product+4"
+      },
+      {
+        "id": 81,
+        "title": "Product 5 - Versatile Item",
+        "price": 693.13,
+        "quantity": 5,
+        "total": 3465.65,
+        "discountPercentage": 6.54,
+        "discountedTotal": 3239,
+        "thumbnail": "https://dummyimage.com/214/16936e/fff&text=Product+5"
+      },
+      {
+        "id": 82,
+        "title": "Product 6 - Super Gizmo",
+        "price": 244.08,
+        "quantity": 9,
+        "total": 2196.72,
+        "discountPercentage": 17.41,
+        "discountedTotal": 1814.27,
+        "thumbnail": "https://dummyimage.com/274/4b761e/fff&text=Product+6"
+      },
+      {
+        "id": 83,
+        "title": "Product 7 - Versatile Product",
+        "price": 739.2,
+        "quantity": 1,
+        "total": 739.2,
+        "discountPercentage": 19.94,
+        "discountedTotal": 591.8,
+        "thumbnail": "https://dummyimage.com/272/438274/fff&text=Product+7"
+      }
+    ],
+    "total": 27387.49,
+    "discountedTotal": 23421.78,
+    "userId": 72,
+    "totalProducts": 7,
+    "totalQuantity": 39
+  },
+  {
+    "id": 14,
+    "products": [
+      {
+        "id": 84,
+        "title": "Product 1 - Versatile Equipment",
+        "price": 121.49,
+        "quantity": 7,
+        "total": 850.43,
+        "discountPercentage": 19.98,
+        "discountedTotal": 680.51,
+        "thumbnail": "https://dummyimage.com/153/ff523f/fff&text=Product+1"
+      },
+      {
+        "id": 85,
+        "title": "Product 2",
+        "price": 518.36,
+        "quantity": 5,
+        "total": 2591.8,
+        "discountPercentage": 13.5,
+        "discountedTotal": 2241.91,
+        "thumbnail": "https://dummyimage.com/203/b8a5e7/fff&text=Product+2"
+      }
+    ],
+    "total": 3442.23,
+    "discountedTotal": 3132.43,
+    "userId": 19,
+    "totalProducts": 2,
+    "totalQuantity": 12
+  },
+  {
+    "id": 15,
+    "products": [
+      {
+        "id": 86,
+        "title": "Product 1 - Innovative Equipment",
+        "price": 901.43,
+        "quantity": 6,
+        "total": 5408.58,
+        "discountPercentage": 9.1,
+        "discountedTotal": 4916.4,
+        "thumbnail": "https://dummyimage.com/265/a4726b/fff&text=Product+1"
+      },
+      {
+        "id": 87,
+        "title": "Product 2 - High-Quality Widget",
+        "price": 864.49,
+        "quantity": 4,
+        "total": 3457.96,
+        "discountPercentage": 8.87,
+        "discountedTotal": 3151.24,
+        "thumbnail": "https://dummyimage.com/254/153b91/fff&text=Product+2"
+      }
+    ],
+    "total": 8866.54,
+    "discountedTotal": 7869.05,
+    "userId": 23,
+    "totalProducts": 2,
+    "totalQuantity": 10
+  },
+  {
+    "id": 16,
+    "products": [
+      {
+        "id": 88,
+        "title": "Product 1",
+        "price": 626.85,
+        "quantity": 4,
+        "total": 2507.4,
+        "discountPercentage": 4.23,
+        "discountedTotal": 2401.34,
+        "thumbnail": "https://dummyimage.com/153/b61e22/fff&text=Product+1"
+      },
+      {
+        "id": 89,
+        "title": "Product 2 - Incredible Device",
+        "price": 965.41,
+        "quantity": 5,
+        "total": 4827.05,
+        "discountPercentage": 3.98,
+        "discountedTotal": 4634.93,
+        "thumbnail": "https://dummyimage.com/185/e11b80/fff&text=Product+2"
+      },
+      {
+        "id": 90,
+        "title": "Product 3",
+        "price": 638.39,
+        "quantity": 7,
+        "total": 4468.73,
+        "discountPercentage": 15.86,
+        "discountedTotal": 3759.99,
+        "thumbnail": "https://dummyimage.com/151/fedc8d/fff&text=Product+3"
+      },
+      {
+        "id": 91,
+        "title": "Product 4",
+        "price": 443.85,
+        "quantity": 4,
+        "total": 1775.4,
+        "discountPercentage": 13.24,
+        "discountedTotal": 1540.34,
+        "thumbnail": "https://dummyimage.com/232/eedc2e/fff&text=Product+4"
+      },
+      {
+        "id": 92,
+        "title": "Product 5",
+        "price": 567.43,
+        "quantity": 1,
+        "total": 567.43,
+        "discountPercentage": 16.31,
+        "discountedTotal": 474.88,
+        "thumbnail": "https://dummyimage.com/225/5cfd15/fff&text=Product+5"
+      },
+      {
+        "id": 93,
+        "title": "Product 6 - Versatile Accessory",
+        "price": 515.22,
+        "quantity": 7,
+        "total": 3606.54,
+        "discountPercentage": 13.41,
+        "discountedTotal": 3122.9,
+        "thumbnail": "https://dummyimage.com/160/6241a3/fff&text=Product+6"
+      },
+      {
+        "id": 94,
+        "title": "Product 7",
+        "price": 289.35,
+        "quantity": 3,
+        "total": 868.05,
+        "discountPercentage": 11.13,
+        "discountedTotal": 771.44,
+        "thumbnail": "https://dummyimage.com/186/e9582d/fff&text=Product+7"
+      },
+      {
+        "id": 95,
+        "title": "Product 8 - Fantastic Accessory",
+        "price": 845.03,
+        "quantity": 2,
+        "total": 1690.06,
+        "discountPercentage": 14.37,
+        "discountedTotal": 1447.2,
+        "thumbnail": "https://dummyimage.com/241/675ca4/fff&text=Product+8"
+      }
+    ],
+    "total": 20310.66,
+    "discountedTotal": 19589.63,
+    "userId": 62,
+    "totalProducts": 8,
+    "totalQuantity": 33
+  },
+  {
+    "id": 17,
+    "products": [
+      {
+        "id": 96,
+        "title": "Product 1 - Durable Tool",
+        "price": 174.49,
+        "quantity": 9,
+        "total": 1570.41,
+        "discountPercentage": 5.86,
+        "discountedTotal": 1478.38,
+        "thumbnail": "https://dummyimage.com/238/dc5c75/fff&text=Product+1"
+      },
+      {
+        "id": 97,
+        "title": "Product 2",
+        "price": 603.21,
+        "quantity": 7,
+        "total": 4222.47,
+        "discountPercentage": 6.69,
+        "discountedTotal": 3939.99,
+        "thumbnail": "https://dummyimage.com/182/bf70c6/fff&text=Product+2"
+      },
+      {
+        "id": 98,
+        "title": "Product 3 - Amazing Item",
+        "price": 251.59,
+        "quantity": 6,
+        "total": 1509.54,
+        "discountPercentage": 13.47,
+        "discountedTotal": 1306.2,
+        "thumbnail": "https://dummyimage.com/222/9d1955/fff&text=Product+3"
+      },
+      {
+        "id": 99,
+        "title": "Product 4",
+        "price": 459.49,
+        "quantity": 5,
+        "total": 2297.45,
+        "discountPercentage": 17.6,
+        "discountedTotal": 1893.1,
+        "thumbnail": "https://dummyimage.com/195/2cc7b6/fff&text=Product+4"
+      }
+    ],
+    "total": 9599.87,
+    "discountedTotal": 8871.24,
+    "userId": 44,
+    "totalProducts": 4,
+    "totalQuantity": 27
+  },
+  {
+    "id": 18,
+    "products": [
+      {
+        "id": 100,
+        "title": "Product 1 - Incredible Tool",
+        "price": 978.46,
+        "quantity": 6,
+        "total": 5870.76,
+        "discountPercentage": 8.01,
+        "discountedTotal": 5400.51,
+        "thumbnail": "https://dummyimage.com/240/99a622/fff&text=Product+1"
+      },
+      {
+        "id": 101,
+        "title": "Product 2",
+        "price": 328.15,
+        "quantity": 4,
+        "total": 1312.6,
+        "discountPercentage": 8.56,
+        "discountedTotal": 1200.24,
+        "thumbnail": "https://dummyimage.com/282/326b5d/fff&text=Product+2"
+      },
+      {
+        "id": 102,
+        "title": "Product 3 - Fantastic Product",
+        "price": 527.26,
+        "quantity": 5,
+        "total": 2636.3,
+        "discountPercentage": 16.31,
+        "discountedTotal": 2206.32,
+        "thumbnail": "https://dummyimage.com/258/e9405c/fff&text=Product+3"
+      },
+      {
+        "id": 103,
+        "title": "Product 4",
+        "price": 878.94,
+        "quantity": 1,
+        "total": 878.94,
+        "discountPercentage": 13.39,
+        "discountedTotal": 761.25,
+        "thumbnail": "https://dummyimage.com/218/fa8d71/fff&text=Product+4"
+      },
+      {
+        "id": 104,
+        "title": "Product 5 - Durable Accessory",
+        "price": 143.3,
+        "quantity": 5,
+        "total": 716.5,
+        "discountPercentage": 5.27,
+        "discountedTotal": 678.74,
+        "thumbnail": "https://dummyimage.com/236/295bd9/fff&text=Product+5"
+      },
+      {
+        "id": 105,
+        "title": "Product 6 - Versatile Device",
+        "price": 910.94,
+        "quantity": 7,
+        "total": 6376.58,
+        "discountPercentage": 5.85,
+        "discountedTotal": 6003.55,
+        "thumbnail": "https://dummyimage.com/231/ab996e/fff&text=Product+6"
+      },
+      {
+        "id": 106,
+        "title": "Product 7",
+        "price": 594.16,
+        "quantity": 10,
+        "total": 5941.6,
+        "discountPercentage": 8.67,
+        "discountedTotal": 5426.46,
+        "thumbnail": "https://dummyimage.com/225/59790c/fff&text=Product+7"
+      }
+    ],
+    "total": 23733.28,
+    "discountedTotal": 20510.3,
+    "userId": 93,
+    "totalProducts": 7,
+    "totalQuantity": 38
+  },
+  {
+    "id": 19,
+    "products": [
+      {
+        "id": 107,
+        "title": "Product 1",
+        "price": 825.1,
+        "quantity": 10,
+        "total": 8251,
+        "discountPercentage": 16.89,
+        "discountedTotal": 6857.41,
+        "thumbnail": "https://dummyimage.com/166/4c5e0e/fff&text=Product+1"
+      },
+      {
+        "id": 108,
+        "title": "Product 2",
+        "price": 379.52,
+        "quantity": 4,
+        "total": 1518.08,
+        "discountPercentage": 2.48,
+        "discountedTotal": 1480.43,
+        "thumbnail": "https://dummyimage.com/277/2a2e27/fff&text=Product+2"
+      },
+      {
+        "id": 109,
+        "title": "Product 3 - Versatile Appliance",
+        "price": 991.39,
+        "quantity": 4,
+        "total": 3965.56,
+        "discountPercentage": 18.9,
+        "discountedTotal": 3216.07,
+        "thumbnail": "https://dummyimage.com/272/b76782/fff&text=Product+3"
+      },
+      {
+        "id": 110,
+        "title": "Product 4",
+        "price": 751.15,
+        "quantity": 2,
+        "total": 1502.3,
+        "discountPercentage": 14.24,
+        "discountedTotal": 1288.37,
+        "thumbnail": "https://dummyimage.com/231/fb9a80/fff&text=Product+4"
+      },
+      {
+        "id": 111,
+        "title": "Product 5 - Versatile Gizmo",
+        "price": 797.64,
+        "quantity": 5,
+        "total": 3988.2,
+        "discountPercentage": 7.54,
+        "discountedTotal": 3687.49,
+        "thumbnail": "https://dummyimage.com/252/7000f/fff&text=Product+5"
+      },
+      {
+        "id": 112,
+        "title": "Product 6",
+        "price": 730.54,
+        "quantity": 3,
+        "total": 2191.62,
+        "discountPercentage": 3.02,
+        "discountedTotal": 2125.43,
+        "thumbnail": "https://dummyimage.com/211/ddcadc/fff&text=Product+6"
+      },
+      {
+        "id": 113,
+        "title": "Product 7",
+        "price": 387.97,
+        "quantity": 3,
+        "total": 1163.91,
+        "discountPercentage": 18.13,
+        "discountedTotal": 952.89,
+        "thumbnail": "https://dummyimage.com/201/2de21e/fff&text=Product+7"
+      },
+      {
+        "id": 114,
+        "title": "Product 8 - Fantastic Widget",
+        "price": 228.24,
+        "quantity": 8,
+        "total": 1825.92,
+        "discountPercentage": 7.74,
+        "discountedTotal": 1684.59,
+        "thumbnail": "https://dummyimage.com/210/64bcc2/fff&text=Product+8"
+      }
+    ],
+    "total": 24406.59,
+    "discountedTotal": 22429.66,
+    "userId": 43,
+    "totalProducts": 8,
+    "totalQuantity": 39
+  },
+  {
+    "id": 20,
+    "products": [
+      {
+        "id": 115,
+        "title": "Product 1",
+        "price": 374.63,
+        "quantity": 2,
+        "total": 749.26,
+        "discountPercentage": 17.61,
+        "discountedTotal": 617.32,
+        "thumbnail": "https://dummyimage.com/255/bb8af9/fff&text=Product+1"
+      },
+      {
+        "id": 116,
+        "title": "Product 2",
+        "price": 360.02,
+        "quantity": 7,
+        "total": 2520.14,
+        "discountPercentage": 7.49,
+        "discountedTotal": 2331.38,
+        "thumbnail": "https://dummyimage.com/240/1b4021/fff&text=Product+2"
+      },
+      {
+        "id": 117,
+        "title": "Product 3",
+        "price": 612.46,
+        "quantity": 6,
+        "total": 3674.76,
+        "discountPercentage": 10.71,
+        "discountedTotal": 3281.19,
+        "thumbnail": "https://dummyimage.com/158/ded1a7/fff&text=Product+3"
+      }
+    ],
+    "total": 6944.16,
+    "discountedTotal": 6026.84,
+    "userId": 54,
+    "totalProducts": 3,
+    "totalQuantity": 15
+  },
+  {
+    "id": 21,
+    "products": [
+      {
+        "id": 118,
+        "title": "Product 1 - Fantastic Device",
+        "price": 168.75,
+        "quantity": 1,
+        "total": 168.75,
+        "discountPercentage": 17.49,
+        "discountedTotal": 139.24,
+        "thumbnail": "https://dummyimage.com/217/b792cb/fff&text=Product+1"
+      },
+      {
+        "id": 119,
+        "title": "Product 2",
+        "price": 392.58,
+        "quantity": 8,
+        "total": 3140.64,
+        "discountPercentage": 11.45,
+        "discountedTotal": 2781.04,
+        "thumbnail": "https://dummyimage.com/272/414d4c/fff&text=Product+2"
+      },
+      {
+        "id": 120,
+        "title": "Product 3",
+        "price": 807.24,
+        "quantity": 7,
+        "total": 5650.68,
+        "discountPercentage": 4.46,
+        "discountedTotal": 5398.66,
+        "thumbnail": "https://dummyimage.com/287/ebe3f/fff&text=Product+3"
+      },
+      {
+        "id": 121,
+        "title": "Product 4",
+        "price": 871.56,
+        "quantity": 5,
+        "total": 4357.8,
+        "discountPercentage": 12.51,
+        "discountedTotal": 3812.64,
+        "thumbnail": "https://dummyimage.com/232/5f3614/fff&text=Product+4"
+      },
+      {
+        "id": 122,
+        "title": "Product 5",
+        "price": 259.88,
+        "quantity": 9,
+        "total": 2338.92,
+        "discountPercentage": 11.4,
+        "discountedTotal": 2072.28,
+        "thumbnail": "https://dummyimage.com/209/b63d53/fff&text=Product+5"
+      },
+      {
+        "id": 123,
+        "title": "Product 6",
+        "price": 580.98,
+        "quantity": 2,
+        "total": 1161.96,
+        "discountPercentage": 15.88,
+        "discountedTotal": 977.44,
+        "thumbnail": "https://dummyimage.com/290/984be6/fff&text=Product+6"
+      },
+      {
+        "id": 124,
+        "title": "Product 7 - High-Quality Accessory",
+        "price": 686.22,
+        "quantity": 10,
+        "total": 6862.2,
+        "discountPercentage": 9.79,
+        "discountedTotal": 6190.39,
+        "thumbnail": "https://dummyimage.com/265/9025ed/fff&text=Product+7"
+      },
+      {
+        "id": 125,
+        "title": "Product 8 - Durable Gadget",
+        "price": 375.09,
+        "quantity": 6,
+        "total": 2250.54,
+        "discountPercentage": 10.28,
+        "discountedTotal": 2019.18,
+        "thumbnail": "https://dummyimage.com/278/6097f0/fff&text=Product+8"
+      }
+    ],
+    "total": 25931.49,
+    "discountedTotal": 23838.82,
+    "userId": 57,
+    "totalProducts": 8,
+    "totalQuantity": 48
+  },
+  {
+    "id": 22,
+    "products": [
+      {
+        "id": 126,
+        "title": "Product 1 - Premium Item",
+        "price": 706.44,
+        "quantity": 1,
+        "total": 706.44,
+        "discountPercentage": 8.17,
+        "discountedTotal": 648.72,
+        "thumbnail": "https://dummyimage.com/219/abd6d4/fff&text=Product+1"
+      }
+    ],
+    "total": 706.44,
+    "discountedTotal": 617,
+    "userId": 58,
+    "totalProducts": 1,
+    "totalQuantity": 1
+  },
+  {
+    "id": 23,
+    "products": [
+      {
+        "id": 127,
+        "title": "Product 1 - Premium Item",
+        "price": 177.27,
+        "quantity": 7,
+        "total": 1240.89,
+        "discountPercentage": 11.56,
+        "discountedTotal": 1097.44,
+        "thumbnail": "https://dummyimage.com/151/4aac83/fff&text=Product+1"
+      },
+      {
+        "id": 128,
+        "title": "Product 2 - Incredible Accessory",
+        "price": 185.57,
+        "quantity": 5,
+        "total": 927.85,
+        "discountPercentage": 12.75,
+        "discountedTotal": 809.55,
+        "thumbnail": "https://dummyimage.com/266/6ac84d/fff&text=Product+2"
+      },
+      {
+        "id": 129,
+        "title": "Product 3 - Innovative Item",
+        "price": 383.42,
+        "quantity": 6,
+        "total": 2300.52,
+        "discountPercentage": 15,
+        "discountedTotal": 1955.44,
+        "thumbnail": "https://dummyimage.com/246/d48290/fff&text=Product+3"
+      }
+    ],
+    "total": 4469.26,
+    "discountedTotal": 3796.64,
+    "userId": 5,
+    "totalProducts": 3,
+    "totalQuantity": 18
+  },
+  {
+    "id": 24,
+    "products": [
+      {
+        "id": 130,
+        "title": "Product 1 - Versatile Gizmo",
+        "price": 166.71,
+        "quantity": 7,
+        "total": 1166.97,
+        "discountPercentage": 2.61,
+        "discountedTotal": 1136.51,
+        "thumbnail": "https://dummyimage.com/256/575363/fff&text=Product+1"
+      },
+      {
+        "id": 131,
+        "title": "Product 2 - Versatile Gadget",
+        "price": 573.48,
+        "quantity": 3,
+        "total": 1720.44,
+        "discountPercentage": 8.84,
+        "discountedTotal": 1568.35,
+        "thumbnail": "https://dummyimage.com/221/a1d2aa/fff&text=Product+2"
+      },
+      {
+        "id": 132,
+        "title": "Product 3 - Fantastic Appliance",
+        "price": 198.39,
+        "quantity": 5,
+        "total": 991.95,
+        "discountPercentage": 8.77,
+        "discountedTotal": 904.96,
+        "thumbnail": "https://dummyimage.com/180/92f6b3/fff&text=Product+3"
+      },
+      {
+        "id": 133,
+        "title": "Product 4 - Versatile Device",
+        "price": 494.57,
+        "quantity": 2,
+        "total": 989.14,
+        "discountPercentage": 14.17,
+        "discountedTotal": 848.98,
+        "thumbnail": "https://dummyimage.com/170/d0854b/fff&text=Product+4"
+      },
+      {
+        "id": 134,
+        "title": "Product 5",
+        "price": 104.26,
+        "quantity": 2,
+        "total": 208.52,
+        "discountPercentage": 12.78,
+        "discountedTotal": 181.87,
+        "thumbnail": "https://dummyimage.com/197/cf4a97/fff&text=Product+5"
+      },
+      {
+        "id": 135,
+        "title": "Product 6",
+        "price": 379.62,
+        "quantity": 5,
+        "total": 1898.1,
+        "discountPercentage": 6.17,
+        "discountedTotal": 1780.99,
+        "thumbnail": "https://dummyimage.com/151/1c1e70/fff&text=Product+6"
+      },
+      {
+        "id": 136,
+        "title": "Product 7 - Durable Gizmo",
+        "price": 65.24,
+        "quantity": 7,
+        "total": 456.68,
+        "discountPercentage": 16.51,
+        "discountedTotal": 381.28,
+        "thumbnail": "https://dummyimage.com/177/44b6af/fff&text=Product+7"
+      },
+      {
+        "id": 137,
+        "title": "Product 8",
+        "price": 352.29,
+        "quantity": 10,
+        "total": 3522.9,
+        "discountPercentage": 5.25,
+        "discountedTotal": 3337.95,
+        "thumbnail": "https://dummyimage.com/176/c59412/fff&text=Product+8"
+      }
+    ],
+    "total": 10954.7,
+    "discountedTotal": 10057.51,
+    "userId": 34,
+    "totalProducts": 8,
+    "totalQuantity": 41
+  },
+  {
+    "id": 25,
+    "products": [
+      {
+        "id": 138,
+        "title": "Product 1 - High-Quality Equipment",
+        "price": 693.59,
+        "quantity": 3,
+        "total": 2080.77,
+        "discountPercentage": 3.4,
+        "discountedTotal": 2010.02,
+        "thumbnail": "https://dummyimage.com/260/56b43/fff&text=Product+1"
+      },
+      {
+        "id": 139,
+        "title": "Product 2",
+        "price": 781.73,
+        "quantity": 9,
+        "total": 7035.57,
+        "discountPercentage": 11.92,
+        "discountedTotal": 6196.93,
+        "thumbnail": "https://dummyimage.com/264/762f45/fff&text=Product+2"
+      },
+      {
+        "id": 140,
+        "title": "Product 3 - Incredible Device",
+        "price": 796.29,
+        "quantity": 1,
+        "total": 796.29,
+        "discountPercentage": 9.29,
+        "discountedTotal": 722.31,
+        "thumbnail": "https://dummyimage.com/266/8ede61/fff&text=Product+3"
+      }
+    ],
+    "total": 9912.63,
+    "discountedTotal": 9800.62,
+    "userId": 67,
+    "totalProducts": 3,
+    "totalQuantity": 13
+  },
+  {
+    "id": 26,
+    "products": [
+      {
+        "id": 141,
+        "title": "Product 1",
+        "price": 299.39,
+        "quantity": 2,
+        "total": 598.78,
+        "discountPercentage": 19.39,
+        "discountedTotal": 482.68,
+        "thumbnail": "https://dummyimage.com/236/9ea1c7/fff&text=Product+1"
+      },
+      {
+        "id": 142,
+        "title": "Product 2",
+        "price": 356.9,
+        "quantity": 5,
+        "total": 1784.5,
+        "discountPercentage": 3.7,
+        "discountedTotal": 1718.47,
+        "thumbnail": "https://dummyimage.com/197/e25420/fff&text=Product+2"
+      },
+      {
+        "id": 143,
+        "title": "Product 3",
+        "price": 355.25,
+        "quantity": 10,
+        "total": 3552.5,
+        "discountPercentage": 5.94,
+        "discountedTotal": 3341.48,
+        "thumbnail": "https://dummyimage.com/153/72cf47/fff&text=Product+3"
+      },
+      {
+        "id": 144,
+        "title": "Product 4",
+        "price": 345.35,
+        "quantity": 2,
+        "total": 690.7,
+        "discountPercentage": 10.83,
+        "discountedTotal": 615.9,
+        "thumbnail": "https://dummyimage.com/153/52f53a/fff&text=Product+4"
+      },
+      {
+        "id": 145,
+        "title": "Product 5",
+        "price": 152.33,
+        "quantity": 9,
+        "total": 1370.97,
+        "discountPercentage": 18.41,
+        "discountedTotal": 1118.57,
+        "thumbnail": "https://dummyimage.com/199/c3452e/fff&text=Product+5"
+      },
+      {
+        "id": 146,
+        "title": "Product 6 - Essential Gizmo",
+        "price": 253.66,
+        "quantity": 2,
+        "total": 507.32,
+        "discountPercentage": 0.57,
+        "discountedTotal": 504.43,
+        "thumbnail": "https://dummyimage.com/212/ef7968/fff&text=Product+6"
+      },
+      {
+        "id": 147,
+        "title": "Product 7",
+        "price": 642.27,
+        "quantity": 6,
+        "total": 3853.62,
+        "discountPercentage": 6.57,
+        "discountedTotal": 3600.44,
+        "thumbnail": "https://dummyimage.com/279/f818a7/fff&text=Product+7"
+      },
+      {
+        "id": 148,
+        "title": "Product 8 - Essential Appliance",
+        "price": 176.94,
+        "quantity": 4,
+        "total": 707.76,
+        "discountPercentage": 19.73,
+        "discountedTotal": 568.12,
+        "thumbnail": "https://dummyimage.com/253/8da322/fff&text=Product+8"
+      },
+      {
+        "id": 149,
+        "title": "Product 9 - High-Quality Product",
+        "price": 763.49,
+        "quantity": 10,
+        "total": 7634.9,
+        "discountPercentage": 12.8,
+        "discountedTotal": 6657.63,
+        "thumbnail": "https://dummyimage.com/300/5e402b/fff&text=Product+9"
+      }
+    ],
+    "total": 20701.05,
+    "discountedTotal": 20409.17,
+    "userId": 4,
+    "totalProducts": 9,
+    "totalQuantity": 50
+  },
+  {
+    "id": 27,
+    "products": [
+      {
+        "id": 150,
+        "title": "Product 1 - Incredible Item",
+        "price": 410.53,
+        "quantity": 10,
+        "total": 4105.3,
+        "discountPercentage": 9.41,
+        "discountedTotal": 3718.99,
+        "thumbnail": "https://dummyimage.com/172/25cb6/fff&text=Product+1"
+      },
+      {
+        "id": 151,
+        "title": "Product 2",
+        "price": 1.23,
+        "quantity": 10,
+        "total": 12.3,
+        "discountPercentage": 17.43,
+        "discountedTotal": 10.16,
+        "thumbnail": "https://dummyimage.com/244/aef336/fff&text=Product+2"
+      },
+      {
+        "id": 152,
+        "title": "Product 3",
+        "price": 180.42,
+        "quantity": 1,
+        "total": 180.42,
+        "discountPercentage": 10.26,
+        "discountedTotal": 161.91,
+        "thumbnail": "https://dummyimage.com/280/a970/fff&text=Product+3"
+      },
+      {
+        "id": 153,
+        "title": "Product 4 - Durable Tool",
+        "price": 136.75,
+        "quantity": 4,
+        "total": 547,
+        "discountPercentage": 18.99,
+        "discountedTotal": 443.12,
+        "thumbnail": "https://dummyimage.com/288/de18fb/fff&text=Product+4"
+      },
+      {
+        "id": 154,
+        "title": "Product 5",
+        "price": 454.84,
+        "quantity": 5,
+        "total": 2274.2,
+        "discountPercentage": 0.99,
+        "discountedTotal": 2251.69,
+        "thumbnail": "https://dummyimage.com/170/15673c/fff&text=Product+5"
+      },
+      {
+        "id": 155,
+        "title": "Product 6 - Fantastic Accessory",
+        "price": 667.61,
+        "quantity": 6,
+        "total": 4005.66,
+        "discountPercentage": 9.91,
+        "discountedTotal": 3608.7,
+        "thumbnail": "https://dummyimage.com/242/4dad9d/fff&text=Product+6"
+      }
+    ],
+    "total": 11124.88,
+    "discountedTotal": 9655.28,
+    "userId": 54,
+    "totalProducts": 6,
+    "totalQuantity": 36
+  },
+  {
+    "id": 28,
+    "products": [
+      {
+        "id": 156,
+        "title": "Product 1",
+        "price": 473.65,
+        "quantity": 2,
+        "total": 947.3,
+        "discountPercentage": 7.37,
+        "discountedTotal": 877.48,
+        "thumbnail": "https://dummyimage.com/267/45b6b5/fff&text=Product+1"
+      },
+      {
+        "id": 157,
+        "title": "Product 2",
+        "price": 189.14,
+        "quantity": 8,
+        "total": 1513.12,
+        "discountPercentage": 14.98,
+        "discountedTotal": 1286.45,
+        "thumbnail": "https://dummyimage.com/253/e00b63/fff&text=Product+2"
+      },
+      {
+        "id": 158,
+        "title": "Product 3 - Fantastic Equipment",
+        "price": 802.83,
+        "quantity": 3,
+        "total": 2408.49,
+        "discountPercentage": 6.53,
+        "discountedTotal": 2251.22,
+        "thumbnail": "https://dummyimage.com/291/be2b9b/fff&text=Product+3"
+      },
+      {
+        "id": 159,
+        "title": "Product 4",
+        "price": 292.35,
+        "quantity": 1,
+        "total": 292.35,
+        "discountPercentage": 13.57,
+        "discountedTotal": 252.68,
+        "thumbnail": "https://dummyimage.com/282/3f3ee0/fff&text=Product+4"
+      },
+      {
+        "id": 160,
+        "title": "Product 5",
+        "price": 959.78,
+        "quantity": 3,
+        "total": 2879.34,
+        "discountPercentage": 0.57,
+        "discountedTotal": 2862.93,
+        "thumbnail": "https://dummyimage.com/254/b2b679/fff&text=Product+5"
+      },
+      {
+        "id": 161,
+        "title": "Product 6",
+        "price": 987.11,
+        "quantity": 1,
+        "total": 987.11,
+        "discountPercentage": 19.51,
+        "discountedTotal": 794.52,
+        "thumbnail": "https://dummyimage.com/250/6a6b5c/fff&text=Product+6"
+      },
+      {
+        "id": 162,
+        "title": "Product 7",
+        "price": 4.54,
+        "quantity": 10,
+        "total": 45.4,
+        "discountPercentage": 8.33,
+        "discountedTotal": 41.62,
+        "thumbnail": "https://dummyimage.com/206/5a8c72/fff&text=Product+7"
+      },
+      {
+        "id": 163,
+        "title": "Product 8",
+        "price": 799.16,
+        "quantity": 9,
+        "total": 7192.44,
+        "discountPercentage": 8.69,
+        "discountedTotal": 6567.42,
+        "thumbnail": "https://dummyimage.com/234/237f25/fff&text=Product+8"
+      },
+      {
+        "id": 164,
+        "title": "Product 9 - High-Quality Item",
+        "price": 154.13,
+        "quantity": 4,
+        "total": 616.52,
+        "discountPercentage": 1.31,
+        "discountedTotal": 608.44,
+        "thumbnail": "https://dummyimage.com/165/25bfda/fff&text=Product+9"
+      },
+      {
+        "id": 165,
+        "title": "Product 10 - Amazing Product",
+        "price": 365.7,
+        "quantity": 10,
+        "total": 3657,
+        "discountPercentage": 17.76,
+        "discountedTotal": 3007.52,
+        "thumbnail": "https://dummyimage.com/253/2a9f82/fff&text=Product+10"
+      }
+    ],
+    "total": 20539.07,
+    "discountedTotal": 16932.41,
+    "userId": 54,
+    "totalProducts": 10,
+    "totalQuantity": 51
+  },
+  {
+    "id": 29,
+    "products": [
+      {
+        "id": 166,
+        "title": "Product 1 - Super Product",
+        "price": 50.51,
+        "quantity": 6,
+        "total": 303.06,
+        "discountPercentage": 9.92,
+        "discountedTotal": 273,
+        "thumbnail": "https://dummyimage.com/246/8c89b6/fff&text=Product+1"
+      },
+      {
+        "id": 167,
+        "title": "Product 2",
+        "price": 177.19,
+        "quantity": 9,
+        "total": 1594.71,
+        "discountPercentage": 7.34,
+        "discountedTotal": 1477.66,
+        "thumbnail": "https://dummyimage.com/286/b3d507/fff&text=Product+2"
+      },
+      {
+        "id": 168,
+        "title": "Product 3 - High-Quality Gadget",
+        "price": 527.3,
+        "quantity": 10,
+        "total": 5273,
+        "discountPercentage": 11.46,
+        "discountedTotal": 4668.71,
+        "thumbnail": "https://dummyimage.com/164/2cd7c9/fff&text=Product+3"
+      },
+      {
+        "id": 169,
+        "title": "Product 4 - Durable Product",
+        "price": 533.17,
+        "quantity": 10,
+        "total": 5331.7,
+        "discountPercentage": 5.11,
+        "discountedTotal": 5059.25,
+        "thumbnail": "https://dummyimage.com/270/bf91b7/fff&text=Product+4"
+      },
+      {
+        "id": 170,
+        "title": "Product 5",
+        "price": 865.96,
+        "quantity": 7,
+        "total": 6061.72,
+        "discountPercentage": 12.99,
+        "discountedTotal": 5274.3,
+        "thumbnail": "https://dummyimage.com/228/6bf23c/fff&text=Product+5"
+      },
+      {
+        "id": 171,
+        "title": "Product 6",
+        "price": 44.56,
+        "quantity": 7,
+        "total": 311.92,
+        "discountPercentage": 0.28,
+        "discountedTotal": 311.05,
+        "thumbnail": "https://dummyimage.com/235/7c35db/fff&text=Product+6"
+      },
+      {
+        "id": 172,
+        "title": "Product 7 - High-Quality Gizmo",
+        "price": 93.83,
+        "quantity": 6,
+        "total": 562.98,
+        "discountPercentage": 1.69,
+        "discountedTotal": 553.47,
+        "thumbnail": "https://dummyimage.com/298/761afa/fff&text=Product+7"
+      },
+      {
+        "id": 173,
+        "title": "Product 8",
+        "price": 963.3,
+        "quantity": 8,
+        "total": 7706.4,
+        "discountPercentage": 2.86,
+        "discountedTotal": 7486,
+        "thumbnail": "https://dummyimage.com/281/ce357/fff&text=Product+8"
+      },
+      {
+        "id": 174,
+        "title": "Product 9",
+        "price": 455.6,
+        "quantity": 2,
+        "total": 911.2,
+        "discountPercentage": 8.57,
+        "discountedTotal": 833.11,
+        "thumbnail": "https://dummyimage.com/247/5dac82/fff&text=Product+9"
+      },
+      {
+        "id": 175,
+        "title": "Product 10 - High-Quality Equipment",
+        "price": 150.98,
+        "quantity": 9,
+        "total": 1358.82,
+        "discountPercentage": 1.22,
+        "discountedTotal": 1342.24,
+        "thumbnail": "https://dummyimage.com/264/99679e/fff&text=Product+10"
+      }
+    ],
+    "total": 29415.51,
+    "discountedTotal": 27930.03,
+    "userId": 35,
+    "totalProducts": 10,
+    "totalQuantity": 74
+  },
+  {
+    "id": 30,
+    "products": [
+      {
+        "id": 176,
+        "title": "Product 1",
+        "price": 40.83,
+        "quantity": 3,
+        "total": 122.49,
+        "discountPercentage": 2.26,
+        "discountedTotal": 119.72,
+        "thumbnail": "https://dummyimage.com/230/647c95/fff&text=Product+1"
+      },
+      {
+        "id": 177,
+        "title": "Product 2 - Premium Device",
+        "price": 540.82,
+        "quantity": 2,
+        "total": 1081.64,
+        "discountPercentage": 15.86,
+        "discountedTotal": 910.09,
+        "thumbnail": "https://dummyimage.com/215/223fac/fff&text=Product+2"
+      },
+      {
+        "id": 178,
+        "title": "Product 3 - Super Accessory",
+        "price": 914.01,
+        "quantity": 2,
+        "total": 1828.02,
+        "discountPercentage": 13.05,
+        "discountedTotal": 1589.46,
+        "thumbnail": "https://dummyimage.com/173/139a21/fff&text=Product+3"
+      }
+    ],
+    "total": 3032.15,
+    "discountedTotal": 2507.28,
+    "userId": 29,
+    "totalProducts": 3,
+    "totalQuantity": 7
+  },
+  {
+    "id": 31,
+    "products": [
+      {
+        "id": 179,
+        "title": "Product 1 - Innovative Item",
+        "price": 914.35,
+        "quantity": 7,
+        "total": 6400.45,
+        "discountPercentage": 11,
+        "discountedTotal": 5696.4,
+        "thumbnail": "https://dummyimage.com/259/726342/fff&text=Product+1"
+      },
+      {
+        "id": 180,
+        "title": "Product 2 - Versatile Gizmo",
+        "price": 643.39,
+        "quantity": 2,
+        "total": 1286.78,
+        "discountPercentage": 8.81,
+        "discountedTotal": 1173.41,
+        "thumbnail": "https://dummyimage.com/157/24ee74/fff&text=Product+2"
+      },
+      {
+        "id": 181,
+        "title": "Product 3",
+        "price": 694.59,
+        "quantity": 4,
+        "total": 2778.36,
+        "discountPercentage": 8.84,
+        "discountedTotal": 2532.75,
+        "thumbnail": "https://dummyimage.com/185/86855f/fff&text=Product+3"
+      },
+      {
+        "id": 182,
+        "title": "Product 4",
+        "price": 575.24,
+        "quantity": 9,
+        "total": 5177.16,
+        "discountPercentage": 5.83,
+        "discountedTotal": 4875.33,
+        "thumbnail": "https://dummyimage.com/193/b3f276/fff&text=Product+4"
+      },
+      {
+        "id": 183,
+        "title": "Product 5 - Innovative Item",
+        "price": 867.57,
+        "quantity": 2,
+        "total": 1735.14,
+        "discountPercentage": 6.17,
+        "discountedTotal": 1628.08,
+        "thumbnail": "https://dummyimage.com/242/4c8578/fff&text=Product+5"
+      },
+      {
+        "id": 184,
+        "title": "Product 6 - Incredible Equipment",
+        "price": 297.85,
+        "quantity": 1,
+        "total": 297.85,
+        "discountPercentage": 9.73,
+        "discountedTotal": 268.87,
+        "thumbnail": "https://dummyimage.com/249/fffd33/fff&text=Product+6"
+      },
+      {
+        "id": 185,
+        "title": "Product 7",
+        "price": 656.13,
+        "quantity": 8,
+        "total": 5249.04,
+        "discountPercentage": 9.39,
+        "discountedTotal": 4756.16,
+        "thumbnail": "https://dummyimage.com/165/7fcdb7/fff&text=Product+7"
+      },
+      {
+        "id": 186,
+        "title": "Product 8",
+        "price": 103.98,
+        "quantity": 7,
+        "total": 727.86,
+        "discountPercentage": 0.21,
+        "discountedTotal": 726.33,
+        "thumbnail": "https://dummyimage.com/229/23c9b3/fff&text=Product+8"
+      },
+      {
+        "id": 187,
+        "title": "Product 9",
+        "price": 37.07,
+        "quantity": 6,
+        "total": 222.42,
+        "discountPercentage": 3.11,
+        "discountedTotal": 215.5,
+        "thumbnail": "https://dummyimage.com/151/dc1961/fff&text=Product+9"
+      },
+      {
+        "id": 188,
+        "title": "Product 10",
+        "price": 73.86,
+        "quantity": 10,
+        "total": 738.6,
+        "discountPercentage": 10.91,
+        "discountedTotal": 658.02,
+        "thumbnail": "https://dummyimage.com/174/69a4d9/fff&text=Product+10"
+      }
+    ],
+    "total": 24613.66,
+    "discountedTotal": 22962.08,
+    "userId": 83,
+    "totalProducts": 10,
+    "totalQuantity": 56
+  },
+  {
+    "id": 32,
+    "products": [
+      {
+        "id": 189,
+        "title": "Product 1",
+        "price": 852.51,
+        "quantity": 3,
+        "total": 2557.53,
+        "discountPercentage": 8.49,
+        "discountedTotal": 2340.4,
+        "thumbnail": "https://dummyimage.com/240/a3851c/fff&text=Product+1"
+      },
+      {
+        "id": 190,
+        "title": "Product 2",
+        "price": 143.44,
+        "quantity": 8,
+        "total": 1147.52,
+        "discountPercentage": 7.69,
+        "discountedTotal": 1059.28,
+        "thumbnail": "https://dummyimage.com/177/a290ad/fff&text=Product+2"
+      },
+      {
+        "id": 191,
+        "title": "Product 3",
+        "price": 697.41,
+        "quantity": 7,
+        "total": 4881.87,
+        "discountPercentage": 13.47,
+        "discountedTotal": 4224.28,
+        "thumbnail": "https://dummyimage.com/270/868c37/fff&text=Product+3"
+      },
+      {
+        "id": 192,
+        "title": "Product 4",
+        "price": 734.77,
+        "quantity": 7,
+        "total": 5143.39,
+        "discountPercentage": 3.93,
+        "discountedTotal": 4941.25,
+        "thumbnail": "https://dummyimage.com/298/63e528/fff&text=Product+4"
+      },
+      {
+        "id": 193,
+        "title": "Product 5",
+        "price": 561.29,
+        "quantity": 9,
+        "total": 5051.61,
+        "discountPercentage": 13.05,
+        "discountedTotal": 4392.37,
+        "thumbnail": "https://dummyimage.com/293/7adf7d/fff&text=Product+5"
+      }
+    ],
+    "total": 18781.92,
+    "discountedTotal": 17953.64,
+    "userId": 74,
+    "totalProducts": 5,
+    "totalQuantity": 34
+  },
+  {
+    "id": 33,
+    "products": [
+      {
+        "id": 194,
+        "title": "Product 1 - Incredible Widget",
+        "price": 583.29,
+        "quantity": 10,
+        "total": 5832.9,
+        "discountPercentage": 9.45,
+        "discountedTotal": 5281.69,
+        "thumbnail": "https://dummyimage.com/255/4e4628/fff&text=Product+1"
+      },
+      {
+        "id": 195,
+        "title": "Product 2",
+        "price": 554.45,
+        "quantity": 1,
+        "total": 554.45,
+        "discountPercentage": 18.05,
+        "discountedTotal": 454.37,
+        "thumbnail": "https://dummyimage.com/226/1c0a04/fff&text=Product+2"
+      },
+      {
+        "id": 196,
+        "title": "Product 3 - Amazing Device",
+        "price": 462.56,
+        "quantity": 2,
+        "total": 925.12,
+        "discountPercentage": 12.14,
+        "discountedTotal": 812.81,
+        "thumbnail": "https://dummyimage.com/226/6b69ce/fff&text=Product+3"
+      },
+      {
+        "id": 197,
+        "title": "Product 4 - Innovative Product",
+        "price": 534.69,
+        "quantity": 5,
+        "total": 2673.45,
+        "discountPercentage": 16.64,
+        "discountedTotal": 2228.59,
+        "thumbnail": "https://dummyimage.com/216/988f61/fff&text=Product+4"
+      },
+      {
+        "id": 198,
+        "title": "Product 5 - Versatile Gizmo",
+        "price": 427.78,
+        "quantity": 8,
+        "total": 3422.24,
+        "discountPercentage": 19.1,
+        "discountedTotal": 2768.59,
+        "thumbnail": "https://dummyimage.com/181/9ce73/fff&text=Product+5"
+      }
+    ],
+    "total": 13408.16,
+    "discountedTotal": 10801.61,
+    "userId": 36,
+    "totalProducts": 5,
+    "totalQuantity": 26
+  },
+  {
+    "id": 34,
+    "products": [
+      {
+        "id": 199,
+        "title": "Product 1 - Essential Appliance",
+        "price": 524.44,
+        "quantity": 1,
+        "total": 524.44,
+        "discountPercentage": 4.94,
+        "discountedTotal": 498.53,
+        "thumbnail": "https://dummyimage.com/196/8eca93/fff&text=Product+1"
+      },
+      {
+        "id": 200,
+        "title": "Product 2 - Amazing Widget",
+        "price": 130.93,
+        "quantity": 4,
+        "total": 523.72,
+        "discountPercentage": 12.53,
+        "discountedTotal": 458.1,
+        "thumbnail": "https://dummyimage.com/259/1a1141/fff&text=Product+2"
+      },
+      {
+        "id": 201,
+        "title": "Product 3 - Versatile Gizmo",
+        "price": 58.59,
+        "quantity": 5,
+        "total": 292.95,
+        "discountPercentage": 18.91,
+        "discountedTotal": 237.55,
+        "thumbnail": "https://dummyimage.com/245/478fa3/fff&text=Product+3"
+      },
+      {
+        "id": 202,
+        "title": "Product 4",
+        "price": 903.71,
+        "quantity": 7,
+        "total": 6325.97,
+        "discountPercentage": 1.52,
+        "discountedTotal": 6229.82,
+        "thumbnail": "https://dummyimage.com/169/f66160/fff&text=Product+4"
+      },
+      {
+        "id": 203,
+        "title": "Product 5",
+        "price": 954.78,
+        "quantity": 6,
+        "total": 5728.68,
+        "discountPercentage": 1.88,
+        "discountedTotal": 5620.98,
+        "thumbnail": "https://dummyimage.com/258/e0ec43/fff&text=Product+5"
+      },
+      {
+        "id": 204,
+        "title": "Product 6",
+        "price": 36.76,
+        "quantity": 3,
+        "total": 110.28,
+        "discountPercentage": 4.15,
+        "discountedTotal": 105.7,
+        "thumbnail": "https://dummyimage.com/183/2e5f50/fff&text=Product+6"
+      }
+    ],
+    "total": 13506.04,
+    "discountedTotal": 11485.54,
+    "userId": 79,
+    "totalProducts": 6,
+    "totalQuantity": 26
+  },
+  {
+    "id": 35,
+    "products": [
+      {
+        "id": 205,
+        "title": "Product 1",
+        "price": 382.33,
+        "quantity": 10,
+        "total": 3823.3,
+        "discountPercentage": 19.79,
+        "discountedTotal": 3066.67,
+        "thumbnail": "https://dummyimage.com/283/1a9c5b/fff&text=Product+1"
+      },
+      {
+        "id": 206,
+        "title": "Product 2",
+        "price": 23.89,
+        "quantity": 1,
+        "total": 23.89,
+        "discountPercentage": 0.61,
+        "discountedTotal": 23.74,
+        "thumbnail": "https://dummyimage.com/258/811cdf/fff&text=Product+2"
+      },
+      {
+        "id": 207,
+        "title": "Product 3 - Durable Device",
+        "price": 373.68,
+        "quantity": 3,
+        "total": 1121.04,
+        "discountPercentage": 10.23,
+        "discountedTotal": 1006.36,
+        "thumbnail": "https://dummyimage.com/235/891ea6/fff&text=Product+3"
+      },
+      {
+        "id": 208,
+        "title": "Product 4 - Innovative Gadget",
+        "price": 65.07,
+        "quantity": 8,
+        "total": 520.56,
+        "discountPercentage": 5.48,
+        "discountedTotal": 492.03,
+        "thumbnail": "https://dummyimage.com/291/fedb13/fff&text=Product+4"
+      },
+      {
+        "id": 209,
+        "title": "Product 5 - Super Appliance",
+        "price": 358.39,
+        "quantity": 10,
+        "total": 3583.9,
+        "discountPercentage": 2.47,
+        "discountedTotal": 3495.38,
+        "thumbnail": "https://dummyimage.com/164/ecf67a/fff&text=Product+5"
+      }
+    ],
+    "total": 9072.69,
+    "discountedTotal": 8233.47,
+    "userId": 19,
+    "totalProducts": 5,
+    "totalQuantity": 32
+  },
+  {
+    "id": 36,
+    "products": [
+      {
+        "id": 210,
+        "title": "Product 1",
+        "price": 83.61,
+        "quantity": 10,
+        "total": 836.1,
+        "discountPercentage": 18.01,
+        "discountedTotal": 685.52,
+        "thumbnail": "https://dummyimage.com/269/4e04fa/fff&text=Product+1"
+      },
+      {
+        "id": 211,
+        "title": "Product 2",
+        "price": 83.43,
+        "quantity": 8,
+        "total": 667.44,
+        "discountPercentage": 0.09,
+        "discountedTotal": 666.84,
+        "thumbnail": "https://dummyimage.com/209/5fdbfe/fff&text=Product+2"
+      },
+      {
+        "id": 212,
+        "title": "Product 3",
+        "price": 674.96,
+        "quantity": 10,
+        "total": 6749.6,
+        "discountPercentage": 12.26,
+        "discountedTotal": 5922.1,
+        "thumbnail": "https://dummyimage.com/272/8865d3/fff&text=Product+3"
+      },
+      {
+        "id": 213,
+        "title": "Product 4",
+        "price": 29.59,
+        "quantity": 6,
+        "total": 177.54,
+        "discountPercentage": 3.15,
+        "discountedTotal": 171.95,
+        "thumbnail": "https://dummyimage.com/285/432af8/fff&text=Product+4"
+      },
+      {
+        "id": 214,
+        "title": "Product 5 - Essential Device",
+        "price": 490.56,
+        "quantity": 9,
+        "total": 4415.04,
+        "discountPercentage": 15.34,
+        "discountedTotal": 3737.77,
+        "thumbnail": "https://dummyimage.com/274/4af440/fff&text=Product+5"
+      },
+      {
+        "id": 215,
+        "title": "Product 6",
+        "price": 595.59,
+        "quantity": 4,
+        "total": 2382.36,
+        "discountPercentage": 1.96,
+        "discountedTotal": 2335.67,
+        "thumbnail": "https://dummyimage.com/209/83dbe3/fff&text=Product+6"
+      },
+      {
+        "id": 216,
+        "title": "Product 7 - Essential Accessory",
+        "price": 643.66,
+        "quantity": 10,
+        "total": 6436.6,
+        "discountPercentage": 0.95,
+        "discountedTotal": 6375.45,
+        "thumbnail": "https://dummyimage.com/242/2d29f5/fff&text=Product+7"
+      },
+      {
+        "id": 217,
+        "title": "Product 8",
+        "price": 419.58,
+        "quantity": 7,
+        "total": 2937.06,
+        "discountPercentage": 17.67,
+        "discountedTotal": 2418.08,
+        "thumbnail": "https://dummyimage.com/236/da6c78/fff&text=Product+8"
+      },
+      {
+        "id": 218,
+        "title": "Product 9 - Durable Device",
+        "price": 278.04,
+        "quantity": 9,
+        "total": 2502.36,
+        "discountPercentage": 17.8,
+        "discountedTotal": 2056.94,
+        "thumbnail": "https://dummyimage.com/215/e53073/fff&text=Product+9"
+      },
+      {
+        "id": 219,
+        "title": "Product 10 - Essential Gizmo",
+        "price": 47.28,
+        "quantity": 1,
+        "total": 47.28,
+        "discountPercentage": 19.82,
+        "discountedTotal": 37.91,
+        "thumbnail": "https://dummyimage.com/218/8acbab/fff&text=Product+10"
+      }
+    ],
+    "total": 27151.38,
+    "discountedTotal": 25636.33,
+    "userId": 57,
+    "totalProducts": 10,
+    "totalQuantity": 74
+  },
+  {
+    "id": 37,
+    "products": [
+      {
+        "id": 220,
+        "title": "Product 1",
+        "price": 898.31,
+        "quantity": 4,
+        "total": 3593.24,
+        "discountPercentage": 1.69,
+        "discountedTotal": 3532.51,
+        "thumbnail": "https://dummyimage.com/186/1765a0/fff&text=Product+1"
+      },
+      {
+        "id": 221,
+        "title": "Product 2",
+        "price": 55.59,
+        "quantity": 9,
+        "total": 500.31,
+        "discountPercentage": 8.67,
+        "discountedTotal": 456.93,
+        "thumbnail": "https://dummyimage.com/152/735d9b/fff&text=Product+2"
+      },
+      {
+        "id": 222,
+        "title": "Product 3 - Super Equipment",
+        "price": 666.44,
+        "quantity": 1,
+        "total": 666.44,
+        "discountPercentage": 3.41,
+        "discountedTotal": 643.71,
+        "thumbnail": "https://dummyimage.com/273/3de43/fff&text=Product+3"
+      },
+      {
+        "id": 223,
+        "title": "Product 4",
+        "price": 277.26,
+        "quantity": 7,
+        "total": 1940.82,
+        "discountPercentage": 12.75,
+        "discountedTotal": 1693.37,
+        "thumbnail": "https://dummyimage.com/165/a28fad/fff&text=Product+4"
+      },
+      {
+        "id": 224,
+        "title": "Product 5 - High-Quality Product",
+        "price": 845,
+        "quantity": 9,
+        "total": 7605,
+        "discountPercentage": 5.56,
+        "discountedTotal": 7182.16,
+        "thumbnail": "https://dummyimage.com/160/c057a2/fff&text=Product+5"
+      },
+      {
+        "id": 225,
+        "title": "Product 6",
+        "price": 898.05,
+        "quantity": 7,
+        "total": 6286.35,
+        "discountPercentage": 15.7,
+        "discountedTotal": 5299.39,
+        "thumbnail": "https://dummyimage.com/209/c5c292/fff&text=Product+6"
+      }
+    ],
+    "total": 20592.16,
+    "discountedTotal": 18254.95,
+    "userId": 15,
+    "totalProducts": 6,
+    "totalQuantity": 37
+  },
+  {
+    "id": 38,
+    "products": [
+      {
+        "id": 226,
+        "title": "Product 1 - Versatile Gadget",
+        "price": 2.96,
+        "quantity": 7,
+        "total": 20.72,
+        "discountPercentage": 7.32,
+        "discountedTotal": 19.2,
+        "thumbnail": "https://dummyimage.com/236/5faaca/fff&text=Product+1"
+      },
+      {
+        "id": 227,
+        "title": "Product 2 - Essential Tool",
+        "price": 93.75,
+        "quantity": 6,
+        "total": 562.5,
+        "discountPercentage": 5.78,
+        "discountedTotal": 529.99,
+        "thumbnail": "https://dummyimage.com/295/27605b/fff&text=Product+2"
+      },
+      {
+        "id": 228,
+        "title": "Product 3 - Super Gizmo",
+        "price": 846.49,
+        "quantity": 8,
+        "total": 6771.92,
+        "discountPercentage": 2.31,
+        "discountedTotal": 6615.49,
+        "thumbnail": "https://dummyimage.com/246/9081dd/fff&text=Product+3"
+      },
+      {
+        "id": 229,
+        "title": "Product 4 - Durable Gizmo",
+        "price": 440.56,
+        "quantity": 8,
+        "total": 3524.48,
+        "discountPercentage": 2.04,
+        "discountedTotal": 3452.58,
+        "thumbnail": "https://dummyimage.com/242/c816d/fff&text=Product+4"
+      },
+      {
+        "id": 230,
+        "title": "Product 5",
+        "price": 328.91,
+        "quantity": 8,
+        "total": 2631.28,
+        "discountPercentage": 17.04,
+        "discountedTotal": 2182.91,
+        "thumbnail": "https://dummyimage.com/297/6ea0a8/fff&text=Product+5"
+      },
+      {
+        "id": 231,
+        "title": "Product 6 - Fantastic Equipment",
+        "price": 594.32,
+        "quantity": 1,
+        "total": 594.32,
+        "discountPercentage": 1.29,
+        "discountedTotal": 586.65,
+        "thumbnail": "https://dummyimage.com/271/4fbd/fff&text=Product+6"
+      },
+      {
+        "id": 232,
+        "title": "Product 7",
+        "price": 253.51,
+        "quantity": 9,
+        "total": 2281.59,
+        "discountPercentage": 11.6,
+        "discountedTotal": 2016.93,
+        "thumbnail": "https://dummyimage.com/228/203212/fff&text=Product+7"
+      },
+      {
+        "id": 233,
+        "title": "Product 8",
+        "price": 837.33,
+        "quantity": 1,
+        "total": 837.33,
+        "discountPercentage": 9.19,
+        "discountedTotal": 760.38,
+        "thumbnail": "https://dummyimage.com/295/63b76d/fff&text=Product+8"
+      },
+      {
+        "id": 234,
+        "title": "Product 9 - Super Item",
+        "price": 792.8,
+        "quantity": 8,
+        "total": 6342.4,
+        "discountPercentage": 1.66,
+        "discountedTotal": 6237.12,
+        "thumbnail": "https://dummyimage.com/254/d54b9a/fff&text=Product+9"
+      },
+      {
+        "id": 235,
+        "title": "Product 10",
+        "price": 424.72,
+        "quantity": 10,
+        "total": 4247.2,
+        "discountPercentage": 6.42,
+        "discountedTotal": 3974.53,
+        "thumbnail": "https://dummyimage.com/182/350742/fff&text=Product+10"
+      }
+    ],
+    "total": 27813.74,
+    "discountedTotal": 27026.61,
+    "userId": 48,
+    "totalProducts": 10,
+    "totalQuantity": 66
+  },
+  {
+    "id": 39,
+    "products": [
+      {
+        "id": 236,
+        "title": "Product 1",
+        "price": 821.92,
+        "quantity": 1,
+        "total": 821.92,
+        "discountPercentage": 17.09,
+        "discountedTotal": 681.45,
+        "thumbnail": "https://dummyimage.com/239/b38095/fff&text=Product+1"
+      },
+      {
+        "id": 237,
+        "title": "Product 2 - Versatile Gizmo",
+        "price": 1.3,
+        "quantity": 3,
+        "total": 3.9,
+        "discountPercentage": 15.63,
+        "discountedTotal": 3.29,
+        "thumbnail": "https://dummyimage.com/289/1a0820/fff&text=Product+2"
+      }
+    ],
+    "total": 825.82,
+    "discountedTotal": 811.53,
+    "userId": 59,
+    "totalProducts": 2,
+    "totalQuantity": 4
+  },
+  {
+    "id": 40,
+    "products": [
+      {
+        "id": 238,
+        "title": "Product 1 - Amazing Accessory",
+        "price": 820.39,
+        "quantity": 3,
+        "total": 2461.17,
+        "discountPercentage": 8.07,
+        "discountedTotal": 2262.55,
+        "thumbnail": "https://dummyimage.com/275/c6cf40/fff&text=Product+1"
+      }
+    ],
+    "total": 2461.17,
+    "discountedTotal": 2224.65,
+    "userId": 78,
+    "totalProducts": 1,
+    "totalQuantity": 3
+  },
+  {
+    "id": 41,
+    "products": [
+      {
+        "id": 239,
+        "title": "Product 1",
+        "price": 275.51,
+        "quantity": 3,
+        "total": 826.53,
+        "discountPercentage": 9.25,
+        "discountedTotal": 750.08,
+        "thumbnail": "https://dummyimage.com/281/60d8a5/fff&text=Product+1"
+      },
+      {
+        "id": 240,
+        "title": "Product 2",
+        "price": 331.83,
+        "quantity": 2,
+        "total": 663.66,
+        "discountPercentage": 19.4,
+        "discountedTotal": 534.91,
+        "thumbnail": "https://dummyimage.com/233/c63f6e/fff&text=Product+2"
+      },
+      {
+        "id": 241,
+        "title": "Product 3",
+        "price": 562.36,
+        "quantity": 4,
+        "total": 2249.44,
+        "discountPercentage": 10.8,
+        "discountedTotal": 2006.5,
+        "thumbnail": "https://dummyimage.com/254/dba33e/fff&text=Product+3"
+      }
+    ],
+    "total": 3739.63,
+    "discountedTotal": 3088.19,
+    "userId": 67,
+    "totalProducts": 3,
+    "totalQuantity": 9
+  },
+  {
+    "id": 42,
+    "products": [
+      {
+        "id": 242,
+        "title": "Product 1",
+        "price": 417.1,
+        "quantity": 6,
+        "total": 2502.6,
+        "discountPercentage": 18.96,
+        "discountedTotal": 2028.11,
+        "thumbnail": "https://dummyimage.com/209/a7904f/fff&text=Product+1"
+      },
+      {
+        "id": 243,
+        "title": "Product 2",
+        "price": 608.19,
+        "quantity": 2,
+        "total": 1216.38,
+        "discountPercentage": 10.34,
+        "discountedTotal": 1090.61,
+        "thumbnail": "https://dummyimage.com/151/de5f33/fff&text=Product+2"
+      },
+      {
+        "id": 244,
+        "title": "Product 3",
+        "price": 233.6,
+        "quantity": 9,
+        "total": 2102.4,
+        "discountPercentage": 10.67,
+        "discountedTotal": 1878.07,
+        "thumbnail": "https://dummyimage.com/197/6043db/fff&text=Product+3"
+      },
+      {
+        "id": 245,
+        "title": "Product 4 - High-Quality Widget",
+        "price": 54.45,
+        "quantity": 9,
+        "total": 490.05,
+        "discountPercentage": 5.6,
+        "discountedTotal": 462.61,
+        "thumbnail": "https://dummyimage.com/167/821d2f/fff&text=Product+4"
+      }
+    ],
+    "total": 6311.43,
+    "discountedTotal": 6266.62,
+    "userId": 24,
+    "totalProducts": 4,
+    "totalQuantity": 26
+  },
+  {
+    "id": 43,
+    "products": [
+      {
+        "id": 246,
+        "title": "Product 1",
+        "price": 833.68,
+        "quantity": 5,
+        "total": 4168.4,
+        "discountPercentage": 15.37,
+        "discountedTotal": 3527.72,
+        "thumbnail": "https://dummyimage.com/173/15fdbf/fff&text=Product+1"
+      },
+      {
+        "id": 247,
+        "title": "Product 2 - Innovative Item",
+        "price": 313.65,
+        "quantity": 4,
+        "total": 1254.6,
+        "discountPercentage": 2.22,
+        "discountedTotal": 1226.75,
+        "thumbnail": "https://dummyimage.com/274/a7bc58/fff&text=Product+2"
+      },
+      {
+        "id": 248,
+        "title": "Product 3",
+        "price": 593.84,
+        "quantity": 6,
+        "total": 3563.04,
+        "discountPercentage": 1.62,
+        "discountedTotal": 3505.32,
+        "thumbnail": "https://dummyimage.com/299/5968bf/fff&text=Product+3"
+      }
+    ],
+    "total": 8986.04,
+    "discountedTotal": 8355.22,
+    "userId": 50,
+    "totalProducts": 3,
+    "totalQuantity": 15
+  },
+  {
+    "id": 44,
+    "products": [
+      {
+        "id": 249,
+        "title": "Product 1 - Premium Tool",
+        "price": 327.18,
+        "quantity": 1,
+        "total": 327.18,
+        "discountPercentage": 18.27,
+        "discountedTotal": 267.4,
+        "thumbnail": "https://dummyimage.com/173/5ee05a/fff&text=Product+1"
+      },
+      {
+        "id": 250,
+        "title": "Product 2 - Super Accessory",
+        "price": 984.45,
+        "quantity": 5,
+        "total": 4922.25,
+        "discountPercentage": 8.46,
+        "discountedTotal": 4505.83,
+        "thumbnail": "https://dummyimage.com/162/c2af82/fff&text=Product+2"
+      },
+      {
+        "id": 251,
+        "title": "Product 3 - Innovative Tool",
+        "price": 927.85,
+        "quantity": 1,
+        "total": 927.85,
+        "discountPercentage": 14.8,
+        "discountedTotal": 790.53,
+        "thumbnail": "https://dummyimage.com/153/7a593b/fff&text=Product+3"
+      },
+      {
+        "id": 252,
+        "title": "Product 4 - Amazing Tool",
+        "price": 25.17,
+        "quantity": 1,
+        "total": 25.17,
+        "discountPercentage": 11,
+        "discountedTotal": 22.4,
+        "thumbnail": "https://dummyimage.com/179/93aca9/fff&text=Product+4"
+      },
+      {
+        "id": 253,
+        "title": "Product 5",
+        "price": 48.03,
+        "quantity": 1,
+        "total": 48.03,
+        "discountPercentage": 17.63,
+        "discountedTotal": 39.56,
+        "thumbnail": "https://dummyimage.com/273/c27e37/fff&text=Product+5"
+      },
+      {
+        "id": 254,
+        "title": "Product 6 - Essential Item",
+        "price": 441.42,
+        "quantity": 1,
+        "total": 441.42,
+        "discountPercentage": 14.28,
+        "discountedTotal": 378.39,
+        "thumbnail": "https://dummyimage.com/231/fd664e/fff&text=Product+6"
+      },
+      {
+        "id": 255,
+        "title": "Product 7 - Durable Equipment",
+        "price": 924.53,
+        "quantity": 8,
+        "total": 7396.24,
+        "discountPercentage": 8.27,
+        "discountedTotal": 6784.57,
+        "thumbnail": "https://dummyimage.com/208/e64fce/fff&text=Product+7"
+      },
+      {
+        "id": 256,
+        "title": "Product 8",
+        "price": 530.81,
+        "quantity": 7,
+        "total": 3715.67,
+        "discountPercentage": 3.59,
+        "discountedTotal": 3582.28,
+        "thumbnail": "https://dummyimage.com/228/1b0461/fff&text=Product+8"
+      },
+      {
+        "id": 257,
+        "title": "Product 9",
+        "price": 99.04,
+        "quantity": 5,
+        "total": 495.2,
+        "discountPercentage": 2.15,
+        "discountedTotal": 484.55,
+        "thumbnail": "https://dummyimage.com/229/1cef46/fff&text=Product+9"
+      }
+    ],
+    "total": 18299.01,
+    "discountedTotal": 17135.19,
+    "userId": 46,
+    "totalProducts": 9,
+    "totalQuantity": 30
+  },
+  {
+    "id": 45,
+    "products": [
+      {
+        "id": 258,
+        "title": "Product 1 - Innovative Item",
+        "price": 161.88,
+        "quantity": 6,
+        "total": 971.28,
+        "discountPercentage": 0.28,
+        "discountedTotal": 968.56,
+        "thumbnail": "https://dummyimage.com/271/bd66de/fff&text=Product+1"
+      },
+      {
+        "id": 259,
+        "title": "Product 2 - Premium Tool",
+        "price": 725.32,
+        "quantity": 1,
+        "total": 725.32,
+        "discountPercentage": 17.16,
+        "discountedTotal": 600.86,
+        "thumbnail": "https://dummyimage.com/204/1efd63/fff&text=Product+2"
+      },
+      {
+        "id": 260,
+        "title": "Product 3",
+        "price": 415.84,
+        "quantity": 7,
+        "total": 2910.88,
+        "discountPercentage": 12.74,
+        "discountedTotal": 2540.03,
+        "thumbnail": "https://dummyimage.com/176/c8c15b/fff&text=Product+3"
+      },
+      {
+        "id": 261,
+        "title": "Product 4 - Premium Widget",
+        "price": 144.78,
+        "quantity": 1,
+        "total": 144.78,
+        "discountPercentage": 13.53,
+        "discountedTotal": 125.19,
+        "thumbnail": "https://dummyimage.com/281/a03b11/fff&text=Product+4"
+      },
+      {
+        "id": 262,
+        "title": "Product 5",
+        "price": 322.91,
+        "quantity": 7,
+        "total": 2260.37,
+        "discountPercentage": 3.75,
+        "discountedTotal": 2175.61,
+        "thumbnail": "https://dummyimage.com/214/4ab47f/fff&text=Product+5"
+      },
+      {
+        "id": 263,
+        "title": "Product 6",
+        "price": 956.84,
+        "quantity": 9,
+        "total": 8611.56,
+        "discountPercentage": 17.45,
+        "discountedTotal": 7108.84,
+        "thumbnail": "https://dummyimage.com/182/971b22/fff&text=Product+6"
+      },
+      {
+        "id": 264,
+        "title": "Product 7 - Super Gizmo",
+        "price": 22.09,
+        "quantity": 3,
+        "total": 66.27,
+        "discountPercentage": 12.27,
+        "discountedTotal": 58.14,
+        "thumbnail": "https://dummyimage.com/225/cf45c7/fff&text=Product+7"
+      }
+    ],
+    "total": 15690.46,
+    "discountedTotal": 12566.49,
+    "userId": 90,
+    "totalProducts": 7,
+    "totalQuantity": 34
+  },
+  {
+    "id": 46,
+    "products": [
+      {
+        "id": 265,
+        "title": "Product 1 - High-Quality Item",
+        "price": 889.06,
+        "quantity": 3,
+        "total": 2667.18,
+        "discountPercentage": 19.09,
+        "discountedTotal": 2158.02,
+        "thumbnail": "https://dummyimage.com/246/6b9cba/fff&text=Product+1"
+      },
+      {
+        "id": 266,
+        "title": "Product 2",
+        "price": 586.64,
+        "quantity": 5,
+        "total": 2933.2,
+        "discountPercentage": 0.07,
+        "discountedTotal": 2931.15,
+        "thumbnail": "https://dummyimage.com/296/6797be/fff&text=Product+2"
+      },
+      {
+        "id": 267,
+        "title": "Product 3",
+        "price": 253.48,
+        "quantity": 2,
+        "total": 506.96,
+        "discountPercentage": 18.38,
+        "discountedTotal": 413.78,
+        "thumbnail": "https://dummyimage.com/159/66cc0a/fff&text=Product+3"
+      },
+      {
+        "id": 268,
+        "title": "Product 4 - Incredible Product",
+        "price": 667.63,
+        "quantity": 2,
+        "total": 1335.26,
+        "discountPercentage": 5.49,
+        "discountedTotal": 1261.95,
+        "thumbnail": "https://dummyimage.com/276/f9f801/fff&text=Product+4"
+      },
+      {
+        "id": 269,
+        "title": "Product 5",
+        "price": 9.05,
+        "quantity": 9,
+        "total": 81.45,
+        "discountPercentage": 16.15,
+        "discountedTotal": 68.3,
+        "thumbnail": "https://dummyimage.com/262/4030de/fff&text=Product+5"
+      },
+      {
+        "id": 270,
+        "title": "Product 6",
+        "price": 177.91,
+        "quantity": 1,
+        "total": 177.91,
+        "discountPercentage": 11.8,
+        "discountedTotal": 156.92,
+        "thumbnail": "https://dummyimage.com/283/689a6d/fff&text=Product+6"
+      }
+    ],
+    "total": 7701.96,
+    "discountedTotal": 6996.46,
+    "userId": 53,
+    "totalProducts": 6,
+    "totalQuantity": 22
+  },
+  {
+    "id": 47,
+    "products": [
+      {
+        "id": 271,
+        "title": "Product 1",
+        "price": 574.93,
+        "quantity": 1,
+        "total": 574.93,
+        "discountPercentage": 9.52,
+        "discountedTotal": 520.2,
+        "thumbnail": "https://dummyimage.com/294/30de29/fff&text=Product+1"
+      },
+      {
+        "id": 272,
+        "title": "Product 2",
+        "price": 70.41,
+        "quantity": 3,
+        "total": 211.23,
+        "discountPercentage": 2.95,
+        "discountedTotal": 205,
+        "thumbnail": "https://dummyimage.com/190/fca93c/fff&text=Product+2"
+      },
+      {
+        "id": 273,
+        "title": "Product 3 - Versatile Device",
+        "price": 109.48,
+        "quantity": 1,
+        "total": 109.48,
+        "discountPercentage": 11.8,
+        "discountedTotal": 96.56,
+        "thumbnail": "https://dummyimage.com/248/ab744a/fff&text=Product+3"
+      },
+      {
+        "id": 274,
+        "title": "Product 4",
+        "price": 485.48,
+        "quantity": 5,
+        "total": 2427.4,
+        "discountPercentage": 14.1,
+        "discountedTotal": 2085.14,
+        "thumbnail": "https://dummyimage.com/292/52d00d/fff&text=Product+4"
+      },
+      {
+        "id": 275,
+        "title": "Product 5",
+        "price": 939.26,
+        "quantity": 1,
+        "total": 939.26,
+        "discountPercentage": 8.78,
+        "discountedTotal": 856.79,
+        "thumbnail": "https://dummyimage.com/256/a780e6/fff&text=Product+5"
+      },
+      {
+        "id": 276,
+        "title": "Product 6",
+        "price": 306.67,
+        "quantity": 3,
+        "total": 920.01,
+        "discountPercentage": 16.51,
+        "discountedTotal": 768.12,
+        "thumbnail": "https://dummyimage.com/156/877248/fff&text=Product+6"
+      },
+      {
+        "id": 277,
+        "title": "Product 7 - Versatile Widget",
+        "price": 498.06,
+        "quantity": 2,
+        "total": 996.12,
+        "discountPercentage": 19.45,
+        "discountedTotal": 802.37,
+        "thumbnail": "https://dummyimage.com/246/ea138e/fff&text=Product+7"
+      },
+      {
+        "id": 278,
+        "title": "Product 8",
+        "price": 78.03,
+        "quantity": 7,
+        "total": 546.21,
+        "discountPercentage": 12.21,
+        "discountedTotal": 479.52,
+        "thumbnail": "https://dummyimage.com/161/280b77/fff&text=Product+8"
+      },
+      {
+        "id": 279,
+        "title": "Product 9",
+        "price": 301.16,
+        "quantity": 2,
+        "total": 602.32,
+        "discountPercentage": 1.19,
+        "discountedTotal": 595.15,
+        "thumbnail": "https://dummyimage.com/154/2138c0/fff&text=Product+9"
+      },
+      {
+        "id": 280,
+        "title": "Product 10 - Incredible Gizmo",
+        "price": 45.07,
+        "quantity": 1,
+        "total": 45.07,
+        "discountPercentage": 1.09,
+        "discountedTotal": 44.58,
+        "thumbnail": "https://dummyimage.com/169/7d5034/fff&text=Product+10"
+      }
+    ],
+    "total": 7372.03,
+    "discountedTotal": 5973.56,
+    "userId": 30,
+    "totalProducts": 10,
+    "totalQuantity": 26
+  },
+  {
+    "id": 48,
+    "products": [
+      {
+        "id": 281,
+        "title": "Product 1 - High-Quality Tool",
+        "price": 549.29,
+        "quantity": 5,
+        "total": 2746.45,
+        "discountPercentage": 2.62,
+        "discountedTotal": 2674.49,
+        "thumbnail": "https://dummyimage.com/273/d6fa09/fff&text=Product+1"
+      },
+      {
+        "id": 282,
+        "title": "Product 2",
+        "price": 883.07,
+        "quantity": 3,
+        "total": 2649.21,
+        "discountPercentage": 15.7,
+        "discountedTotal": 2233.28,
+        "thumbnail": "https://dummyimage.com/172/76233a/fff&text=Product+2"
+      },
+      {
+        "id": 283,
+        "title": "Product 3 - Amazing Item",
+        "price": 485.45,
+        "quantity": 3,
+        "total": 1456.35,
+        "discountPercentage": 16.5,
+        "discountedTotal": 1216.05,
+        "thumbnail": "https://dummyimage.com/241/65a965/fff&text=Product+3"
+      },
+      {
+        "id": 284,
+        "title": "Product 4 - Amazing Accessory",
+        "price": 378.07,
+        "quantity": 3,
+        "total": 1134.21,
+        "discountPercentage": 14.53,
+        "discountedTotal": 969.41,
+        "thumbnail": "https://dummyimage.com/182/db49cd/fff&text=Product+4"
+      },
+      {
+        "id": 285,
+        "title": "Product 5 - Durable Tool",
+        "price": 290.93,
+        "quantity": 10,
+        "total": 2909.3,
+        "discountPercentage": 13.06,
+        "discountedTotal": 2529.35,
+        "thumbnail": "https://dummyimage.com/206/6cf494/fff&text=Product+5"
+      }
+    ],
+    "total": 10895.52,
+    "discountedTotal": 8764.36,
+    "userId": 45,
+    "totalProducts": 5,
+    "totalQuantity": 24
+  },
+  {
+    "id": 49,
+    "products": [
+      {
+        "id": 286,
+        "title": "Product 1",
+        "price": 259.53,
+        "quantity": 8,
+        "total": 2076.24,
+        "discountPercentage": 9.09,
+        "discountedTotal": 1887.51,
+        "thumbnail": "https://dummyimage.com/243/d96737/fff&text=Product+1"
+      },
+      {
+        "id": 287,
+        "title": "Product 2 - Innovative Device",
+        "price": 690.38,
+        "quantity": 3,
+        "total": 2071.14,
+        "discountPercentage": 4.36,
+        "discountedTotal": 1980.84,
+        "thumbnail": "https://dummyimage.com/157/87296e/fff&text=Product+2"
+      },
+      {
+        "id": 288,
+        "title": "Product 3 - Versatile Appliance",
+        "price": 376.63,
+        "quantity": 9,
+        "total": 3389.67,
+        "discountPercentage": 3.62,
+        "discountedTotal": 3266.96,
+        "thumbnail": "https://dummyimage.com/280/4704c1/fff&text=Product+3"
+      },
+      {
+        "id": 289,
+        "title": "Product 4 - Fantastic Widget",
+        "price": 301.25,
+        "quantity": 2,
+        "total": 602.5,
+        "discountPercentage": 7,
+        "discountedTotal": 560.32,
+        "thumbnail": "https://dummyimage.com/167/7a8120/fff&text=Product+4"
+      },
+      {
+        "id": 290,
+        "title": "Product 5",
+        "price": 933.32,
+        "quantity": 3,
+        "total": 2799.96,
+        "discountPercentage": 8.23,
+        "discountedTotal": 2569.52,
+        "thumbnail": "https://dummyimage.com/265/da5812/fff&text=Product+5"
+      },
+      {
+        "id": 291,
+        "title": "Product 6 - Amazing Appliance",
+        "price": 432.01,
+        "quantity": 5,
+        "total": 2160.05,
+        "discountPercentage": 14.03,
+        "discountedTotal": 1856.99,
+        "thumbnail": "https://dummyimage.com/172/a2ac85/fff&text=Product+6"
+      },
+      {
+        "id": 292,
+        "title": "Product 7",
+        "price": 162.79,
+        "quantity": 8,
+        "total": 1302.32,
+        "discountPercentage": 19.52,
+        "discountedTotal": 1048.11,
+        "thumbnail": "https://dummyimage.com/187/a4eeab/fff&text=Product+7"
+      }
+    ],
+    "total": 14401.88,
+    "discountedTotal": 13860.37,
+    "userId": 81,
+    "totalProducts": 7,
+    "totalQuantity": 38
+  },
+  {
+    "id": 50,
+    "products": [
+      {
+        "id": 293,
+        "title": "Product 1 - Amazing Accessory",
+        "price": 251.46,
+        "quantity": 8,
+        "total": 2011.68,
+        "discountPercentage": 0.43,
+        "discountedTotal": 2003.03,
+        "thumbnail": "https://dummyimage.com/182/3bc4f3/fff&text=Product+1"
+      },
+      {
+        "id": 294,
+        "title": "Product 2 - Incredible Gizmo",
+        "price": 864.54,
+        "quantity": 6,
+        "total": 5187.24,
+        "discountPercentage": 19.91,
+        "discountedTotal": 4154.46,
+        "thumbnail": "https://dummyimage.com/188/8a0a4d/fff&text=Product+2"
+      },
+      {
+        "id": 295,
+        "title": "Product 3 - Amazing Item",
+        "price": 153.52,
+        "quantity": 8,
+        "total": 1228.16,
+        "discountPercentage": 8.78,
+        "discountedTotal": 1120.33,
+        "thumbnail": "https://dummyimage.com/257/694db4/fff&text=Product+3"
+      }
+    ],
+    "total": 8427.08,
+    "discountedTotal": 7945.05,
+    "userId": 90,
+    "totalProducts": 3,
+    "totalQuantity": 22
+  },
+  {
+    "id": 51,
+    "products": [
+      {
+        "id": 296,
+        "title": "Product 1 - Amazing Gadget",
+        "price": 880.35,
+        "quantity": 3,
+        "total": 2641.05,
+        "discountPercentage": 5.52,
+        "discountedTotal": 2495.26,
+        "thumbnail": "https://dummyimage.com/198/23c1ae/fff&text=Product+1"
+      },
+      {
+        "id": 297,
+        "title": "Product 2 - Incredible Device",
+        "price": 23.34,
+        "quantity": 1,
+        "total": 23.34,
+        "discountPercentage": 3.57,
+        "discountedTotal": 22.51,
+        "thumbnail": "https://dummyimage.com/245/ef38c5/fff&text=Product+2"
+      },
+      {
+        "id": 298,
+        "title": "Product 3 - Amazing Tool",
+        "price": 548.12,
+        "quantity": 5,
+        "total": 2740.6,
+        "discountPercentage": 1.82,
+        "discountedTotal": 2690.72,
+        "thumbnail": "https://dummyimage.com/281/bb249e/fff&text=Product+3"
+      },
+      {
+        "id": 299,
+        "title": "Product 4",
+        "price": 566.45,
+        "quantity": 7,
+        "total": 3965.15,
+        "discountPercentage": 16.64,
+        "discountedTotal": 3305.35,
+        "thumbnail": "https://dummyimage.com/164/f35a6b/fff&text=Product+4"
+      },
+      {
+        "id": 300,
+        "title": "Product 5 - Innovative Widget",
+        "price": 941.85,
+        "quantity": 1,
+        "total": 941.85,
+        "discountPercentage": 11.08,
+        "discountedTotal": 837.49,
+        "thumbnail": "https://dummyimage.com/260/9aea30/fff&text=Product+5"
+      },
+      {
+        "id": 301,
+        "title": "Product 6 - Versatile Equipment",
+        "price": 655.02,
+        "quantity": 6,
+        "total": 3930.12,
+        "discountPercentage": 14.58,
+        "discountedTotal": 3357.11,
+        "thumbnail": "https://dummyimage.com/202/6b0618/fff&text=Product+6"
+      }
+    ],
+    "total": 14242.11,
+    "discountedTotal": 13205.28,
+    "userId": 24,
+    "totalProducts": 6,
+    "totalQuantity": 23
+  },
+  {
+    "id": 52,
+    "products": [
+      {
+        "id": 302,
+        "title": "Product 1 - Durable Gizmo",
+        "price": 308.98,
+        "quantity": 9,
+        "total": 2780.82,
+        "discountPercentage": 6.96,
+        "discountedTotal": 2587.27,
+        "thumbnail": "https://dummyimage.com/288/22b74e/fff&text=Product+1"
+      },
+      {
+        "id": 303,
+        "title": "Product 2 - Premium Gizmo",
+        "price": 75.31,
+        "quantity": 3,
+        "total": 225.93,
+        "discountPercentage": 4.61,
+        "discountedTotal": 215.51,
+        "thumbnail": "https://dummyimage.com/210/43a6a5/fff&text=Product+2"
+      },
+      {
+        "id": 304,
+        "title": "Product 3",
+        "price": 2.77,
+        "quantity": 8,
+        "total": 22.16,
+        "discountPercentage": 16.7,
+        "discountedTotal": 18.46,
+        "thumbnail": "https://dummyimage.com/241/a8b051/fff&text=Product+3"
+      }
+    ],
+    "total": 3028.91,
+    "discountedTotal": 2587.9,
+    "userId": 34,
+    "totalProducts": 3,
+    "totalQuantity": 20
+  },
+  {
+    "id": 53,
+    "products": [
+      {
+        "id": 305,
+        "title": "Product 1 - Fantastic Item",
+        "price": 104.31,
+        "quantity": 1,
+        "total": 104.31,
+        "discountPercentage": 3.45,
+        "discountedTotal": 100.71,
+        "thumbnail": "https://dummyimage.com/278/843e02/fff&text=Product+1"
+      },
+      {
+        "id": 306,
+        "title": "Product 2 - Premium Product",
+        "price": 578.03,
+        "quantity": 10,
+        "total": 5780.3,
+        "discountPercentage": 14.11,
+        "discountedTotal": 4964.7,
+        "thumbnail": "https://dummyimage.com/225/d25fd3/fff&text=Product+2"
+      },
+      {
+        "id": 307,
+        "title": "Product 3 - Fantastic Gizmo",
+        "price": 963.33,
+        "quantity": 5,
+        "total": 4816.65,
+        "discountPercentage": 11.33,
+        "discountedTotal": 4270.92,
+        "thumbnail": "https://dummyimage.com/242/793d32/fff&text=Product+3"
+      },
+      {
+        "id": 308,
+        "title": "Product 4",
+        "price": 855.81,
+        "quantity": 10,
+        "total": 8558.1,
+        "discountPercentage": 8.28,
+        "discountedTotal": 7849.49,
+        "thumbnail": "https://dummyimage.com/273/3127ee/fff&text=Product+4"
+      },
+      {
+        "id": 309,
+        "title": "Product 5 - Premium Device",
+        "price": 663.99,
+        "quantity": 9,
+        "total": 5975.91,
+        "discountPercentage": 2.16,
+        "discountedTotal": 5846.83,
+        "thumbnail": "https://dummyimage.com/269/69dc05/fff&text=Product+5"
+      },
+      {
+        "id": 310,
+        "title": "Product 6",
+        "price": 819.94,
+        "quantity": 9,
+        "total": 7379.46,
+        "discountPercentage": 0.7,
+        "discountedTotal": 7327.8,
+        "thumbnail": "https://dummyimage.com/222/c0b892/fff&text=Product+6"
+      },
+      {
+        "id": 311,
+        "title": "Product 7 - Premium Tool",
+        "price": 52.42,
+        "quantity": 6,
+        "total": 314.52,
+        "discountPercentage": 18.9,
+        "discountedTotal": 255.08,
+        "thumbnail": "https://dummyimage.com/287/6a57ec/fff&text=Product+7"
+      },
+      {
+        "id": 312,
+        "title": "Product 8",
+        "price": 568.45,
+        "quantity": 9,
+        "total": 5116.05,
+        "discountPercentage": 6.03,
+        "discountedTotal": 4807.55,
+        "thumbnail": "https://dummyimage.com/252/3a5fb1/fff&text=Product+8"
+      },
+      {
+        "id": 313,
+        "title": "Product 9",
+        "price": 973.95,
+        "quantity": 5,
+        "total": 4869.75,
+        "discountPercentage": 19.16,
+        "discountedTotal": 3936.71,
+        "thumbnail": "https://dummyimage.com/221/27e5c7/fff&text=Product+9"
+      },
+      {
+        "id": 314,
+        "title": "Product 10",
+        "price": 414.5,
+        "quantity": 1,
+        "total": 414.5,
+        "discountPercentage": 15.29,
+        "discountedTotal": 351.12,
+        "thumbnail": "https://dummyimage.com/255/1ef9d8/fff&text=Product+10"
+      }
+    ],
+    "total": 43329.55,
+    "discountedTotal": 36028.52,
+    "userId": 55,
+    "totalProducts": 10,
+    "totalQuantity": 65
+  },
+  {
+    "id": 54,
+    "products": [
+      {
+        "id": 315,
+        "title": "Product 1",
+        "price": 875.3,
+        "quantity": 1,
+        "total": 875.3,
+        "discountPercentage": 6.98,
+        "discountedTotal": 814.2,
+        "thumbnail": "https://dummyimage.com/213/3be6a/fff&text=Product+1"
+      },
+      {
+        "id": 316,
+        "title": "Product 2 - High-Quality Product",
+        "price": 717.99,
+        "quantity": 7,
+        "total": 5025.93,
+        "discountPercentage": 9.75,
+        "discountedTotal": 4535.9,
+        "thumbnail": "https://dummyimage.com/175/b05a49/fff&text=Product+2"
+      },
+      {
+        "id": 317,
+        "title": "Product 3",
+        "price": 578.95,
+        "quantity": 3,
+        "total": 1736.85,
+        "discountPercentage": 14.3,
+        "discountedTotal": 1488.48,
+        "thumbnail": "https://dummyimage.com/195/3a4367/fff&text=Product+3"
+      },
+      {
+        "id": 318,
+        "title": "Product 4",
+        "price": 281.98,
+        "quantity": 4,
+        "total": 1127.92,
+        "discountPercentage": 1.9,
+        "discountedTotal": 1106.49,
+        "thumbnail": "https://dummyimage.com/299/43b85d/fff&text=Product+4"
+      },
+      {
+        "id": 319,
+        "title": "Product 5",
+        "price": 77.68,
+        "quantity": 9,
+        "total": 699.12,
+        "discountPercentage": 2.06,
+        "discountedTotal": 684.72,
+        "thumbnail": "https://dummyimage.com/158/501ae0/fff&text=Product+5"
+      },
+      {
+        "id": 320,
+        "title": "Product 6",
+        "price": 355.64,
+        "quantity": 1,
+        "total": 355.64,
+        "discountPercentage": 0.66,
+        "discountedTotal": 353.29,
+        "thumbnail": "https://dummyimage.com/233/f124d5/fff&text=Product+6"
+      },
+      {
+        "id": 321,
+        "title": "Product 7",
+        "price": 504.71,
+        "quantity": 4,
+        "total": 2018.84,
+        "discountPercentage": 9.85,
+        "discountedTotal": 1819.98,
+        "thumbnail": "https://dummyimage.com/163/4f9065/fff&text=Product+7"
+      }
+    ],
+    "total": 11839.6,
+    "discountedTotal": 11521.11,
+    "userId": 87,
+    "totalProducts": 7,
+    "totalQuantity": 29
+  },
+  {
+    "id": 55,
+    "products": [
+      {
+        "id": 322,
+        "title": "Product 1 - Durable Gadget",
+        "price": 163.47,
+        "quantity": 10,
+        "total": 1634.7,
+        "discountPercentage": 1.4,
+        "discountedTotal": 1611.81,
+        "thumbnail": "https://dummyimage.com/153/27379e/fff&text=Product+1"
+      },
+      {
+        "id": 323,
+        "title": "Product 2",
+        "price": 821.75,
+        "quantity": 5,
+        "total": 4108.75,
+        "discountPercentage": 0.33,
+        "discountedTotal": 4095.19,
+        "thumbnail": "https://dummyimage.com/172/def473/fff&text=Product+2"
+      }
+    ],
+    "total": 5743.45,
+    "discountedTotal": 5682,
+    "userId": 80,
+    "totalProducts": 2,
+    "totalQuantity": 15
+  },
+  {
+    "id": 56,
+    "products": [
+      {
+        "id": 324,
+        "title": "Product 1 - Incredible Device",
+        "price": 295.53,
+        "quantity": 2,
+        "total": 591.06,
+        "discountPercentage": 15.44,
+        "discountedTotal": 499.8,
+        "thumbnail": "https://dummyimage.com/206/881f9b/fff&text=Product+1"
+      },
+      {
+        "id": 325,
+        "title": "Product 2",
+        "price": 208.18,
+        "quantity": 1,
+        "total": 208.18,
+        "discountPercentage": 9.92,
+        "discountedTotal": 187.53,
+        "thumbnail": "https://dummyimage.com/179/6813ed/fff&text=Product+2"
+      },
+      {
+        "id": 326,
+        "title": "Product 3 - Incredible Gadget",
+        "price": 722.4,
+        "quantity": 8,
+        "total": 5779.2,
+        "discountPercentage": 16.35,
+        "discountedTotal": 4834.3,
+        "thumbnail": "https://dummyimage.com/296/7e02c4/fff&text=Product+3"
+      }
+    ],
+    "total": 6578.44,
+    "discountedTotal": 6246.89,
+    "userId": 81,
+    "totalProducts": 3,
+    "totalQuantity": 11
+  },
+  {
+    "id": 57,
+    "products": [
+      {
+        "id": 327,
+        "title": "Product 1",
+        "price": 836.3,
+        "quantity": 10,
+        "total": 8363,
+        "discountPercentage": 15.14,
+        "discountedTotal": 7096.84,
+        "thumbnail": "https://dummyimage.com/243/289306/fff&text=Product+1"
+      },
+      {
+        "id": 328,
+        "title": "Product 2 - Durable Product",
+        "price": 137.79,
+        "quantity": 4,
+        "total": 551.16,
+        "discountPercentage": 0.6,
+        "discountedTotal": 547.85,
+        "thumbnail": "https://dummyimage.com/201/d881d4/fff&text=Product+2"
+      },
+      {
+        "id": 329,
+        "title": "Product 3 - Essential Gizmo",
+        "price": 237.71,
+        "quantity": 6,
+        "total": 1426.26,
+        "discountPercentage": 9.09,
+        "discountedTotal": 1296.61,
+        "thumbnail": "https://dummyimage.com/197/e5b1ac/fff&text=Product+3"
+      },
+      {
+        "id": 330,
+        "title": "Product 4",
+        "price": 52.51,
+        "quantity": 7,
+        "total": 367.57,
+        "discountPercentage": 8.3,
+        "discountedTotal": 337.06,
+        "thumbnail": "https://dummyimage.com/186/5e0379/fff&text=Product+4"
+      },
+      {
+        "id": 331,
+        "title": "Product 5 - Super Accessory",
+        "price": 402.96,
+        "quantity": 1,
+        "total": 402.96,
+        "discountPercentage": 7.4,
+        "discountedTotal": 373.14,
+        "thumbnail": "https://dummyimage.com/156/e54d2/fff&text=Product+5"
+      }
+    ],
+    "total": 11110.95,
+    "discountedTotal": 10296.52,
+    "userId": 51,
+    "totalProducts": 5,
+    "totalQuantity": 28
+  },
+  {
+    "id": 58,
+    "products": [
+      {
+        "id": 332,
+        "title": "Product 1",
+        "price": 947.18,
+        "quantity": 7,
+        "total": 6630.26,
+        "discountPercentage": 14.54,
+        "discountedTotal": 5666.22,
+        "thumbnail": "https://dummyimage.com/174/2d0465/fff&text=Product+1"
+      },
+      {
+        "id": 333,
+        "title": "Product 2",
+        "price": 264.55,
+        "quantity": 1,
+        "total": 264.55,
+        "discountPercentage": 8.96,
+        "discountedTotal": 240.85,
+        "thumbnail": "https://dummyimage.com/244/401860/fff&text=Product+2"
+      },
+      {
+        "id": 334,
+        "title": "Product 3 - High-Quality Tool",
+        "price": 306.02,
+        "quantity": 4,
+        "total": 1224.08,
+        "discountPercentage": 9.33,
+        "discountedTotal": 1109.87,
+        "thumbnail": "https://dummyimage.com/172/12447c/fff&text=Product+3"
+      },
+      {
+        "id": 335,
+        "title": "Product 4",
+        "price": 930.11,
+        "quantity": 4,
+        "total": 3720.44,
+        "discountPercentage": 6.09,
+        "discountedTotal": 3493.87,
+        "thumbnail": "https://dummyimage.com/188/692000/fff&text=Product+4"
+      },
+      {
+        "id": 336,
+        "title": "Product 5 - Versatile Widget",
+        "price": 405.01,
+        "quantity": 8,
+        "total": 3240.08,
+        "discountPercentage": 7.19,
+        "discountedTotal": 3007.12,
+        "thumbnail": "https://dummyimage.com/189/344108/fff&text=Product+5"
+      },
+      {
+        "id": 337,
+        "title": "Product 6 - Premium Accessory",
+        "price": 331.72,
+        "quantity": 5,
+        "total": 1658.6,
+        "discountPercentage": 8.93,
+        "discountedTotal": 1510.49,
+        "thumbnail": "https://dummyimage.com/227/3b18a5/fff&text=Product+6"
+      },
+      {
+        "id": 338,
+        "title": "Product 7 - Versatile Gadget",
+        "price": 365,
+        "quantity": 1,
+        "total": 365,
+        "discountPercentage": 16.05,
+        "discountedTotal": 306.42,
+        "thumbnail": "https://dummyimage.com/169/9cd7f8/fff&text=Product+7"
+      },
+      {
+        "id": 339,
+        "title": "Product 8",
+        "price": 272.35,
+        "quantity": 7,
+        "total": 1906.45,
+        "discountPercentage": 17.32,
+        "discountedTotal": 1576.25,
+        "thumbnail": "https://dummyimage.com/155/6777fe/fff&text=Product+8"
+      },
+      {
+        "id": 340,
+        "title": "Product 9",
+        "price": 263.63,
+        "quantity": 3,
+        "total": 790.89,
+        "discountPercentage": 5.61,
+        "discountedTotal": 746.52,
+        "thumbnail": "https://dummyimage.com/189/8800aa/fff&text=Product+9"
+      }
+    ],
+    "total": 19800.35,
+    "discountedTotal": 17788.63,
+    "userId": 58,
+    "totalProducts": 9,
+    "totalQuantity": 40
+  },
+  {
+    "id": 59,
+    "products": [
+      {
+        "id": 341,
+        "title": "Product 1 - Super Gizmo",
+        "price": 13.02,
+        "quantity": 3,
+        "total": 39.06,
+        "discountPercentage": 6.12,
+        "discountedTotal": 36.67,
+        "thumbnail": "https://dummyimage.com/190/317a1c/fff&text=Product+1"
+      },
+      {
+        "id": 342,
+        "title": "Product 2 - Fantastic Equipment",
+        "price": 759.75,
+        "quantity": 7,
+        "total": 5318.25,
+        "discountPercentage": 14.26,
+        "discountedTotal": 4559.87,
+        "thumbnail": "https://dummyimage.com/174/4564e3/fff&text=Product+2"
+      },
+      {
+        "id": 343,
+        "title": "Product 3 - Amazing Gizmo",
+        "price": 544.4,
+        "quantity": 2,
+        "total": 1088.8,
+        "discountPercentage": 4.07,
+        "discountedTotal": 1044.49,
+        "thumbnail": "https://dummyimage.com/245/5f8603/fff&text=Product+3"
+      },
+      {
+        "id": 344,
+        "title": "Product 4 - Essential Accessory",
+        "price": 307.16,
+        "quantity": 6,
+        "total": 1842.96,
+        "discountPercentage": 1.86,
+        "discountedTotal": 1808.68,
+        "thumbnail": "https://dummyimage.com/165/96954/fff&text=Product+4"
+      },
+      {
+        "id": 345,
+        "title": "Product 5 - Durable Tool",
+        "price": 123.45,
+        "quantity": 5,
+        "total": 617.25,
+        "discountPercentage": 0.39,
+        "discountedTotal": 614.84,
+        "thumbnail": "https://dummyimage.com/166/8cab80/fff&text=Product+5"
+      },
+      {
+        "id": 346,
+        "title": "Product 6 - Fantastic Accessory",
+        "price": 7.72,
+        "quantity": 8,
+        "total": 61.76,
+        "discountPercentage": 9.41,
+        "discountedTotal": 55.95,
+        "thumbnail": "https://dummyimage.com/290/22dc11/fff&text=Product+6"
+      },
+      {
+        "id": 347,
+        "title": "Product 7",
+        "price": 704.55,
+        "quantity": 8,
+        "total": 5636.4,
+        "discountPercentage": 19.23,
+        "discountedTotal": 4552.52,
+        "thumbnail": "https://dummyimage.com/187/511bd0/fff&text=Product+7"
+      },
+      {
+        "id": 348,
+        "title": "Product 8",
+        "price": 771.22,
+        "quantity": 5,
+        "total": 3856.1,
+        "discountPercentage": 7.76,
+        "discountedTotal": 3556.87,
+        "thumbnail": "https://dummyimage.com/238/2e55e5/fff&text=Product+8"
+      },
+      {
+        "id": 349,
+        "title": "Product 9",
+        "price": 991.76,
+        "quantity": 10,
+        "total": 9917.6,
+        "discountPercentage": 1.83,
+        "discountedTotal": 9736.11,
+        "thumbnail": "https://dummyimage.com/225/7c2753/fff&text=Product+9"
+      }
+    ],
+    "total": 28378.18,
+    "discountedTotal": 26099.41,
+    "userId": 48,
+    "totalProducts": 9,
+    "totalQuantity": 54
+  },
+  {
+    "id": 60,
+    "products": [
+      {
+        "id": 350,
+        "title": "Product 1",
+        "price": 619.65,
+        "quantity": 6,
+        "total": 3717.9,
+        "discountPercentage": 13.53,
+        "discountedTotal": 3214.87,
+        "thumbnail": "https://dummyimage.com/178/91b927/fff&text=Product+1"
+      },
+      {
+        "id": 351,
+        "title": "Product 2 - Amazing Equipment",
+        "price": 638.22,
+        "quantity": 1,
+        "total": 638.22,
+        "discountPercentage": 19.06,
+        "discountedTotal": 516.58,
+        "thumbnail": "https://dummyimage.com/228/fbf9d8/fff&text=Product+2"
+      }
+    ],
+    "total": 4356.12,
+    "discountedTotal": 3700.09,
+    "userId": 1,
+    "totalProducts": 2,
+    "totalQuantity": 7
+  },
+  {
+    "id": 61,
+    "products": [
+      {
+        "id": 352,
+        "title": "Product 1 - Essential Appliance",
+        "price": 31.21,
+        "quantity": 2,
+        "total": 62.42,
+        "discountPercentage": 6.42,
+        "discountedTotal": 58.41,
+        "thumbnail": "https://dummyimage.com/279/ca0915/fff&text=Product+1"
+      },
+      {
+        "id": 353,
+        "title": "Product 2 - Incredible Product",
+        "price": 51.86,
+        "quantity": 8,
+        "total": 414.88,
+        "discountPercentage": 12.75,
+        "discountedTotal": 361.98,
+        "thumbnail": "https://dummyimage.com/249/f8fca4/fff&text=Product+2"
+      }
+    ],
+    "total": 477.3,
+    "discountedTotal": 392.25,
+    "userId": 24,
+    "totalProducts": 2,
+    "totalQuantity": 10
+  },
+  {
+    "id": 62,
+    "products": [
+      {
+        "id": 354,
+        "title": "Product 1",
+        "price": 972.81,
+        "quantity": 1,
+        "total": 972.81,
+        "discountPercentage": 13.49,
+        "discountedTotal": 841.58,
+        "thumbnail": "https://dummyimage.com/242/26f2dc/fff&text=Product+1"
+      },
+      {
+        "id": 355,
+        "title": "Product 2 - Innovative Appliance",
+        "price": 949.46,
+        "quantity": 5,
+        "total": 4747.3,
+        "discountPercentage": 12.47,
+        "discountedTotal": 4155.31,
+        "thumbnail": "https://dummyimage.com/184/93db77/fff&text=Product+2"
+      },
+      {
+        "id": 356,
+        "title": "Product 3",
+        "price": 789.86,
+        "quantity": 5,
+        "total": 3949.3,
+        "discountPercentage": 1.2,
+        "discountedTotal": 3901.91,
+        "thumbnail": "https://dummyimage.com/280/a972fe/fff&text=Product+3"
+      },
+      {
+        "id": 357,
+        "title": "Product 4 - Amazing Gadget",
+        "price": 329.49,
+        "quantity": 9,
+        "total": 2965.41,
+        "discountPercentage": 2.06,
+        "discountedTotal": 2904.32,
+        "thumbnail": "https://dummyimage.com/189/edfb76/fff&text=Product+4"
+      },
+      {
+        "id": 358,
+        "title": "Product 5 - Fantastic Accessory",
+        "price": 966.19,
+        "quantity": 8,
+        "total": 7729.52,
+        "discountPercentage": 8.31,
+        "discountedTotal": 7087.2,
+        "thumbnail": "https://dummyimage.com/221/f733ba/fff&text=Product+5"
+      },
+      {
+        "id": 359,
+        "title": "Product 6 - Super Widget",
+        "price": 805.46,
+        "quantity": 9,
+        "total": 7249.14,
+        "discountPercentage": 7.02,
+        "discountedTotal": 6740.25,
+        "thumbnail": "https://dummyimage.com/170/d90298/fff&text=Product+6"
+      },
+      {
+        "id": 360,
+        "title": "Product 7",
+        "price": 74.63,
+        "quantity": 10,
+        "total": 746.3,
+        "discountPercentage": 3.44,
+        "discountedTotal": 720.63,
+        "thumbnail": "https://dummyimage.com/174/852dc0/fff&text=Product+7"
+      },
+      {
+        "id": 361,
+        "title": "Product 8",
+        "price": 75.09,
+        "quantity": 5,
+        "total": 375.45,
+        "discountPercentage": 18.72,
+        "discountedTotal": 305.17,
+        "thumbnail": "https://dummyimage.com/209/de1481/fff&text=Product+8"
+      },
+      {
+        "id": 362,
+        "title": "Product 9 - Super Widget",
+        "price": 919.05,
+        "quantity": 3,
+        "total": 2757.15,
+        "discountPercentage": 2.11,
+        "discountedTotal": 2698.97,
+        "thumbnail": "https://dummyimage.com/178/6728e6/fff&text=Product+9"
+      }
+    ],
+    "total": 31492.38,
+    "discountedTotal": 28793.48,
+    "userId": 96,
+    "totalProducts": 9,
+    "totalQuantity": 55
+  },
+  {
+    "id": 63,
+    "products": [
+      {
+        "id": 363,
+        "title": "Product 1 - Durable Gizmo",
+        "price": 469.96,
+        "quantity": 8,
+        "total": 3759.68,
+        "discountPercentage": 12.07,
+        "discountedTotal": 3305.89,
+        "thumbnail": "https://dummyimage.com/201/1a8e7d/fff&text=Product+1"
+      },
+      {
+        "id": 364,
+        "title": "Product 2 - Essential Gadget",
+        "price": 176.91,
+        "quantity": 7,
+        "total": 1238.37,
+        "discountPercentage": 8.58,
+        "discountedTotal": 1132.12,
+        "thumbnail": "https://dummyimage.com/223/f53cec/fff&text=Product+2"
+      },
+      {
+        "id": 365,
+        "title": "Product 3 - Essential Widget",
+        "price": 979.3,
+        "quantity": 3,
+        "total": 2937.9,
+        "discountPercentage": 8.12,
+        "discountedTotal": 2699.34,
+        "thumbnail": "https://dummyimage.com/298/9dc22d/fff&text=Product+3"
+      },
+      {
+        "id": 366,
+        "title": "Product 4",
+        "price": 116.83,
+        "quantity": 2,
+        "total": 233.66,
+        "discountPercentage": 19.28,
+        "discountedTotal": 188.61,
+        "thumbnail": "https://dummyimage.com/275/f03cbc/fff&text=Product+4"
+      },
+      {
+        "id": 367,
+        "title": "Product 5 - Versatile Equipment",
+        "price": 102.32,
+        "quantity": 4,
+        "total": 409.28,
+        "discountPercentage": 14.38,
+        "discountedTotal": 350.43,
+        "thumbnail": "https://dummyimage.com/210/fb895d/fff&text=Product+5"
+      },
+      {
+        "id": 368,
+        "title": "Product 6 - Incredible Gadget",
+        "price": 661.28,
+        "quantity": 10,
+        "total": 6612.8,
+        "discountPercentage": 17.82,
+        "discountedTotal": 5434.4,
+        "thumbnail": "https://dummyimage.com/260/89fb61/fff&text=Product+6"
+      },
+      {
+        "id": 369,
+        "title": "Product 7 - Incredible Gadget",
+        "price": 318.96,
+        "quantity": 10,
+        "total": 3189.6,
+        "discountPercentage": 7.55,
+        "discountedTotal": 2948.79,
+        "thumbnail": "https://dummyimage.com/158/e43c46/fff&text=Product+7"
+      },
+      {
+        "id": 370,
+        "title": "Product 8",
+        "price": 281.41,
+        "quantity": 10,
+        "total": 2814.1,
+        "discountPercentage": 14.21,
+        "discountedTotal": 2414.22,
+        "thumbnail": "https://dummyimage.com/232/193516/fff&text=Product+8"
+      },
+      {
+        "id": 371,
+        "title": "Product 9",
+        "price": 737.16,
+        "quantity": 8,
+        "total": 5897.28,
+        "discountPercentage": 5.39,
+        "discountedTotal": 5579.42,
+        "thumbnail": "https://dummyimage.com/282/b9d7e1/fff&text=Product+9"
+      },
+      {
+        "id": 372,
+        "title": "Product 10",
+        "price": 177.86,
+        "quantity": 10,
+        "total": 1778.6,
+        "discountPercentage": 15,
+        "discountedTotal": 1511.81,
+        "thumbnail": "https://dummyimage.com/150/7b6330/fff&text=Product+10"
+      }
+    ],
+    "total": 28871.27,
+    "discountedTotal": 23429.04,
+    "userId": 1,
+    "totalProducts": 10,
+    "totalQuantity": 72
+  },
+  {
+    "id": 64,
+    "products": [
+      {
+        "id": 373,
+        "title": "Product 1",
+        "price": 398.97,
+        "quantity": 8,
+        "total": 3191.76,
+        "discountPercentage": 8.21,
+        "discountedTotal": 2929.72,
+        "thumbnail": "https://dummyimage.com/289/7c14f9/fff&text=Product+1"
+      }
+    ],
+    "total": 3191.76,
+    "discountedTotal": 2895.56,
+    "userId": 81,
+    "totalProducts": 1,
+    "totalQuantity": 8
+  },
+  {
+    "id": 65,
+    "products": [
+      {
+        "id": 374,
+        "title": "Product 1",
+        "price": 420.1,
+        "quantity": 2,
+        "total": 840.2,
+        "discountPercentage": 6.17,
+        "discountedTotal": 788.36,
+        "thumbnail": "https://dummyimage.com/164/f70ec2/fff&text=Product+1"
+      },
+      {
+        "id": 375,
+        "title": "Product 2 - Innovative Product",
+        "price": 346.45,
+        "quantity": 8,
+        "total": 2771.6,
+        "discountPercentage": 16.44,
+        "discountedTotal": 2315.95,
+        "thumbnail": "https://dummyimage.com/250/f94c98/fff&text=Product+2"
+      },
+      {
+        "id": 376,
+        "title": "Product 3 - Fantastic Widget",
+        "price": 398.16,
+        "quantity": 4,
+        "total": 1592.64,
+        "discountPercentage": 14.29,
+        "discountedTotal": 1365.05,
+        "thumbnail": "https://dummyimage.com/197/49108d/fff&text=Product+3"
+      },
+      {
+        "id": 377,
+        "title": "Product 4",
+        "price": 705.34,
+        "quantity": 1,
+        "total": 705.34,
+        "discountPercentage": 15.83,
+        "discountedTotal": 593.68,
+        "thumbnail": "https://dummyimage.com/270/aa8dc4/fff&text=Product+4"
+      },
+      {
+        "id": 378,
+        "title": "Product 5",
+        "price": 843.99,
+        "quantity": 9,
+        "total": 7595.91,
+        "discountPercentage": 15.99,
+        "discountedTotal": 6381.32,
+        "thumbnail": "https://dummyimage.com/242/ef1d82/fff&text=Product+5"
+      },
+      {
+        "id": 379,
+        "title": "Product 6",
+        "price": 259.21,
+        "quantity": 4,
+        "total": 1036.84,
+        "discountPercentage": 5.3,
+        "discountedTotal": 981.89,
+        "thumbnail": "https://dummyimage.com/259/c3b8b1/fff&text=Product+6"
+      },
+      {
+        "id": 380,
+        "title": "Product 7",
+        "price": 316.82,
+        "quantity": 8,
+        "total": 2534.56,
+        "discountPercentage": 4.63,
+        "discountedTotal": 2417.21,
+        "thumbnail": "https://dummyimage.com/264/e296e7/fff&text=Product+7"
+      }
+    ],
+    "total": 17077.09,
+    "discountedTotal": 16448.65,
+    "userId": 36,
+    "totalProducts": 7,
+    "totalQuantity": 36
+  },
+  {
+    "id": 66,
+    "products": [
+      {
+        "id": 381,
+        "title": "Product 1",
+        "price": 338.67,
+        "quantity": 10,
+        "total": 3386.7,
+        "discountPercentage": 2.01,
+        "discountedTotal": 3318.63,
+        "thumbnail": "https://dummyimage.com/263/b315c4/fff&text=Product+1"
+      },
+      {
+        "id": 382,
+        "title": "Product 2 - Premium Equipment",
+        "price": 198.87,
+        "quantity": 8,
+        "total": 1590.96,
+        "discountPercentage": 2.21,
+        "discountedTotal": 1555.8,
+        "thumbnail": "https://dummyimage.com/287/54e054/fff&text=Product+2"
+      },
+      {
+        "id": 383,
+        "title": "Product 3 - Innovative Item",
+        "price": 715.82,
+        "quantity": 5,
+        "total": 3579.1,
+        "discountPercentage": 16.56,
+        "discountedTotal": 2986.4,
+        "thumbnail": "https://dummyimage.com/178/839b12/fff&text=Product+3"
+      },
+      {
+        "id": 384,
+        "title": "Product 4",
+        "price": 740.84,
+        "quantity": 4,
+        "total": 2963.36,
+        "discountPercentage": 16.82,
+        "discountedTotal": 2464.92,
+        "thumbnail": "https://dummyimage.com/173/565376/fff&text=Product+4"
+      },
+      {
+        "id": 385,
+        "title": "Product 5",
+        "price": 611.02,
+        "quantity": 5,
+        "total": 3055.1,
+        "discountPercentage": 10.06,
+        "discountedTotal": 2747.76,
+        "thumbnail": "https://dummyimage.com/165/663fff/fff&text=Product+5"
+      },
+      {
+        "id": 386,
+        "title": "Product 6",
+        "price": 876.45,
+        "quantity": 5,
+        "total": 4382.25,
+        "discountPercentage": 12.19,
+        "discountedTotal": 3848.05,
+        "thumbnail": "https://dummyimage.com/285/c99ca6/fff&text=Product+6"
+      },
+      {
+        "id": 387,
+        "title": "Product 7",
+        "price": 465.21,
+        "quantity": 2,
+        "total": 930.42,
+        "discountPercentage": 3.82,
+        "discountedTotal": 894.88,
+        "thumbnail": "https://dummyimage.com/246/139f44/fff&text=Product+7"
+      },
+      {
+        "id": 388,
+        "title": "Product 8 - Fantastic Gadget",
+        "price": 225.88,
+        "quantity": 8,
+        "total": 1807.04,
+        "discountPercentage": 3.1,
+        "discountedTotal": 1751.02,
+        "thumbnail": "https://dummyimage.com/262/6419d9/fff&text=Product+8"
+      }
+    ],
+    "total": 21694.93,
+    "discountedTotal": 18666.32,
+    "userId": 27,
+    "totalProducts": 8,
+    "totalQuantity": 47
+  },
+  {
+    "id": 67,
+    "products": [
+      {
+        "id": 389,
+        "title": "Product 1 - Essential Appliance",
+        "price": 219.67,
+        "quantity": 9,
+        "total": 1977.03,
+        "discountPercentage": 3.99,
+        "discountedTotal": 1898.15,
+        "thumbnail": "https://dummyimage.com/261/9c7f9d/fff&text=Product+1"
+      },
+      {
+        "id": 390,
+        "title": "Product 2 - Essential Product",
+        "price": 750.61,
+        "quantity": 3,
+        "total": 2251.83,
+        "discountPercentage": 4.01,
+        "discountedTotal": 2161.53,
+        "thumbnail": "https://dummyimage.com/284/9986cd/fff&text=Product+2"
+      },
+      {
+        "id": 391,
+        "title": "Product 3",
+        "price": 952.03,
+        "quantity": 5,
+        "total": 4760.15,
+        "discountPercentage": 18.02,
+        "discountedTotal": 3902.37,
+        "thumbnail": "https://dummyimage.com/294/c570be/fff&text=Product+3"
+      },
+      {
+        "id": 392,
+        "title": "Product 4",
+        "price": 38.08,
+        "quantity": 9,
+        "total": 342.72,
+        "discountPercentage": 13,
+        "discountedTotal": 298.17,
+        "thumbnail": "https://dummyimage.com/207/d57927/fff&text=Product+4"
+      },
+      {
+        "id": 393,
+        "title": "Product 5 - Fantastic Item",
+        "price": 556.62,
+        "quantity": 9,
+        "total": 5009.58,
+        "discountPercentage": 17.81,
+        "discountedTotal": 4117.37,
+        "thumbnail": "https://dummyimage.com/248/d7e0de/fff&text=Product+5"
+      },
+      {
+        "id": 394,
+        "title": "Product 6",
+        "price": 473.93,
+        "quantity": 6,
+        "total": 2843.58,
+        "discountPercentage": 4.03,
+        "discountedTotal": 2728.98,
+        "thumbnail": "https://dummyimage.com/242/5fcdb9/fff&text=Product+6"
+      }
+    ],
+    "total": 17184.89,
+    "discountedTotal": 16899.62,
+    "userId": 25,
+    "totalProducts": 6,
+    "totalQuantity": 41
+  },
+  {
+    "id": 68,
+    "products": [
+      {
+        "id": 395,
+        "title": "Product 1 - Premium Gadget",
+        "price": 489.13,
+        "quantity": 6,
+        "total": 2934.78,
+        "discountPercentage": 7.12,
+        "discountedTotal": 2725.82,
+        "thumbnail": "https://dummyimage.com/230/73bf96/fff&text=Product+1"
+      },
+      {
+        "id": 396,
+        "title": "Product 2 - Super Equipment",
+        "price": 407.41,
+        "quantity": 2,
+        "total": 814.82,
+        "discountPercentage": 5.13,
+        "discountedTotal": 773.02,
+        "thumbnail": "https://dummyimage.com/179/3c2fec/fff&text=Product+2"
+      }
+    ],
+    "total": 3749.6,
+    "discountedTotal": 3517.5,
+    "userId": 41,
+    "totalProducts": 2,
+    "totalQuantity": 8
+  },
+  {
+    "id": 69,
+    "products": [
+      {
+        "id": 397,
+        "title": "Product 1 - Essential Device",
+        "price": 535.79,
+        "quantity": 8,
+        "total": 4286.32,
+        "discountPercentage": 17.18,
+        "discountedTotal": 3549.93,
+        "thumbnail": "https://dummyimage.com/185/1b5ab5/fff&text=Product+1"
+      },
+      {
+        "id": 398,
+        "title": "Product 2",
+        "price": 78.82,
+        "quantity": 3,
+        "total": 236.46,
+        "discountPercentage": 7.48,
+        "discountedTotal": 218.77,
+        "thumbnail": "https://dummyimage.com/209/d04e2f/fff&text=Product+2"
+      },
+      {
+        "id": 399,
+        "title": "Product 3 - High-Quality Widget",
+        "price": 168.98,
+        "quantity": 3,
+        "total": 506.94,
+        "discountPercentage": 0.13,
+        "discountedTotal": 506.28,
+        "thumbnail": "https://dummyimage.com/256/e13e87/fff&text=Product+3"
+      },
+      {
+        "id": 400,
+        "title": "Product 4",
+        "price": 498.63,
+        "quantity": 8,
+        "total": 3989.04,
+        "discountPercentage": 11.72,
+        "discountedTotal": 3521.52,
+        "thumbnail": "https://dummyimage.com/243/28878e/fff&text=Product+4"
+      },
+      {
+        "id": 401,
+        "title": "Product 5 - Incredible Gizmo",
+        "price": 329.01,
+        "quantity": 2,
+        "total": 658.02,
+        "discountPercentage": 16.64,
+        "discountedTotal": 548.53,
+        "thumbnail": "https://dummyimage.com/254/dcd8b2/fff&text=Product+5"
+      },
+      {
+        "id": 402,
+        "title": "Product 6 - Durable Product",
+        "price": 481.15,
+        "quantity": 7,
+        "total": 3368.05,
+        "discountPercentage": 3.72,
+        "discountedTotal": 3242.76,
+        "thumbnail": "https://dummyimage.com/291/d77bfd/fff&text=Product+6"
+      },
+      {
+        "id": 403,
+        "title": "Product 7",
+        "price": 392.87,
+        "quantity": 9,
+        "total": 3535.83,
+        "discountPercentage": 4.61,
+        "discountedTotal": 3372.83,
+        "thumbnail": "https://dummyimage.com/203/c2f572/fff&text=Product+7"
+      },
+      {
+        "id": 404,
+        "title": "Product 8 - Premium Widget",
+        "price": 165.81,
+        "quantity": 6,
+        "total": 994.86,
+        "discountPercentage": 14.48,
+        "discountedTotal": 850.8,
+        "thumbnail": "https://dummyimage.com/296/7f0743/fff&text=Product+8"
+      },
+      {
+        "id": 405,
+        "title": "Product 9",
+        "price": 704.79,
+        "quantity": 1,
+        "total": 704.79,
+        "discountPercentage": 19.1,
+        "discountedTotal": 570.18,
+        "thumbnail": "https://dummyimage.com/216/42dbe/fff&text=Product+9"
+      }
+    ],
+    "total": 18280.31,
+    "discountedTotal": 16163.45,
+    "userId": 8,
+    "totalProducts": 9,
+    "totalQuantity": 47
+  },
+  {
+    "id": 70,
+    "products": [
+      {
+        "id": 406,
+        "title": "Product 1",
+        "price": 536.03,
+        "quantity": 6,
+        "total": 3216.18,
+        "discountPercentage": 13.82,
+        "discountedTotal": 2771.7,
+        "thumbnail": "https://dummyimage.com/214/a0990e/fff&text=Product+1"
+      }
+    ],
+    "total": 3216.18,
+    "discountedTotal": 2946.02,
+    "userId": 51,
+    "totalProducts": 1,
+    "totalQuantity": 6
+  },
+  {
+    "id": 71,
+    "products": [
+      {
+        "id": 407,
+        "title": "Product 1",
+        "price": 62.15,
+        "quantity": 10,
+        "total": 621.5,
+        "discountPercentage": 15.95,
+        "discountedTotal": 522.37,
+        "thumbnail": "https://dummyimage.com/210/887d83/fff&text=Product+1"
+      },
+      {
+        "id": 408,
+        "title": "Product 2",
+        "price": 962.88,
+        "quantity": 1,
+        "total": 962.88,
+        "discountPercentage": 19.27,
+        "discountedTotal": 777.33,
+        "thumbnail": "https://dummyimage.com/292/5d7132/fff&text=Product+2"
+      },
+      {
+        "id": 409,
+        "title": "Product 3 - Premium Widget",
+        "price": 99.42,
+        "quantity": 9,
+        "total": 894.78,
+        "discountPercentage": 1.66,
+        "discountedTotal": 879.93,
+        "thumbnail": "https://dummyimage.com/186/10ba44/fff&text=Product+3"
+      },
+      {
+        "id": 410,
+        "title": "Product 4 - Amazing Equipment",
+        "price": 814.06,
+        "quantity": 3,
+        "total": 2442.18,
+        "discountPercentage": 12.09,
+        "discountedTotal": 2146.92,
+        "thumbnail": "https://dummyimage.com/170/7f58ab/fff&text=Product+4"
+      },
+      {
+        "id": 411,
+        "title": "Product 5 - Versatile Widget",
+        "price": 191.36,
+        "quantity": 10,
+        "total": 1913.6,
+        "discountPercentage": 10.5,
+        "discountedTotal": 1712.67,
+        "thumbnail": "https://dummyimage.com/201/48f62e/fff&text=Product+5"
+      },
+      {
+        "id": 412,
+        "title": "Product 6 - Incredible Gizmo",
+        "price": 772.75,
+        "quantity": 6,
+        "total": 4636.5,
+        "discountPercentage": 6.51,
+        "discountedTotal": 4334.66,
+        "thumbnail": "https://dummyimage.com/163/d02b72/fff&text=Product+6"
+      }
+    ],
+    "total": 11471.44,
+    "discountedTotal": 10885.25,
+    "userId": 97,
+    "totalProducts": 6,
+    "totalQuantity": 39
+  },
+  {
+    "id": 72,
+    "products": [
+      {
+        "id": 413,
+        "title": "Product 1 - Innovative Gizmo",
+        "price": 803.79,
+        "quantity": 8,
+        "total": 6430.32,
+        "discountPercentage": 3.17,
+        "discountedTotal": 6226.48,
+        "thumbnail": "https://dummyimage.com/280/5827ed/fff&text=Product+1"
+      },
+      {
+        "id": 414,
+        "title": "Product 2 - Amazing Appliance",
+        "price": 368.82,
+        "quantity": 1,
+        "total": 368.82,
+        "discountPercentage": 19.7,
+        "discountedTotal": 296.16,
+        "thumbnail": "https://dummyimage.com/250/5d5e97/fff&text=Product+2"
+      },
+      {
+        "id": 415,
+        "title": "Product 3 - Amazing Accessory",
+        "price": 61.87,
+        "quantity": 8,
+        "total": 494.96,
+        "discountPercentage": 8.16,
+        "discountedTotal": 454.57,
+        "thumbnail": "https://dummyimage.com/266/321b63/fff&text=Product+3"
+      },
+      {
+        "id": 416,
+        "title": "Product 4",
+        "price": 860.44,
+        "quantity": 1,
+        "total": 860.44,
+        "discountPercentage": 2.99,
+        "discountedTotal": 834.71,
+        "thumbnail": "https://dummyimage.com/160/4699b6/fff&text=Product+4"
+      },
+      {
+        "id": 417,
+        "title": "Product 5 - High-Quality Appliance",
+        "price": 90.28,
+        "quantity": 1,
+        "total": 90.28,
+        "discountPercentage": 17.15,
+        "discountedTotal": 74.8,
+        "thumbnail": "https://dummyimage.com/249/7c514d/fff&text=Product+5"
+      },
+      {
+        "id": 418,
+        "title": "Product 6 - Versatile Accessory",
+        "price": 342.3,
+        "quantity": 3,
+        "total": 1026.9,
+        "discountPercentage": 3.99,
+        "discountedTotal": 985.93,
+        "thumbnail": "https://dummyimage.com/297/70956b/fff&text=Product+6"
+      },
+      {
+        "id": 419,
+        "title": "Product 7 - Amazing Item",
+        "price": 166,
+        "quantity": 10,
+        "total": 1660,
+        "discountPercentage": 5.89,
+        "discountedTotal": 1562.23,
+        "thumbnail": "https://dummyimage.com/262/5b40f/fff&text=Product+7"
+      }
+    ],
+    "total": 10931.72,
+    "discountedTotal": 10874.88,
+    "userId": 70,
+    "totalProducts": 7,
+    "totalQuantity": 32
+  },
+  {
+    "id": 73,
+    "products": [
+      {
+        "id": 420,
+        "title": "Product 1",
+        "price": 623.09,
+        "quantity": 5,
+        "total": 3115.45,
+        "discountPercentage": 11.63,
+        "discountedTotal": 2753.12,
+        "thumbnail": "https://dummyimage.com/181/205cc4/fff&text=Product+1"
+      },
+      {
+        "id": 421,
+        "title": "Product 2",
+        "price": 38.03,
+        "quantity": 6,
+        "total": 228.18,
+        "discountPercentage": 3.84,
+        "discountedTotal": 219.42,
+        "thumbnail": "https://dummyimage.com/220/213972/fff&text=Product+2"
+      },
+      {
+        "id": 422,
+        "title": "Product 3",
+        "price": 361.22,
+        "quantity": 7,
+        "total": 2528.54,
+        "discountPercentage": 11.72,
+        "discountedTotal": 2232.2,
+        "thumbnail": "https://dummyimage.com/267/b55a83/fff&text=Product+3"
+      },
+      {
+        "id": 423,
+        "title": "Product 4 - Innovative Equipment",
+        "price": 589.09,
+        "quantity": 4,
+        "total": 2356.36,
+        "discountPercentage": 9.9,
+        "discountedTotal": 2123.08,
+        "thumbnail": "https://dummyimage.com/220/ef7c42/fff&text=Product+4"
+      },
+      {
+        "id": 424,
+        "title": "Product 5 - Amazing Product",
+        "price": 662.27,
+        "quantity": 3,
+        "total": 1986.81,
+        "discountPercentage": 0.46,
+        "discountedTotal": 1977.67,
+        "thumbnail": "https://dummyimage.com/286/70f090/fff&text=Product+5"
+      },
+      {
+        "id": 425,
+        "title": "Product 6",
+        "price": 890.7,
+        "quantity": 7,
+        "total": 6234.9,
+        "discountPercentage": 4.67,
+        "discountedTotal": 5943.73,
+        "thumbnail": "https://dummyimage.com/256/1ff627/fff&text=Product+6"
+      },
+      {
+        "id": 426,
+        "title": "Product 7",
+        "price": 221.88,
+        "quantity": 5,
+        "total": 1109.4,
+        "discountPercentage": 7.49,
+        "discountedTotal": 1026.31,
+        "thumbnail": "https://dummyimage.com/227/254cad/fff&text=Product+7"
+      }
+    ],
+    "total": 17559.64,
+    "discountedTotal": 14093.37,
+    "userId": 71,
+    "totalProducts": 7,
+    "totalQuantity": 37
+  },
+  {
+    "id": 74,
+    "products": [
+      {
+        "id": 427,
+        "title": "Product 1",
+        "price": 939.46,
+        "quantity": 2,
+        "total": 1878.92,
+        "discountPercentage": 9.26,
+        "discountedTotal": 1704.93,
+        "thumbnail": "https://dummyimage.com/173/661582/fff&text=Product+1"
+      },
+      {
+        "id": 428,
+        "title": "Product 2 - High-Quality Product",
+        "price": 836.71,
+        "quantity": 6,
+        "total": 5020.26,
+        "discountPercentage": 11.78,
+        "discountedTotal": 4428.87,
+        "thumbnail": "https://dummyimage.com/238/8db5a4/fff&text=Product+2"
+      }
+    ],
+    "total": 6899.18,
+    "discountedTotal": 5791.86,
+    "userId": 3,
+    "totalProducts": 2,
+    "totalQuantity": 8
+  },
+  {
+    "id": 75,
+    "products": [
+      {
+        "id": 429,
+        "title": "Product 1 - Innovative Gadget",
+        "price": 615.03,
+        "quantity": 8,
+        "total": 4920.24,
+        "discountPercentage": 0.31,
+        "discountedTotal": 4904.99,
+        "thumbnail": "https://dummyimage.com/298/eadb11/fff&text=Product+1"
+      }
+    ],
+    "total": 4920.24,
+    "discountedTotal": 4713.1,
+    "userId": 1,
+    "totalProducts": 1,
+    "totalQuantity": 8
+  },
+  {
+    "id": 76,
+    "products": [
+      {
+        "id": 430,
+        "title": "Product 1 - Super Appliance",
+        "price": 622.46,
+        "quantity": 5,
+        "total": 3112.3,
+        "discountPercentage": 3.17,
+        "discountedTotal": 3013.64,
+        "thumbnail": "https://dummyimage.com/196/89c747/fff&text=Product+1"
+      },
+      {
+        "id": 431,
+        "title": "Product 2",
+        "price": 866.47,
+        "quantity": 5,
+        "total": 4332.35,
+        "discountPercentage": 15.98,
+        "discountedTotal": 3640.04,
+        "thumbnail": "https://dummyimage.com/206/909191/fff&text=Product+2"
+      },
+      {
+        "id": 432,
+        "title": "Product 3",
+        "price": 255.25,
+        "quantity": 7,
+        "total": 1786.75,
+        "discountPercentage": 1.71,
+        "discountedTotal": 1756.2,
+        "thumbnail": "https://dummyimage.com/150/1d2615/fff&text=Product+3"
+      },
+      {
+        "id": 433,
+        "title": "Product 4 - Super Device",
+        "price": 346.52,
+        "quantity": 10,
+        "total": 3465.2,
+        "discountPercentage": 2.79,
+        "discountedTotal": 3368.52,
+        "thumbnail": "https://dummyimage.com/242/8fa55/fff&text=Product+4"
+      }
+    ],
+    "total": 12696.6,
+    "discountedTotal": 11093.02,
+    "userId": 54,
+    "totalProducts": 4,
+    "totalQuantity": 27
+  },
+  {
+    "id": 77,
+    "products": [
+      {
+        "id": 434,
+        "title": "Product 1",
+        "price": 554.66,
+        "quantity": 6,
+        "total": 3327.96,
+        "discountPercentage": 12.33,
+        "discountedTotal": 2917.62,
+        "thumbnail": "https://dummyimage.com/185/d58778/fff&text=Product+1"
+      },
+      {
+        "id": 435,
+        "title": "Product 2 - Fantastic Gadget",
+        "price": 139.68,
+        "quantity": 10,
+        "total": 1396.8,
+        "discountPercentage": 14.77,
+        "discountedTotal": 1190.49,
+        "thumbnail": "https://dummyimage.com/203/ec7cff/fff&text=Product+2"
+      },
+      {
+        "id": 436,
+        "title": "Product 3",
+        "price": 561.04,
+        "quantity": 7,
+        "total": 3927.28,
+        "discountPercentage": 7.03,
+        "discountedTotal": 3651.19,
+        "thumbnail": "https://dummyimage.com/241/e5e861/fff&text=Product+3"
+      },
+      {
+        "id": 437,
+        "title": "Product 4 - Premium Item",
+        "price": 634.18,
+        "quantity": 8,
+        "total": 5073.44,
+        "discountPercentage": 4.93,
+        "discountedTotal": 4823.32,
+        "thumbnail": "https://dummyimage.com/228/a6150d/fff&text=Product+4"
+      },
+      {
+        "id": 438,
+        "title": "Product 5 - Fantastic Item",
+        "price": 192.56,
+        "quantity": 9,
+        "total": 1733.04,
+        "discountPercentage": 5.45,
+        "discountedTotal": 1638.59,
+        "thumbnail": "https://dummyimage.com/183/3e8c12/fff&text=Product+5"
+      },
+      {
+        "id": 439,
+        "title": "Product 6 - High-Quality Equipment",
+        "price": 465.96,
+        "quantity": 2,
+        "total": 931.92,
+        "discountPercentage": 0.01,
+        "discountedTotal": 931.83,
+        "thumbnail": "https://dummyimage.com/300/f2d553/fff&text=Product+6"
+      },
+      {
+        "id": 440,
+        "title": "Product 7",
+        "price": 115.8,
+        "quantity": 7,
+        "total": 810.6,
+        "discountPercentage": 15.44,
+        "discountedTotal": 685.44,
+        "thumbnail": "https://dummyimage.com/275/9da23a/fff&text=Product+7"
+      },
+      {
+        "id": 441,
+        "title": "Product 8 - Amazing Item",
+        "price": 297.13,
+        "quantity": 2,
+        "total": 594.26,
+        "discountPercentage": 9.75,
+        "discountedTotal": 536.32,
+        "thumbnail": "https://dummyimage.com/150/ef32c6/fff&text=Product+8"
+      },
+      {
+        "id": 442,
+        "title": "Product 9 - Innovative Item",
+        "price": 989.92,
+        "quantity": 10,
+        "total": 9899.2,
+        "discountPercentage": 11.19,
+        "discountedTotal": 8791.48,
+        "thumbnail": "https://dummyimage.com/202/cab247/fff&text=Product+9"
+      }
+    ],
+    "total": 27694.5,
+    "discountedTotal": 27664.04,
+    "userId": 83,
+    "totalProducts": 9,
+    "totalQuantity": 61
+  },
+  {
+    "id": 78,
+    "products": [
+      {
+        "id": 443,
+        "title": "Product 1",
+        "price": 877.72,
+        "quantity": 6,
+        "total": 5266.32,
+        "discountPercentage": 10.89,
+        "discountedTotal": 4692.82,
+        "thumbnail": "https://dummyimage.com/176/218df0/fff&text=Product+1"
+      },
+      {
+        "id": 444,
+        "title": "Product 2 - Durable Widget",
+        "price": 857.26,
+        "quantity": 3,
+        "total": 2571.78,
+        "discountPercentage": 1.26,
+        "discountedTotal": 2539.38,
+        "thumbnail": "https://dummyimage.com/247/71895d/fff&text=Product+2"
+      },
+      {
+        "id": 445,
+        "title": "Product 3",
+        "price": 211.88,
+        "quantity": 8,
+        "total": 1695.04,
+        "discountPercentage": 14,
+        "discountedTotal": 1457.73,
+        "thumbnail": "https://dummyimage.com/182/e57977/fff&text=Product+3"
+      },
+      {
+        "id": 446,
+        "title": "Product 4",
+        "price": 138.52,
+        "quantity": 9,
+        "total": 1246.68,
+        "discountPercentage": 19.66,
+        "discountedTotal": 1001.58,
+        "thumbnail": "https://dummyimage.com/234/9db2a3/fff&text=Product+4"
+      },
+      {
+        "id": 447,
+        "title": "Product 5 - Innovative Equipment",
+        "price": 941.78,
+        "quantity": 6,
+        "total": 5650.68,
+        "discountPercentage": 11.91,
+        "discountedTotal": 4977.68,
+        "thumbnail": "https://dummyimage.com/222/b001bb/fff&text=Product+5"
+      },
+      {
+        "id": 448,
+        "title": "Product 6 - High-Quality Product",
+        "price": 664.07,
+        "quantity": 1,
+        "total": 664.07,
+        "discountPercentage": 19.94,
+        "discountedTotal": 531.65,
+        "thumbnail": "https://dummyimage.com/299/1ef434/fff&text=Product+6"
+      },
+      {
+        "id": 449,
+        "title": "Product 7",
+        "price": 837.35,
+        "quantity": 10,
+        "total": 8373.5,
+        "discountPercentage": 7.41,
+        "discountedTotal": 7753.02,
+        "thumbnail": "https://dummyimage.com/204/e0d2da/fff&text=Product+7"
+      },
+      {
+        "id": 450,
+        "title": "Product 8",
+        "price": 28.21,
+        "quantity": 9,
+        "total": 253.89,
+        "discountPercentage": 11.26,
+        "discountedTotal": 225.3,
+        "thumbnail": "https://dummyimage.com/208/fd8061/fff&text=Product+8"
+      },
+      {
+        "id": 451,
+        "title": "Product 9",
+        "price": 583.94,
+        "quantity": 2,
+        "total": 1167.88,
+        "discountPercentage": 18.76,
+        "discountedTotal": 948.79,
+        "thumbnail": "https://dummyimage.com/214/bd753/fff&text=Product+9"
+      }
+    ],
+    "total": 26889.84,
+    "discountedTotal": 23136.02,
+    "userId": 23,
+    "totalProducts": 9,
+    "totalQuantity": 54
+  },
+  {
+    "id": 79,
+    "products": [
+      {
+        "id": 452,
+        "title": "Product 1",
+        "price": 957.81,
+        "quantity": 7,
+        "total": 6704.67,
+        "discountPercentage": 4.43,
+        "discountedTotal": 6407.65,
+        "thumbnail": "https://dummyimage.com/162/374fbf/fff&text=Product+1"
+      },
+      {
+        "id": 453,
+        "title": "Product 2 - Super Gadget",
+        "price": 692.57,
+        "quantity": 6,
+        "total": 4155.42,
+        "discountPercentage": 13.93,
+        "discountedTotal": 3576.57,
+        "thumbnail": "https://dummyimage.com/224/927cc8/fff&text=Product+2"
+      },
+      {
+        "id": 454,
+        "title": "Product 3",
+        "price": 26.66,
+        "quantity": 4,
+        "total": 106.64,
+        "discountPercentage": 2.31,
+        "discountedTotal": 104.18,
+        "thumbnail": "https://dummyimage.com/260/d7e746/fff&text=Product+3"
+      },
+      {
+        "id": 455,
+        "title": "Product 4",
+        "price": 655.23,
+        "quantity": 1,
+        "total": 655.23,
+        "discountPercentage": 2.27,
+        "discountedTotal": 640.36,
+        "thumbnail": "https://dummyimage.com/186/81d4f2/fff&text=Product+4"
+      },
+      {
+        "id": 456,
+        "title": "Product 5",
+        "price": 576.34,
+        "quantity": 6,
+        "total": 3458.04,
+        "discountPercentage": 6.57,
+        "discountedTotal": 3230.85,
+        "thumbnail": "https://dummyimage.com/294/5476b1/fff&text=Product+5"
+      }
+    ],
+    "total": 15080,
+    "discountedTotal": 14977.46,
+    "userId": 52,
+    "totalProducts": 5,
+    "totalQuantity": 24
+  },
+  {
+    "id": 80,
+    "products": [
+      {
+        "id": 457,
+        "title": "Product 1 - Versatile Widget",
+        "price": 773.84,
+        "quantity": 2,
+        "total": 1547.68,
+        "discountPercentage": 5.77,
+        "discountedTotal": 1458.38,
+        "thumbnail": "https://dummyimage.com/272/2b410d/fff&text=Product+1"
+      },
+      {
+        "id": 458,
+        "title": "Product 2",
+        "price": 434.62,
+        "quantity": 9,
+        "total": 3911.58,
+        "discountPercentage": 15.04,
+        "discountedTotal": 3323.28,
+        "thumbnail": "https://dummyimage.com/185/6a18ba/fff&text=Product+2"
+      },
+      {
+        "id": 459,
+        "title": "Product 3 - High-Quality Device",
+        "price": 7.1,
+        "quantity": 5,
+        "total": 35.5,
+        "discountPercentage": 17.59,
+        "discountedTotal": 29.26,
+        "thumbnail": "https://dummyimage.com/261/e85d06/fff&text=Product+3"
+      },
+      {
+        "id": 460,
+        "title": "Product 4 - Super Tool",
+        "price": 353.27,
+        "quantity": 8,
+        "total": 2826.16,
+        "discountPercentage": 18.24,
+        "discountedTotal": 2310.67,
+        "thumbnail": "https://dummyimage.com/197/9e8d0b/fff&text=Product+4"
+      },
+      {
+        "id": 461,
+        "title": "Product 5 - Durable Gizmo",
+        "price": 892.85,
+        "quantity": 7,
+        "total": 6249.95,
+        "discountPercentage": 13.11,
+        "discountedTotal": 5430.58,
+        "thumbnail": "https://dummyimage.com/234/2cd72f/fff&text=Product+5"
+      },
+      {
+        "id": 462,
+        "title": "Product 6",
+        "price": 235.75,
+        "quantity": 2,
+        "total": 471.5,
+        "discountPercentage": 2.64,
+        "discountedTotal": 459.05,
+        "thumbnail": "https://dummyimage.com/235/3085d0/fff&text=Product+6"
+      },
+      {
+        "id": 463,
+        "title": "Product 7 - Amazing Widget",
+        "price": 778.14,
+        "quantity": 7,
+        "total": 5446.98,
+        "discountPercentage": 7.64,
+        "discountedTotal": 5030.83,
+        "thumbnail": "https://dummyimage.com/295/959b7b/fff&text=Product+7"
+      },
+      {
+        "id": 464,
+        "title": "Product 8 - Super Widget",
+        "price": 361.31,
+        "quantity": 8,
+        "total": 2890.48,
+        "discountPercentage": 18.46,
+        "discountedTotal": 2356.9,
+        "thumbnail": "https://dummyimage.com/163/fcd1d7/fff&text=Product+8"
+      },
+      {
+        "id": 465,
+        "title": "Product 9",
+        "price": 491.17,
+        "quantity": 6,
+        "total": 2947.02,
+        "discountPercentage": 8.64,
+        "discountedTotal": 2692.4,
+        "thumbnail": "https://dummyimage.com/187/e989e4/fff&text=Product+9"
+      }
+    ],
+    "total": 26326.85,
+    "discountedTotal": 25721.33,
+    "userId": 65,
+    "totalProducts": 9,
+    "totalQuantity": 54
+  },
+  {
+    "id": 81,
+    "products": [
+      {
+        "id": 466,
+        "title": "Product 1 - Durable Accessory",
+        "price": 642.73,
+        "quantity": 9,
+        "total": 5784.57,
+        "discountPercentage": 17.65,
+        "discountedTotal": 4763.59,
+        "thumbnail": "https://dummyimage.com/193/418f15/fff&text=Product+1"
+      },
+      {
+        "id": 467,
+        "title": "Product 2",
+        "price": 17.52,
+        "quantity": 8,
+        "total": 140.16,
+        "discountPercentage": 16.9,
+        "discountedTotal": 116.47,
+        "thumbnail": "https://dummyimage.com/227/ea1b32/fff&text=Product+2"
+      },
+      {
+        "id": 468,
+        "title": "Product 3 - Super Gadget",
+        "price": 282.61,
+        "quantity": 1,
+        "total": 282.61,
+        "discountPercentage": 15.13,
+        "discountedTotal": 239.85,
+        "thumbnail": "https://dummyimage.com/156/48ccba/fff&text=Product+3"
+      },
+      {
+        "id": 469,
+        "title": "Product 4 - Fantastic Gizmo",
+        "price": 638.14,
+        "quantity": 8,
+        "total": 5105.12,
+        "discountPercentage": 10.56,
+        "discountedTotal": 4566.02,
+        "thumbnail": "https://dummyimage.com/221/732baa/fff&text=Product+4"
+      }
+    ],
+    "total": 11312.46,
+    "discountedTotal": 10800.01,
+    "userId": 71,
+    "totalProducts": 4,
+    "totalQuantity": 26
+  },
+  {
+    "id": 82,
+    "products": [
+      {
+        "id": 470,
+        "title": "Product 1",
+        "price": 230.69,
+        "quantity": 1,
+        "total": 230.69,
+        "discountPercentage": 17.82,
+        "discountedTotal": 189.58,
+        "thumbnail": "https://dummyimage.com/161/6d6b7/fff&text=Product+1"
+      },
+      {
+        "id": 471,
+        "title": "Product 2",
+        "price": 93.83,
+        "quantity": 10,
+        "total": 938.3,
+        "discountPercentage": 15.08,
+        "discountedTotal": 796.8,
+        "thumbnail": "https://dummyimage.com/260/b8a1c6/fff&text=Product+2"
+      },
+      {
+        "id": 472,
+        "title": "Product 3 - Versatile Tool",
+        "price": 253.38,
+        "quantity": 10,
+        "total": 2533.8,
+        "discountPercentage": 8.46,
+        "discountedTotal": 2319.44,
+        "thumbnail": "https://dummyimage.com/257/121d9/fff&text=Product+3"
+      },
+      {
+        "id": 473,
+        "title": "Product 4 - Fantastic Product",
+        "price": 143.99,
+        "quantity": 3,
+        "total": 431.97,
+        "discountPercentage": 1.49,
+        "discountedTotal": 425.53,
+        "thumbnail": "https://dummyimage.com/246/a4aa63/fff&text=Product+4"
+      }
+    ],
+    "total": 4134.76,
+    "discountedTotal": 3763.05,
+    "userId": 54,
+    "totalProducts": 4,
+    "totalQuantity": 24
+  },
+  {
+    "id": 83,
+    "products": [
+      {
+        "id": 474,
+        "title": "Product 1 - Durable Item",
+        "price": 467.48,
+        "quantity": 4,
+        "total": 1869.92,
+        "discountPercentage": 19.53,
+        "discountedTotal": 1504.72,
+        "thumbnail": "https://dummyimage.com/205/e12b01/fff&text=Product+1"
+      },
+      {
+        "id": 475,
+        "title": "Product 2 - Innovative Device",
+        "price": 968.32,
+        "quantity": 2,
+        "total": 1936.64,
+        "discountPercentage": 13.89,
+        "discountedTotal": 1667.64,
+        "thumbnail": "https://dummyimage.com/230/c3d1ef/fff&text=Product+2"
+      },
+      {
+        "id": 476,
+        "title": "Product 3 - Fantastic Accessory",
+        "price": 663.31,
+        "quantity": 5,
+        "total": 3316.55,
+        "discountPercentage": 9.05,
+        "discountedTotal": 3016.4,
+        "thumbnail": "https://dummyimage.com/259/47f3fa/fff&text=Product+3"
+      },
+      {
+        "id": 477,
+        "title": "Product 4 - Premium Accessory",
+        "price": 187.33,
+        "quantity": 9,
+        "total": 1685.97,
+        "discountPercentage": 6.32,
+        "discountedTotal": 1579.42,
+        "thumbnail": "https://dummyimage.com/222/9556a/fff&text=Product+4"
+      },
+      {
+        "id": 478,
+        "title": "Product 5 - Super Item",
+        "price": 456.44,
+        "quantity": 9,
+        "total": 4107.96,
+        "discountPercentage": 3.72,
+        "discountedTotal": 3955.14,
+        "thumbnail": "https://dummyimage.com/223/74c027/fff&text=Product+5"
+      }
+    ],
+    "total": 12917.04,
+    "discountedTotal": 10391.76,
+    "userId": 49,
+    "totalProducts": 5,
+    "totalQuantity": 29
+  },
+  {
+    "id": 84,
+    "products": [
+      {
+        "id": 479,
+        "title": "Product 1",
+        "price": 73.9,
+        "quantity": 6,
+        "total": 443.4,
+        "discountPercentage": 9.01,
+        "discountedTotal": 403.45,
+        "thumbnail": "https://dummyimage.com/226/ff3485/fff&text=Product+1"
+      },
+      {
+        "id": 480,
+        "title": "Product 2 - Premium Appliance",
+        "price": 304.37,
+        "quantity": 8,
+        "total": 2434.96,
+        "discountPercentage": 17.74,
+        "discountedTotal": 2003,
+        "thumbnail": "https://dummyimage.com/261/43cb95/fff&text=Product+2"
+      },
+      {
+        "id": 481,
+        "title": "Product 3 - Versatile Item",
+        "price": 933.56,
+        "quantity": 4,
+        "total": 3734.24,
+        "discountPercentage": 8.2,
+        "discountedTotal": 3428.03,
+        "thumbnail": "https://dummyimage.com/205/c1c923/fff&text=Product+3"
+      },
+      {
+        "id": 482,
+        "title": "Product 4",
+        "price": 761.69,
+        "quantity": 6,
+        "total": 4570.14,
+        "discountPercentage": 17.06,
+        "discountedTotal": 3790.47,
+        "thumbnail": "https://dummyimage.com/229/d4f9ba/fff&text=Product+4"
+      },
+      {
+        "id": 483,
+        "title": "Product 5",
+        "price": 291.56,
+        "quantity": 7,
+        "total": 2040.92,
+        "discountPercentage": 7.83,
+        "discountedTotal": 1881.12,
+        "thumbnail": "https://dummyimage.com/218/bb9f34/fff&text=Product+5"
+      },
+      {
+        "id": 484,
+        "title": "Product 6",
+        "price": 419.57,
+        "quantity": 3,
+        "total": 1258.71,
+        "discountPercentage": 17.25,
+        "discountedTotal": 1041.58,
+        "thumbnail": "https://dummyimage.com/185/62e46e/fff&text=Product+6"
+      }
+    ],
+    "total": 14482.37,
+    "discountedTotal": 14391.13,
+    "userId": 31,
+    "totalProducts": 6,
+    "totalQuantity": 34
+  },
+  {
+    "id": 85,
+    "products": [
+      {
+        "id": 485,
+        "title": "Product 1",
+        "price": 437.47,
+        "quantity": 8,
+        "total": 3499.76,
+        "discountPercentage": 3.83,
+        "discountedTotal": 3365.72,
+        "thumbnail": "https://dummyimage.com/279/eb9e21/fff&text=Product+1"
+      }
+    ],
+    "total": 3499.76,
+    "discountedTotal": 2859.65,
+    "userId": 29,
+    "totalProducts": 1,
+    "totalQuantity": 8
+  },
+  {
+    "id": 86,
+    "products": [
+      {
+        "id": 486,
+        "title": "Product 1 - Incredible Widget",
+        "price": 872.72,
+        "quantity": 9,
+        "total": 7854.48,
+        "discountPercentage": 16.92,
+        "discountedTotal": 6525.5,
+        "thumbnail": "https://dummyimage.com/269/f9f7f6/fff&text=Product+1"
+      },
+      {
+        "id": 487,
+        "title": "Product 2",
+        "price": 755.23,
+        "quantity": 5,
+        "total": 3776.15,
+        "discountPercentage": 18.36,
+        "discountedTotal": 3082.85,
+        "thumbnail": "https://dummyimage.com/187/94fee5/fff&text=Product+2"
+      },
+      {
+        "id": 488,
+        "title": "Product 3 - Incredible Widget",
+        "price": 230.78,
+        "quantity": 1,
+        "total": 230.78,
+        "discountPercentage": 7.45,
+        "discountedTotal": 213.59,
+        "thumbnail": "https://dummyimage.com/243/d0d60b/fff&text=Product+3"
+      },
+      {
+        "id": 489,
+        "title": "Product 4",
+        "price": 441.3,
+        "quantity": 9,
+        "total": 3971.7,
+        "discountPercentage": 5.62,
+        "discountedTotal": 3748.49,
+        "thumbnail": "https://dummyimage.com/198/62033c/fff&text=Product+4"
+      },
+      {
+        "id": 490,
+        "title": "Product 5 - High-Quality Gadget",
+        "price": 525.96,
+        "quantity": 2,
+        "total": 1051.92,
+        "discountPercentage": 3.92,
+        "discountedTotal": 1010.68,
+        "thumbnail": "https://dummyimage.com/279/4091ab/fff&text=Product+5"
+      },
+      {
+        "id": 491,
+        "title": "Product 6",
+        "price": 376.88,
+        "quantity": 5,
+        "total": 1884.4,
+        "discountPercentage": 5.33,
+        "discountedTotal": 1783.96,
+        "thumbnail": "https://dummyimage.com/292/4094b/fff&text=Product+6"
+      }
+    ],
+    "total": 18769.43,
+    "discountedTotal": 17053.9,
+    "userId": 66,
+    "totalProducts": 6,
+    "totalQuantity": 31
+  },
+  {
+    "id": 87,
+    "products": [
+      {
+        "id": 492,
+        "title": "Product 1",
+        "price": 966.98,
+        "quantity": 4,
+        "total": 3867.92,
+        "discountPercentage": 13.62,
+        "discountedTotal": 3341.11,
+        "thumbnail": "https://dummyimage.com/210/ca7621/fff&text=Product+1"
+      }
+    ],
+    "total": 3867.92,
+    "discountedTotal": 3591.36,
+    "userId": 59,
+    "totalProducts": 1,
+    "totalQuantity": 4
+  },
+  {
+    "id": 88,
+    "products": [
+      {
+        "id": 493,
+        "title": "Product 1",
+        "price": 613.81,
+        "quantity": 8,
+        "total": 4910.48,
+        "discountPercentage": 6.6,
+        "discountedTotal": 4586.39,
+        "thumbnail": "https://dummyimage.com/272/9cc62b/fff&text=Product+1"
+      },
+      {
+        "id": 494,
+        "title": "Product 2",
+        "price": 486.58,
+        "quantity": 7,
+        "total": 3406.06,
+        "discountPercentage": 17.33,
+        "discountedTotal": 2815.79,
+        "thumbnail": "https://dummyimage.com/255/55212e/fff&text=Product+2"
+      },
+      {
+        "id": 495,
+        "title": "Product 3",
+        "price": 655.23,
+        "quantity": 8,
+        "total": 5241.84,
+        "discountPercentage": 4.12,
+        "discountedTotal": 5025.88,
+        "thumbnail": "https://dummyimage.com/227/895e5b/fff&text=Product+3"
+      },
+      {
+        "id": 496,
+        "title": "Product 4",
+        "price": 478.37,
+        "quantity": 6,
+        "total": 2870.22,
+        "discountPercentage": 15.2,
+        "discountedTotal": 2433.95,
+        "thumbnail": "https://dummyimage.com/242/71e15f/fff&text=Product+4"
+      },
+      {
+        "id": 497,
+        "title": "Product 5 - Innovative Gadget",
+        "price": 821.11,
+        "quantity": 9,
+        "total": 7389.99,
+        "discountPercentage": 16.93,
+        "discountedTotal": 6138.86,
+        "thumbnail": "https://dummyimage.com/254/a860e4/fff&text=Product+5"
+      },
+      {
+        "id": 498,
+        "title": "Product 6 - Fantastic Gadget",
+        "price": 419.13,
+        "quantity": 5,
+        "total": 2095.65,
+        "discountPercentage": 16.36,
+        "discountedTotal": 1752.8,
+        "thumbnail": "https://dummyimage.com/274/2525de/fff&text=Product+6"
+      },
+      {
+        "id": 499,
+        "title": "Product 7 - High-Quality Accessory",
+        "price": 765.37,
+        "quantity": 1,
+        "total": 765.37,
+        "discountPercentage": 14.15,
+        "discountedTotal": 657.07,
+        "thumbnail": "https://dummyimage.com/207/9f7b61/fff&text=Product+7"
+      },
+      {
+        "id": 500,
+        "title": "Product 8 - Fantastic Accessory",
+        "price": 804.84,
+        "quantity": 9,
+        "total": 7243.56,
+        "discountPercentage": 7.76,
+        "discountedTotal": 6681.46,
+        "thumbnail": "https://dummyimage.com/253/7889ea/fff&text=Product+8"
+      },
+      {
+        "id": 501,
+        "title": "Product 9 - Super Accessory",
+        "price": 549.96,
+        "quantity": 4,
+        "total": 2199.84,
+        "discountPercentage": 17.63,
+        "discountedTotal": 1812.01,
+        "thumbnail": "https://dummyimage.com/299/3e158c/fff&text=Product+9"
+      },
+      {
+        "id": 502,
+        "title": "Product 10",
+        "price": 935.55,
+        "quantity": 1,
+        "total": 935.55,
+        "discountPercentage": 7.13,
+        "discountedTotal": 868.85,
+        "thumbnail": "https://dummyimage.com/238/dfb7a1/fff&text=Product+10"
+      }
+    ],
+    "total": 37058.56,
+    "discountedTotal": 34716.46,
+    "userId": 25,
+    "totalProducts": 10,
+    "totalQuantity": 58
+  },
+  {
+    "id": 89,
+    "products": [
+      {
+        "id": 503,
+        "title": "Product 1 - Essential Gadget",
+        "price": 862.2,
+        "quantity": 2,
+        "total": 1724.4,
+        "discountPercentage": 4.09,
+        "discountedTotal": 1653.87,
+        "thumbnail": "https://dummyimage.com/217/73c215/fff&text=Product+1"
+      },
+      {
+        "id": 504,
+        "title": "Product 2 - Innovative Widget",
+        "price": 644.35,
+        "quantity": 10,
+        "total": 6443.5,
+        "discountPercentage": 13.28,
+        "discountedTotal": 5587.8,
+        "thumbnail": "https://dummyimage.com/256/beaa5c/fff&text=Product+2"
+      },
+      {
+        "id": 505,
+        "title": "Product 3",
+        "price": 699.91,
+        "quantity": 4,
+        "total": 2799.64,
+        "discountPercentage": 13.7,
+        "discountedTotal": 2416.09,
+        "thumbnail": "https://dummyimage.com/203/3d5ebd/fff&text=Product+3"
+      },
+      {
+        "id": 506,
+        "title": "Product 4",
+        "price": 414.4,
+        "quantity": 1,
+        "total": 414.4,
+        "discountPercentage": 2.78,
+        "discountedTotal": 402.88,
+        "thumbnail": "https://dummyimage.com/207/59368/fff&text=Product+4"
+      },
+      {
+        "id": 507,
+        "title": "Product 5 - Versatile Accessory",
+        "price": 234.39,
+        "quantity": 8,
+        "total": 1875.12,
+        "discountPercentage": 12.92,
+        "discountedTotal": 1632.85,
+        "thumbnail": "https://dummyimage.com/229/56d9e2/fff&text=Product+5"
+      },
+      {
+        "id": 508,
+        "title": "Product 6 - Durable Gadget",
+        "price": 619.51,
+        "quantity": 7,
+        "total": 4336.57,
+        "discountPercentage": 15.27,
+        "discountedTotal": 3674.38,
+        "thumbnail": "https://dummyimage.com/289/67b770/fff&text=Product+6"
+      },
+      {
+        "id": 509,
+        "title": "Product 7 - Fantastic Appliance",
+        "price": 809.77,
+        "quantity": 6,
+        "total": 4858.62,
+        "discountPercentage": 9.96,
+        "discountedTotal": 4374.7,
+        "thumbnail": "https://dummyimage.com/297/430743/fff&text=Product+7"
+      },
+      {
+        "id": 510,
+        "title": "Product 8",
+        "price": 210.67,
+        "quantity": 7,
+        "total": 1474.69,
+        "discountPercentage": 9.81,
+        "discountedTotal": 1330.02,
+        "thumbnail": "https://dummyimage.com/181/a42f4d/fff&text=Product+8"
+      },
+      {
+        "id": 511,
+        "title": "Product 9",
+        "price": 947.56,
+        "quantity": 10,
+        "total": 9475.6,
+        "discountPercentage": 5.48,
+        "discountedTotal": 8956.34,
+        "thumbnail": "https://dummyimage.com/295/33870c/fff&text=Product+9"
+      }
+    ],
+    "total": 33402.54,
+    "discountedTotal": 30139.11,
+    "userId": 41,
+    "totalProducts": 9,
+    "totalQuantity": 55
+  },
+  {
+    "id": 90,
+    "products": [
+      {
+        "id": 512,
+        "title": "Product 1 - Innovative Gadget",
+        "price": 332.93,
+        "quantity": 7,
+        "total": 2330.51,
+        "discountPercentage": 18.83,
+        "discountedTotal": 1891.67,
+        "thumbnail": "https://dummyimage.com/293/b2270c/fff&text=Product+1"
+      },
+      {
+        "id": 513,
+        "title": "Product 2",
+        "price": 684.72,
+        "quantity": 2,
+        "total": 1369.44,
+        "discountPercentage": 7.45,
+        "discountedTotal": 1267.42,
+        "thumbnail": "https://dummyimage.com/268/735f2f/fff&text=Product+2"
+      }
+    ],
+    "total": 3699.95,
+    "discountedTotal": 3487.57,
+    "userId": 78,
+    "totalProducts": 2,
+    "totalQuantity": 9
+  },
+  {
+    "id": 91,
+    "products": [
+      {
+        "id": 514,
+        "title": "Product 1",
+        "price": 969.63,
+        "quantity": 6,
+        "total": 5817.78,
+        "discountPercentage": 9.81,
+        "discountedTotal": 5247.06,
+        "thumbnail": "https://dummyimage.com/182/c5caaa/fff&text=Product+1"
+      },
+      {
+        "id": 515,
+        "title": "Product 2",
+        "price": 901.53,
+        "quantity": 5,
+        "total": 4507.65,
+        "discountPercentage": 13.25,
+        "discountedTotal": 3910.39,
+        "thumbnail": "https://dummyimage.com/176/c07a55/fff&text=Product+2"
+      }
+    ],
+    "total": 10325.43,
+    "discountedTotal": 8320.23,
+    "userId": 38,
+    "totalProducts": 2,
+    "totalQuantity": 11
+  },
+  {
+    "id": 92,
+    "products": [
+      {
+        "id": 516,
+        "title": "Product 1 - Super Widget",
+        "price": 550.71,
+        "quantity": 6,
+        "total": 3304.26,
+        "discountPercentage": 18.12,
+        "discountedTotal": 2705.53,
+        "thumbnail": "https://dummyimage.com/242/20a1ea/fff&text=Product+1"
+      },
+      {
+        "id": 517,
+        "title": "Product 2",
+        "price": 296.85,
+        "quantity": 2,
+        "total": 593.7,
+        "discountPercentage": 10.07,
+        "discountedTotal": 533.91,
+        "thumbnail": "https://dummyimage.com/280/e8028/fff&text=Product+2"
+      },
+      {
+        "id": 518,
+        "title": "Product 3",
+        "price": 745.05,
+        "quantity": 6,
+        "total": 4470.3,
+        "discountPercentage": 2.85,
+        "discountedTotal": 4342.9,
+        "thumbnail": "https://dummyimage.com/161/a06a54/fff&text=Product+3"
+      },
+      {
+        "id": 519,
+        "title": "Product 4",
+        "price": 754.05,
+        "quantity": 2,
+        "total": 1508.1,
+        "discountPercentage": 5.89,
+        "discountedTotal": 1419.27,
+        "thumbnail": "https://dummyimage.com/293/294dca/fff&text=Product+4"
+      },
+      {
+        "id": 520,
+        "title": "Product 5 - Versatile Accessory",
+        "price": 589.21,
+        "quantity": 6,
+        "total": 3535.26,
+        "discountPercentage": 11.8,
+        "discountedTotal": 3118.1,
+        "thumbnail": "https://dummyimage.com/174/a133bf/fff&text=Product+5"
+      }
+    ],
+    "total": 13411.62,
+    "discountedTotal": 13254.7,
+    "userId": 33,
+    "totalProducts": 5,
+    "totalQuantity": 22
+  },
+  {
+    "id": 93,
+    "products": [
+      {
+        "id": 521,
+        "title": "Product 1 - Essential Item",
+        "price": 16.56,
+        "quantity": 3,
+        "total": 49.68,
+        "discountPercentage": 5.78,
+        "discountedTotal": 46.81,
+        "thumbnail": "https://dummyimage.com/250/2ecee3/fff&text=Product+1"
+      },
+      {
+        "id": 522,
+        "title": "Product 2 - Premium Gizmo",
+        "price": 14.77,
+        "quantity": 2,
+        "total": 29.54,
+        "discountPercentage": 7.69,
+        "discountedTotal": 27.27,
+        "thumbnail": "https://dummyimage.com/198/d8f7a0/fff&text=Product+2"
+      },
+      {
+        "id": 523,
+        "title": "Product 3",
+        "price": 661.94,
+        "quantity": 8,
+        "total": 5295.52,
+        "discountPercentage": 17.74,
+        "discountedTotal": 4356.09,
+        "thumbnail": "https://dummyimage.com/241/3a600e/fff&text=Product+3"
+      }
+    ],
+    "total": 5374.74,
+    "discountedTotal": 4683.01,
+    "userId": 32,
+    "totalProducts": 3,
+    "totalQuantity": 13
+  },
+  {
+    "id": 94,
+    "products": [
+      {
+        "id": 524,
+        "title": "Product 1 - Fantastic Gizmo",
+        "price": 49.79,
+        "quantity": 10,
+        "total": 497.9,
+        "discountPercentage": 17.22,
+        "discountedTotal": 412.16,
+        "thumbnail": "https://dummyimage.com/270/cca09a/fff&text=Product+1"
+      },
+      {
+        "id": 525,
+        "title": "Product 2 - Incredible Gadget",
+        "price": 995.1,
+        "quantity": 9,
+        "total": 8955.9,
+        "discountPercentage": 16.56,
+        "discountedTotal": 7472.8,
+        "thumbnail": "https://dummyimage.com/227/2525a6/fff&text=Product+2"
+      },
+      {
+        "id": 526,
+        "title": "Product 3 - Durable Widget",
+        "price": 740.16,
+        "quantity": 7,
+        "total": 5181.12,
+        "discountPercentage": 16.53,
+        "discountedTotal": 4324.68,
+        "thumbnail": "https://dummyimage.com/173/64cae2/fff&text=Product+3"
+      },
+      {
+        "id": 527,
+        "title": "Product 4",
+        "price": 964.19,
+        "quantity": 5,
+        "total": 4820.95,
+        "discountPercentage": 8.26,
+        "discountedTotal": 4422.74,
+        "thumbnail": "https://dummyimage.com/166/1bb6fe/fff&text=Product+4"
+      },
+      {
+        "id": 528,
+        "title": "Product 5",
+        "price": 679.88,
+        "quantity": 5,
+        "total": 3399.4,
+        "discountPercentage": 3.04,
+        "discountedTotal": 3296.06,
+        "thumbnail": "https://dummyimage.com/164/7d7264/fff&text=Product+5"
+      }
+    ],
+    "total": 22855.27,
+    "discountedTotal": 20078.35,
+    "userId": 9,
+    "totalProducts": 5,
+    "totalQuantity": 36
+  },
+  {
+    "id": 95,
+    "products": [
+      {
+        "id": 529,
+        "title": "Product 1",
+        "price": 428.67,
+        "quantity": 6,
+        "total": 2572.02,
+        "discountPercentage": 15.69,
+        "discountedTotal": 2168.47,
+        "thumbnail": "https://dummyimage.com/203/eeb89a/fff&text=Product+1"
+      },
+      {
+        "id": 530,
+        "title": "Product 2",
+        "price": 565.84,
+        "quantity": 6,
+        "total": 3395.04,
+        "discountPercentage": 7.08,
+        "discountedTotal": 3154.67,
+        "thumbnail": "https://dummyimage.com/220/a2b2a4/fff&text=Product+2"
+      }
+    ],
+    "total": 5967.06,
+    "discountedTotal": 4800.5,
+    "userId": 38,
+    "totalProducts": 2,
+    "totalQuantity": 12
+  },
+  {
+    "id": 96,
+    "products": [
+      {
+        "id": 531,
+        "title": "Product 1 - Innovative Tool",
+        "price": 823.54,
+        "quantity": 9,
+        "total": 7411.86,
+        "discountPercentage": 6.12,
+        "discountedTotal": 6958.25,
+        "thumbnail": "https://dummyimage.com/198/68539c/fff&text=Product+1"
+      },
+      {
+        "id": 532,
+        "title": "Product 2 - Premium Item",
+        "price": 251.6,
+        "quantity": 6,
+        "total": 1509.6,
+        "discountPercentage": 16.4,
+        "discountedTotal": 1262.03,
+        "thumbnail": "https://dummyimage.com/263/dcaae2/fff&text=Product+2"
+      },
+      {
+        "id": 533,
+        "title": "Product 3",
+        "price": 626.59,
+        "quantity": 2,
+        "total": 1253.18,
+        "discountPercentage": 11.09,
+        "discountedTotal": 1114.2,
+        "thumbnail": "https://dummyimage.com/156/3855e3/fff&text=Product+3"
+      },
+      {
+        "id": 534,
+        "title": "Product 4",
+        "price": 799.31,
+        "quantity": 3,
+        "total": 2397.93,
+        "discountPercentage": 13.68,
+        "discountedTotal": 2069.89,
+        "thumbnail": "https://dummyimage.com/274/9a1200/fff&text=Product+4"
+      },
+      {
+        "id": 535,
+        "title": "Product 5",
+        "price": 604.32,
+        "quantity": 6,
+        "total": 3625.92,
+        "discountPercentage": 4.12,
+        "discountedTotal": 3476.53,
+        "thumbnail": "https://dummyimage.com/188/aa3d6d/fff&text=Product+5"
+      },
+      {
+        "id": 536,
+        "title": "Product 6",
+        "price": 317.28,
+        "quantity": 4,
+        "total": 1269.12,
+        "discountPercentage": 2.45,
+        "discountedTotal": 1238.03,
+        "thumbnail": "https://dummyimage.com/162/ff76fc/fff&text=Product+6"
+      },
+      {
+        "id": 537,
+        "title": "Product 7",
+        "price": 289.2,
+        "quantity": 10,
+        "total": 2892,
+        "discountPercentage": 0.43,
+        "discountedTotal": 2879.56,
+        "thumbnail": "https://dummyimage.com/249/b26791/fff&text=Product+7"
+      },
+      {
+        "id": 538,
+        "title": "Product 8 - Incredible Accessory",
+        "price": 509.73,
+        "quantity": 7,
+        "total": 3568.11,
+        "discountPercentage": 9.87,
+        "discountedTotal": 3215.94,
+        "thumbnail": "https://dummyimage.com/249/1ff981/fff&text=Product+8"
+      },
+      {
+        "id": 539,
+        "title": "Product 9 - Amazing Tool",
+        "price": 914.54,
+        "quantity": 1,
+        "total": 914.54,
+        "discountPercentage": 10.8,
+        "discountedTotal": 815.77,
+        "thumbnail": "https://dummyimage.com/212/f0bcdd/fff&text=Product+9"
+      }
+    ],
+    "total": 24842.26,
+    "discountedTotal": 20850.11,
+    "userId": 82,
+    "totalProducts": 9,
+    "totalQuantity": 48
+  },
+  {
+    "id": 97,
+    "products": [
+      {
+        "id": 540,
+        "title": "Product 1 - Premium Widget",
+        "price": 467.33,
+        "quantity": 6,
+        "total": 2803.98,
+        "discountPercentage": 11.59,
+        "discountedTotal": 2479,
+        "thumbnail": "https://dummyimage.com/230/fff566/fff&text=Product+1"
+      },
+      {
+        "id": 541,
+        "title": "Product 2 - Incredible Product",
+        "price": 243.08,
+        "quantity": 4,
+        "total": 972.32,
+        "discountPercentage": 11.14,
+        "discountedTotal": 864,
+        "thumbnail": "https://dummyimage.com/285/483adf/fff&text=Product+2"
+      },
+      {
+        "id": 542,
+        "title": "Product 3",
+        "price": 420.3,
+        "quantity": 10,
+        "total": 4203,
+        "discountPercentage": 12.1,
+        "discountedTotal": 3694.44,
+        "thumbnail": "https://dummyimage.com/272/c7aaa/fff&text=Product+3"
+      },
+      {
+        "id": 543,
+        "title": "Product 4",
+        "price": 195.44,
+        "quantity": 3,
+        "total": 586.32,
+        "discountPercentage": 0.63,
+        "discountedTotal": 582.63,
+        "thumbnail": "https://dummyimage.com/163/b1e7/fff&text=Product+4"
+      },
+      {
+        "id": 544,
+        "title": "Product 5 - High-Quality Gizmo",
+        "price": 201.49,
+        "quantity": 5,
+        "total": 1007.45,
+        "discountPercentage": 4.34,
+        "discountedTotal": 963.73,
+        "thumbnail": "https://dummyimage.com/217/c3082a/fff&text=Product+5"
+      }
+    ],
+    "total": 9573.07,
+    "discountedTotal": 8091.16,
+    "userId": 11,
+    "totalProducts": 5,
+    "totalQuantity": 28
+  },
+  {
+    "id": 98,
+    "products": [
+      {
+        "id": 545,
+        "title": "Product 1 - Essential Tool",
+        "price": 608.25,
+        "quantity": 7,
+        "total": 4257.75,
+        "discountPercentage": 0.76,
+        "discountedTotal": 4225.39,
+        "thumbnail": "https://dummyimage.com/197/766ea/fff&text=Product+1"
+      },
+      {
+        "id": 546,
+        "title": "Product 2 - Super Tool",
+        "price": 210.21,
+        "quantity": 2,
+        "total": 420.42,
+        "discountPercentage": 9.39,
+        "discountedTotal": 380.94,
+        "thumbnail": "https://dummyimage.com/286/e4b444/fff&text=Product+2"
+      },
+      {
+        "id": 547,
+        "title": "Product 3",
+        "price": 81.97,
+        "quantity": 10,
+        "total": 819.7,
+        "discountPercentage": 18.16,
+        "discountedTotal": 670.84,
+        "thumbnail": "https://dummyimage.com/178/7c54f0/fff&text=Product+3"
+      },
+      {
+        "id": 548,
+        "title": "Product 4",
+        "price": 48.96,
+        "quantity": 2,
+        "total": 97.92,
+        "discountPercentage": 14,
+        "discountedTotal": 84.21,
+        "thumbnail": "https://dummyimage.com/279/cea9b2/fff&text=Product+4"
+      }
+    ],
+    "total": 5595.79,
+    "discountedTotal": 4810.7,
+    "userId": 79,
+    "totalProducts": 4,
+    "totalQuantity": 21
+  },
+  {
+    "id": 99,
+    "products": [
+      {
+        "id": 549,
+        "title": "Product 1 - Fantastic Appliance",
+        "price": 446.38,
+        "quantity": 7,
+        "total": 3124.66,
+        "discountPercentage": 19.72,
+        "discountedTotal": 2508.48,
+        "thumbnail": "https://dummyimage.com/152/eef1d1/fff&text=Product+1"
+      },
+      {
+        "id": 550,
+        "title": "Product 2 - Fantastic Gadget",
+        "price": 536.11,
+        "quantity": 4,
+        "total": 2144.44,
+        "discountPercentage": 16.37,
+        "discountedTotal": 1793.4,
+        "thumbnail": "https://dummyimage.com/240/3c778/fff&text=Product+2"
+      },
+      {
+        "id": 551,
+        "title": "Product 3",
+        "price": 763.35,
+        "quantity": 3,
+        "total": 2290.05,
+        "discountPercentage": 3.57,
+        "discountedTotal": 2208.3,
+        "thumbnail": "https://dummyimage.com/259/93327/fff&text=Product+3"
+      },
+      {
+        "id": 552,
+        "title": "Product 4 - Durable Gizmo",
+        "price": 2.8,
+        "quantity": 4,
+        "total": 11.2,
+        "discountPercentage": 16.03,
+        "discountedTotal": 9.4,
+        "thumbnail": "https://dummyimage.com/161/10021/fff&text=Product+4"
+      },
+      {
+        "id": 553,
+        "title": "Product 5 - High-Quality Equipment",
+        "price": 311.49,
+        "quantity": 1,
+        "total": 311.49,
+        "discountPercentage": 15.1,
+        "discountedTotal": 264.46,
+        "thumbnail": "https://dummyimage.com/158/98649/fff&text=Product+5"
+      },
+      {
+        "id": 554,
+        "title": "Product 6",
+        "price": 306.35,
+        "quantity": 7,
+        "total": 2144.45,
+        "discountPercentage": 15.15,
+        "discountedTotal": 1819.57,
+        "thumbnail": "https://dummyimage.com/260/6cf685/fff&text=Product+6"
+      },
+      {
+        "id": 555,
+        "title": "Product 7 - Super Widget",
+        "price": 840.76,
+        "quantity": 3,
+        "total": 2522.28,
+        "discountPercentage": 9.91,
+        "discountedTotal": 2272.32,
+        "thumbnail": "https://dummyimage.com/265/baa2dd/fff&text=Product+7"
+      },
+      {
+        "id": 556,
+        "title": "Product 8",
+        "price": 153.65,
+        "quantity": 6,
+        "total": 921.9,
+        "discountPercentage": 17.64,
+        "discountedTotal": 759.28,
+        "thumbnail": "https://dummyimage.com/287/56d2b4/fff&text=Product+8"
+      }
+    ],
+    "total": 13470.47,
+    "discountedTotal": 11794.74,
+    "userId": 52,
+    "totalProducts": 8,
+    "totalQuantity": 35
+  },
+  {
+    "id": 100,
+    "products": [
+      {
+        "id": 557,
+        "title": "Product 1",
+        "price": 217.84,
+        "quantity": 10,
+        "total": 2178.4,
+        "discountPercentage": 12.83,
+        "discountedTotal": 1898.91,
+        "thumbnail": "https://dummyimage.com/209/837800/fff&text=Product+1"
+      },
+      {
+        "id": 558,
+        "title": "Product 2",
+        "price": 803.32,
+        "quantity": 5,
+        "total": 4016.6,
+        "discountPercentage": 14.89,
+        "discountedTotal": 3418.53,
+        "thumbnail": "https://dummyimage.com/239/dbf443/fff&text=Product+2"
+      },
+      {
+        "id": 559,
+        "title": "Product 3",
+        "price": 316.03,
+        "quantity": 3,
+        "total": 948.09,
+        "discountPercentage": 14.09,
+        "discountedTotal": 814.5,
+        "thumbnail": "https://dummyimage.com/209/d913bd/fff&text=Product+3"
+      },
+      {
+        "id": 560,
+        "title": "Product 4 - Durable Item",
+        "price": 353.41,
+        "quantity": 3,
+        "total": 1060.23,
+        "discountPercentage": 6.8,
+        "discountedTotal": 988.13,
+        "thumbnail": "https://dummyimage.com/263/6acaab/fff&text=Product+4"
+      },
+      {
+        "id": 561,
+        "title": "Product 5 - Fantastic Accessory",
+        "price": 463.77,
+        "quantity": 4,
+        "total": 1855.08,
+        "discountPercentage": 9.33,
+        "discountedTotal": 1682,
+        "thumbnail": "https://dummyimage.com/280/52bab/fff&text=Product+5"
+      },
+      {
+        "id": 562,
+        "title": "Product 6 - Super Gizmo",
+        "price": 932.52,
+        "quantity": 8,
+        "total": 7460.16,
+        "discountPercentage": 0.75,
+        "discountedTotal": 7404.21,
+        "thumbnail": "https://dummyimage.com/292/d298e3/fff&text=Product+6"
+      }
+    ],
+    "total": 17518.56,
+    "discountedTotal": 14114.7,
+    "userId": 44,
+    "totalProducts": 6,
+    "totalQuantity": 33
+  }
+]

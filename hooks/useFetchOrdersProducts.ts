@@ -1,11 +1,11 @@
-import { fetchPostsService } from "@/data/services/carts";
-import { Cart } from "@/data/types/Cart";
+import { fetchOrdersService } from "@/data/services/orders";
+import { Order } from "@/data/types/Order";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 type Status = "idle" | "loading" | "error" | "success" | "refreshing";
 
-const useFetchCartsProducts = () => {
-  const [data, setData] = useState<Cart[]>([]);
+const useFetchOrdersProducts = () => {
+  const [data, setData] = useState<Order[]>([]);
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState<Error | null>(null);
   const [hasNextPage, setHasNextPage] = useState(true);
@@ -13,7 +13,7 @@ const useFetchCartsProducts = () => {
   const isRefreshing = status === "refreshing";
   const pageRef = useRef(0);
 
-  const fetchCartsProducts = useCallback(async (shouldRefresh = false) => {
+  const fetchOrdersProducts = useCallback(async (shouldRefresh = false) => {
     setStatus("loading");
 
     if (shouldRefresh) {
@@ -23,11 +23,11 @@ const useFetchCartsProducts = () => {
     }
 
     try {
-      const result = await fetchPostsService(pageRef.current);
-      setData((prevData) => [...prevData, ...result.carts]);
-      setHasNextPage(result.carts.length > 0);
+      const result = await fetchOrdersService(pageRef.current);
+      setData((prevData) => [...prevData, ...result.orders]);
+      setHasNextPage(result.orders.length > 0);
 
-      if (result.carts.length > 0) {
+      if (result.orders.length > 0) {
         pageRef.current += 1;
       } else {
         setHasNextPage(false);
@@ -40,18 +40,18 @@ const useFetchCartsProducts = () => {
   }, []);
 
   useEffect(() => {
-    fetchCartsProducts();
-  }, [fetchCartsProducts]);
+    fetchOrdersProducts();
+  }, [fetchOrdersProducts]);
 
   return {
     data,
     error,
     fetchNextPage: () => {
       if (hasNextPage && !isFetching) {
-        fetchCartsProducts();
+        fetchOrdersProducts();
       }
     },
-    refreshPosts: () => fetchCartsProducts(true),
+    refreshPosts: () => fetchOrdersProducts(true),
     hasNextPage,
     isFetching,
     isRefreshing,
@@ -59,4 +59,4 @@ const useFetchCartsProducts = () => {
   };
 };
 
-export default useFetchCartsProducts;
+export default useFetchOrdersProducts;

@@ -1,4 +1,4 @@
-import { Product } from "@/data/types/Cart";
+import { Product } from "@/data/types/Order";
 import { StyleSheet, View } from "react-native";
 import ProductItem from "./ProductItem";
 
