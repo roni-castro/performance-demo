@@ -11,12 +11,18 @@ interface ButtonProps extends RNButtonProps {
   fullWidth?: boolean;
 }
 
-export default function Button({ title, onPress, fullWidth }: ButtonProps) {
+export default function Button({
+  title,
+  onPress,
+  fullWidth,
+  ...props
+}: ButtonProps) {
   return (
     <TouchableOpacity
       style={[styles.button, fullWidth && styles.buttonFullWidth]}
       onPress={onPress}
       activeOpacity={0.8}
+      {...props}
     >
       <Text style={styles.buttonLabel}>{title}</Text>
     </TouchableOpacity>
