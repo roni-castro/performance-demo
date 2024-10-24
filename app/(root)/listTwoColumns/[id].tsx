@@ -1,9 +1,9 @@
 import OrdersProducts from "@/features/flatListGrid/components/OrdersProducts";
-import { GridType } from "@/features/flatListGrid/shared/types";
+import { GridType } from "@/features/shared/types/grid";
 import { useLocalSearchParams, useNavigation } from "expo-router";
 import { useEffect } from "react";
 
-export default function FlatListWithGrid() {
+export default function ListTwoColumns() {
   const params = useLocalSearchParams<{ id: GridType }>();
   const navigation = useNavigation();
 

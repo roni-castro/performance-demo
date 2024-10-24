@@ -2,4 +2,5 @@ appId: com.ronicesarrc.performance.demo
 ---
 - launchApp
 - tapOn: "Show flatList with custom grid (performative)"
-- runFlow: scrollList.yaml
+- runFlow:
+    file: ../shared/scrollList.yaml

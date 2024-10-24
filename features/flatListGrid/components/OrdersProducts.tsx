@@ -12,7 +12,7 @@ import {
 import { FlashList } from "@shopify/flash-list";
 import ProductItem from "./ProductItem";
 import ProductGrid from "./ProductGrid";
-import { GridType, GridTypes } from "../shared/types";
+import { GridType, GridTypes } from "@/features/shared/types/grid";
 
 type OrdersProductsProps = {
   typeOfGrid: GridType;

@@ -18,7 +18,13 @@ export default function Root() {
         }}
       />
       <Stack.Screen
-        name="flatlist"
+        name="listTwoColumns"
+        options={{
+          headerShown: false,
+        }}
+      />
+      <Stack.Screen
+        name="longList"
         options={{
           headerShown: false,
         }}

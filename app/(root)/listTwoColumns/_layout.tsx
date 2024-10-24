@@ -1,6 +1,6 @@
 import { Stack } from "expo-router";
 
-export default function FlatListLayout() {
+export default function ListTwoColumnsLayout() {
   return (
     <Stack
       screenOptions={{
