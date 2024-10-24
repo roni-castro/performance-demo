@@ -23,6 +23,12 @@ export default function Root() {
           headerShown: false,
         }}
       />
+      <Stack.Screen
+        name="longList"
+        options={{
+          headerShown: false,
+        }}
+      />
     </Stack>
   );
 }

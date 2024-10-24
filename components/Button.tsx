@@ -5,7 +5,7 @@ import {
   ButtonProps as RNButtonProps,
 } from "react-native";
 
-interface ButtonProps extends RNButtonProps {
+export interface ButtonProps extends RNButtonProps {
   title: string;
   onPress: () => void;
   fullWidth?: boolean;

@@ -1,19 +1,25 @@
-import { Text, View, ViewProps } from "react-native";
+import React from "react";
+import { Text, View, ViewProps, StyleSheet } from "react-native";
+import Button, { ButtonProps } from "./Button";
 
-type CategoryProps = {
+type SectionProps = {
   title: string;
 } & ViewProps;
 
-export default function Section({ title, children, style }: CategoryProps) {
+const Section = ({ title, children, style }: SectionProps) => {
   return (
     <View style={[styles.container, style]}>
       <Text style={styles.title}>{title}</Text>
       {children}
     </View>
   );
-}
+};
 
-const styles = {
+const SectionButton = (props: ButtonProps) => {
+  return <Button fullWidth {...props} />;
+};
+
+const styles = StyleSheet.create({
   container: {
     borderColor: "#25292e",
     borderWidth: 2,
@@ -23,6 +29,9 @@ const styles = {
   },
   title: {
     fontSize: 18,
-    fontWeight: "bold" as const,
+    fontWeight: "bold",
   },
-};
+});
+
+Section.Button = SectionButton;
+export default Section;
