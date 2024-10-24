@@ -1,0 +1,8 @@
+appId: com.ronicesarrc.performance.demo
+---
+- repeat:
+    times: 10 # Repeat enough times to scroll to the bottom
+    commands:
+      - swipe:
+          direction: UP
+          duration: 10
