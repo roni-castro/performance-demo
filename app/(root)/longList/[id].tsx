@@ -1,14 +1,24 @@
-import { LongListType } from "@/features/shared/types/longList";
+import LongListFlashList from "@/features/longList/components/LongListFlashList";
+import LongListFlatList from "@/features/longList/components/LongListFlatList";
+import LongListScrollView from "@/features/longList/components/LongListScrollView";
+import { LongListType, LongListTypes } from "@/features/shared/types/longList";
 import { useLocalSearchParams, useNavigation } from "expo-router";
 import { useEffect } from "react";
 
+const LongListMap = {
+  [LongListTypes.FLASHLIST]: LongListFlashList,
+  [LongListTypes.FLATLIST]: LongListFlatList,
+  [LongListTypes.SCROLLVIEW]: LongListScrollView,
+} as const;
+
 export default function LongList() {
-  const params = useLocalSearchParams<{ id: LongListType }>();
+  const { id } = useLocalSearchParams<{ id: LongListType }>();
   const navigation = useNavigation();
 
   useEffect(() => {
-    navigation.setOptions({ title: `Long list using ${params.id}` });
-  }, [navigation, params.id]);
+    navigation.setOptions({ title: `Long list using ${id}` });
+  }, [navigation, id]);
 
-  return null;
+  const LongListComponent = LongListMap[id];
+  return <LongListComponent />;
 }
