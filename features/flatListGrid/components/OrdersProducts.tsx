@@ -14,11 +14,11 @@ import ProductItem from "./ProductItem";
 import ProductGrid from "./ProductGrid";
 import { GridType, GridTypes } from "../shared/types";
 
-type OrderProductsGridProps = {
+type OrdersProductsProps = {
   typeOfGrid: GridType;
 };
 
-const OrderProductsGrid = ({ typeOfGrid }: OrderProductsGridProps) => {
+const OrdersProducts = ({ typeOfGrid }: OrdersProductsProps) => {
   const {
     data: orders,
     fetchNextPage,
@@ -72,7 +72,7 @@ const OrderProductsGrid = ({ typeOfGrid }: OrderProductsGridProps) => {
         )}
         {typeOfGrid === GridTypes.CUSTOM_GRID && (
           /** This is the trick to fix the need of nested FlatList and improve performance */
-          <ProductGrid products={item.products} />
+          <ProductGrid products={item.products} numColumns={2} />
         )}
       </View>
     );
@@ -124,4 +124,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default OrderProductsGrid;
+export default OrdersProducts;

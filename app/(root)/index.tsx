@@ -1,6 +1,6 @@
 import Button from "@/components/Button";
 import Section from "@/components/Section";
-import { GridTypes } from "@/features/flatList/shared/types";
+import { GridTypes } from "@/features/flatListGrid/shared/types";
 import { router } from "expo-router";
 import { StyleSheet } from "react-native";
 

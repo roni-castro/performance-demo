@@ -1,5 +1,5 @@
-import OrderProductsGrid from "@/features/flatList/components/OrderProductsGrid";
-import { GridType } from "@/features/flatList/shared/types";
+import OrdersProducts from "@/features/flatListGrid/components/OrdersProducts";
+import { GridType } from "@/features/flatListGrid/shared/types";
 import { useLocalSearchParams, useNavigation } from "expo-router";
 import { useEffect } from "react";
 
@@ -11,5 +11,5 @@ export default function FlatListWithGrid() {
     navigation.setOptions({ title: `List with ${params.id}` });
   }, [navigation, params.id]);
 
-  return <OrderProductsGrid typeOfGrid={params.id} />;
+  return <OrdersProducts typeOfGrid={params.id} />;
 }
