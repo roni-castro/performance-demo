@@ -8,21 +8,19 @@ type ProductGridProps = {
 };
 
 const ProductGrid = ({ products, numColumns = 2 }: ProductGridProps) => {
-  return (
-    <View>
-      {products.map(
-        (_, index) =>
-          index % numColumns === 0 && ( // check is the current index is a multiple of numColumns
-            <View key={index} style={styles.productItemContainer}>
-              {/** create a row with {numColumns} products */}
-              {products.slice(index, index + numColumns).map((prod) => (
-                <ProductItem key={prod.id} {...prod} />
-              ))}
-            </View>
-          ),
-      )}
-    </View>
-  );
+  const rows = [];
+  for (let rowIndex = 0; rowIndex < products.length; rowIndex += numColumns) {
+    const rowProducts = products.slice(rowIndex, rowIndex + numColumns);
+    const rowKey = rowProducts.map((p) => p.id).join("-");
+    rows.push(
+      <View key={rowKey} style={styles.productItemContainer}>
+        {rowProducts.map((prod) => (
+          <ProductItem key={prod.id} {...prod} />
+        ))}
+      </View>,
+    );
+  }
+  return <View>{rows}</View>;
 };
 
 const styles = StyleSheet.create({
