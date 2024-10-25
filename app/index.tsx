@@ -4,7 +4,7 @@ import { LongListTypes } from "@/features/shared/types/longList";
 import { router } from "expo-router";
 import { ScrollView, StyleSheet } from "react-native";
 
-export default function FlatLists() {
+export default function Home() {
   return (
     <ScrollView>
       <Section title="List with two columns" style={styles.container}>

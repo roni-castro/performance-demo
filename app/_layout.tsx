@@ -4,14 +4,25 @@ import { useEffect } from "react";
 
 export default function RootLayout() {
   useEffect(() => {
-    setTimeout(() => {
-      setStatusBarStyle("light");
-    }, 0);
+    setStatusBarStyle("light");
   }, []);
 
   return (
-    <Stack>
-      <Stack.Screen name="(root)" options={{ headerShown: false }} />
+    <Stack
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: "#25292e",
+        },
+        headerShadowVisible: false,
+        headerTintColor: "#fff",
+      }}
+    >
+      <Stack.Screen
+        name="index"
+        options={{
+          title: "Home",
+        }}
+      />
     </Stack>
   );
 }
