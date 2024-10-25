@@ -1,4 +1,5 @@
-import { Order, Product } from "@/data/types/Order";
+import { Order } from "@/data/types/Order";
+import { GridType, GridTypes } from "@/features/shared/types/grid";
 import useFetchOrdersProducts from "@/hooks/useFetchOrdersProducts";
 import React, { useCallback } from "react";
 import {
@@ -9,10 +10,9 @@ import {
   Text,
   View,
 } from "react-native";
-import { FlashList } from "@shopify/flash-list";
-import ProductItem from "./ProductItem";
-import ProductGrid from "./ProductGrid";
-import { GridType, GridTypes } from "@/features/shared/types/grid";
+import OrderProductsCustomGrid from "./OrderProductsCustomGrid";
+import OrderProductsFlashList from "./OrderProductsFlashList";
+import OrderProductsFlatList from "./OrderProductsFlatList";
 
 type OrdersProductsProps = {
   typeOfGrid: GridType;
@@ -34,46 +34,12 @@ const OrdersProducts = ({ typeOfGrid }: OrdersProductsProps) => {
     }
   }, [hasNextPage, isFetching, fetchNextPage]);
 
-  const renderProduct = ({ item }: { item: Product }) => (
-    <ProductItem {...item} />
-  );
-
-  const productKeyExtractor = useCallback(
-    (item: Product, i: number) => `${i}-${item.id}`,
-    [],
-  );
-
-  const renderOrders = ({ item }: { item: Order }) => {
+  const renderOrder = ({ item }: { item: Order }) => {
+    const OrderProducts = OrderProductsMap[typeOfGrid];
     return (
       <View style={styles.orderContainer}>
         <Text style={styles.orderTitle}>Order ID: {item.id}</Text>
-        {typeOfGrid === GridTypes.FLATLIST_GRID && (
-          /** This causes performance issue, nesting FlatLists */
-          <FlatList
-            scrollEnabled={false}
-            data={item.products}
-            keyExtractor={(product) => product.id.toString()}
-            renderItem={renderProduct}
-            numColumns={2}
-            showsVerticalScrollIndicator={false}
-          />
-        )}
-        {typeOfGrid === GridTypes.FLASHLIST_GRID && (
-          /** FlashList works even when nested */
-          <FlashList
-            scrollEnabled={false}
-            data={item.products}
-            keyExtractor={productKeyExtractor}
-            estimatedItemSize={145}
-            renderItem={renderProduct}
-            numColumns={2}
-            showsVerticalScrollIndicator={false}
-          />
-        )}
-        {typeOfGrid === GridTypes.CUSTOM_GRID && (
-          /** This is the trick to fix the need of nested FlatList and improve performance */
-          <ProductGrid products={item.products} numColumns={2} />
-        )}
+        {OrderProducts ? OrderProducts(item) : null}
       </View>
     );
   };
@@ -82,7 +48,7 @@ const OrdersProducts = ({ typeOfGrid }: OrdersProductsProps) => {
     <FlatList
       data={orders}
       keyExtractor={(item) => item.id.toString()}
-      renderItem={renderOrders}
+      renderItem={renderOrder}
       refreshControl={
         <RefreshControl
           refreshing={isRefreshing}
@@ -99,6 +65,18 @@ const OrdersProducts = ({ typeOfGrid }: OrdersProductsProps) => {
       }
     />
   );
+};
+
+const OrderProductsMap = {
+  [GridTypes.FLATLIST_GRID]: (order: Order) => (
+    <OrderProductsFlatList order={order} />
+  ),
+  [GridTypes.FLASHLIST_GRID]: (order: Order) => (
+    <OrderProductsFlashList order={order} />
+  ),
+  [GridTypes.CUSTOM_GRID]: (order: Order) => (
+    <OrderProductsCustomGrid order={order} />
+  ),
 };
 
 const styles = StyleSheet.create({

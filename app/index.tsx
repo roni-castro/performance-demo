@@ -4,26 +4,26 @@ import { LongListTypes } from "@/features/shared/types/longList";
 import { router } from "expo-router";
 import { ScrollView, StyleSheet } from "react-native";
 
-export default function FlatLists() {
+export default function Home() {
   return (
     <ScrollView>
       <Section title="List with two columns" style={styles.container}>
         <Section.Button
-          title="Show flatList grid (non performative)"
+          title="Show flatList grid"
           onPress={() =>
             router.navigate(`/listTwoColumns/${GridTypes.FLATLIST_GRID}`)
           }
           testID="flatlist-grid-button"
         />
         <Section.Button
-          title="Show flashList grid (performative)"
+          title="Show flashList grid"
           onPress={() =>
             router.navigate(`/listTwoColumns/${GridTypes.FLASHLIST_GRID}`)
           }
           testID="flashlist-grid-button"
         />
         <Section.Button
-          title="Show flatList with custom grid (performative)"
+          title="Show flatList with custom grid"
           onPress={() =>
             router.navigate(`/listTwoColumns/${GridTypes.CUSTOM_GRID}`)
           }
