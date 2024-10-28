@@ -4,11 +4,13 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
+    "start:release": "npx expo start --no-dev --minify",
     "reset-project": "node ./scripts/reset-project.js",
     "dev": "APP_VARIANT=development npx expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
+    "open-atlas": "sh -c \"if command -v open >/dev/null 2>&1; then open 'http://localhost:8081/_expo/atlas'; else xdg-open 'http://localhost:8081/_expo/atlas'; fi\" && EXPO_UNSTABLE_ATLAS=true npm run start:release",
     "test": "jest --watchAll",
     "test:e2e": "maestro test e2e",
     "lint": "expo lint",
