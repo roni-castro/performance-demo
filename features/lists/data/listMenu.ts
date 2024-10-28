@@ -3,6 +3,7 @@ import { LongListTypes } from "@/features/shared/types/longList";
 import { TMenu } from "@/features/shared/types/menu";
 
 const listMenu: TMenu = {
+  id: "list",
   title: "Lists",
   subMenus: [
     {

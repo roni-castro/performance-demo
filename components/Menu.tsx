@@ -12,8 +12,12 @@ import {
 const Menu = ({ items }: { items: TMenu[] }) => {
   return (
     <View style={styles.container}>
-      {items.map((menu, index) => (
-        <MenuSection key={index} title={menu.title} subMenus={menu.subMenus} />
+      {items.map((menu) => (
+        <MenuSection
+          key={menu.id}
+          title={menu.title}
+          subMenus={menu.subMenus}
+        />
       ))}
     </View>
   );
@@ -73,6 +77,7 @@ const SubMenu = ({ title, items }: TSubMenu) => {
     </View>
   );
 };
+SubMenu.displayName = "SubMenu";
 
 const SubMenuItem = ({
   title,
