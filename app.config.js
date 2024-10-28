@@ -42,10 +42,6 @@ export default {
       buildNumber: "1",
       supportsTablet: true,
       bundleIdentifier: getUniqueIdentifier(),
-      infoPlist: {
-        NSPhotoLibraryUsageDescription:
-          "Allow $(PRODUCT_NAME) to access your photos.",
-      },
     },
     android: {
       adaptiveIcon: {
@@ -53,11 +49,6 @@ export default {
         backgroundColor: "#25292e",
       },
       package: getUniqueIdentifier(),
-      permissions: [
-        "android.permission.READ_EXTERNAL_STORAGE",
-        "android.permission.WRITE_EXTERNAL_STORAGE",
-        "android.permission.ACCESS_MEDIA_LOCATION",
-      ],
     },
     web: {
       bundler: "metro",
@@ -66,14 +57,6 @@ export default {
     },
     plugins: [
       "expo-router",
-      [
-        "expo-media-library",
-        {
-          photosPermission: "Allow $(PRODUCT_NAME) to access your photos.",
-          savePhotosPermission: "Allow $(PRODUCT_NAME) to save photos.",
-          isAccessMediaLocationEnabled: true,
-        },
-      ],
     ],
     experiments: {
       typedRoutes: true,
