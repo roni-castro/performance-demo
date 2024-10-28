@@ -1,0 +1,11 @@
+appId: com.ronicesarrc.performance.demo
+---
+- launchApp
+- tapOn: "Animations"
+- tapOn: "Vector"
+- tapOn: "Show lottie local animation"
+- assertVisible:
+    id: "lottieView-local"
+- tapOn: "Restart Animation"
+- assertVisible:
+    id: "lottieView-local"
