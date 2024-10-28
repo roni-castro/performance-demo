@@ -1,3 +1,4 @@
 flows:
   - lists/longList/*
   - lists/listWithTwoColumns/*
+  - animations/lottie/*
