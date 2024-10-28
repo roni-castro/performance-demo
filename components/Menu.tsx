@@ -40,6 +40,7 @@ const MenuSection = ({
     <ScrollView>
       <TouchableOpacity style={styles.menuItem} onPress={toggleOpen}>
         <Text style={styles.menuTitle}>{title}</Text>
+        <Text style={styles.arrow}>{isOpen ? "▼" : "▶"}</Text>
       </TouchableOpacity>
       {isOpen && (
         <View style={styles.subMenuContainer}>
@@ -62,6 +63,7 @@ const SubMenu = ({ title, items }: TSubMenu) => {
         onPress={() => setIsOpen(!isOpen)}
       >
         <Text style={styles.subMenuTitle}>{title}</Text>
+        <Text style={styles.arrow}>{isOpen ? "▼" : "▶"}</Text>
       </TouchableOpacity>
       {isOpen && (
         <View style={styles.subMenu}>
@@ -98,7 +100,12 @@ const styles = StyleSheet.create({
     padding: 16,
     backgroundColor: "#f9f9f9",
   },
+  arrow: {
+    marginLeft: 8,
+  },
   menuItem: {
+    flexDirection: "row",
+    justifyContent: "space-between",
     padding: 10,
     backgroundColor: "#e0e0e0",
     borderRadius: 6,
@@ -112,6 +119,8 @@ const styles = StyleSheet.create({
     paddingLeft: 12,
   },
   subMenuItem: {
+    flexDirection: "row",
+    justifyContent: "space-between",
     padding: 10,
     backgroundColor: "#d0d0d0",
     borderRadius: 6,
