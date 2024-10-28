@@ -1,7 +1,9 @@
 appId: com.ronicesarrc.performance.demo
 ---
 - launchApp
-- tapOn: "Show long list using FlatList"
+- tapOn: "Lists"
+- tapOn: "Long list"
+- tapOn: "Show long list using FlashList"
 - runFlow:
     file: ../shared/scrollList.yaml
 - tapOn: "Add item"

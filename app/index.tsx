@@ -1,60 +1,9 @@
-import Section from "@/components/Section";
-import { GridTypes } from "@/features/shared/types/grid";
-import { LongListTypes } from "@/features/shared/types/longList";
-import { router } from "expo-router";
-import { ScrollView, StyleSheet } from "react-native";
+import Menu from "@/components/Menu";
+import menus from "@/features/data/menus";
+import React from "react";
 
-export default function Home() {
-  return (
-    <ScrollView>
-      <Section title="List with two columns" style={styles.container}>
-        <Section.Button
-          title="Show flatList grid"
-          onPress={() =>
-            router.navigate(`/listTwoColumns/${GridTypes.FLATLIST_GRID}`)
-          }
-          testID="flatlist-grid-button"
-        />
-        <Section.Button
-          title="Show flashList grid"
-          onPress={() =>
-            router.navigate(`/listTwoColumns/${GridTypes.FLASHLIST_GRID}`)
-          }
-          testID="flashlist-grid-button"
-        />
-        <Section.Button
-          title="Show flatList with custom grid"
-          onPress={() =>
-            router.navigate(`/listTwoColumns/${GridTypes.CUSTOM_GRID}`)
-          }
-          testID="custom-grid-button"
-        />
-      </Section>
-      <Section title="Long list" style={styles.container}>
-        <Section.Button
-          title="Show long list using ScrollView"
-          onPress={() =>
-            router.navigate(`/longList/${LongListTypes.SCROLLVIEW}`)
-          }
-        />
-        <Section.Button
-          title="Show long list using FlatList"
-          onPress={() => router.navigate(`/longList/${LongListTypes.FLATLIST}`)}
-        />
-        <Section.Button
-          title="Show long list using FlashList"
-          onPress={() =>
-            router.navigate(`/longList/${LongListTypes.FLASHLIST}`)
-          }
-        />
-      </Section>
-    </ScrollView>
-  );
-}
+const Home = () => {
+  return <Menu items={menus} />;
+};
 
-const styles = StyleSheet.create({
-  container: {
-    margin: 8,
-    gap: 8,
-  },
-});
+export default Home;
