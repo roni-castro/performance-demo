@@ -11,7 +11,7 @@ import {
 
 const Menu = ({ items }: { items: TMenu[] }) => {
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       {items.map((menu) => (
         <MenuSection
           key={menu.id}
@@ -19,7 +19,7 @@ const Menu = ({ items }: { items: TMenu[] }) => {
           subMenus={menu.subMenus}
         />
       ))}
-    </View>
+    </ScrollView>
   );
 };
 
@@ -37,7 +37,7 @@ const MenuSection = ({
   };
 
   return (
-    <ScrollView>
+    <>
       <TouchableOpacity style={styles.menuItem} onPress={toggleOpen}>
         <Text style={styles.menuTitle}>{title}</Text>
         <Text style={styles.arrow}>{isOpen ? "▼" : "▶"}</Text>
@@ -49,7 +49,7 @@ const MenuSection = ({
           ))}
         </View>
       )}
-    </ScrollView>
+    </>
   );
 };
 
