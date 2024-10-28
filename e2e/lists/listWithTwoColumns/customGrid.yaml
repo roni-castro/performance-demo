@@ -1,6 +1,8 @@
 appId: com.ronicesarrc.performance.demo
 ---
 - launchApp
+- tapOn: "Lists"
+- tapOn: "List with two columns"
 - tapOn: "Show flatList with custom grid"
 - runFlow:
     file: ../shared/scrollList.yaml
