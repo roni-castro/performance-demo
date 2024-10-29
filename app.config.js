@@ -32,6 +32,7 @@ export default {
     orientation: "portrait",
     icon: "./assets/images/icon.png",
     scheme: "myapp",
+    newArchEnabled: true,
     userInterfaceStyle: "automatic",
     splash: {
       image: "./assets/images/splash.png",
