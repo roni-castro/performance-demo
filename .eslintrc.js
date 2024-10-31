@@ -6,4 +6,16 @@ module.exports = {
     "prettier/prettier": "error",
     "react-native/no-unused-styles": "error",
   },
+  ignorePatterns: ["!src/**/*"],
+  overrides: [
+    {
+      files: ["src/**/*.{js,jsx,ts,tsx,json}"],
+    },
+    {
+      files: ["src/**/*.json"],
+      rules: {
+        "no-unused-expressions": "off",
+      },
+    },
+  ],
 };
