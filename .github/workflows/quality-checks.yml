@@ -27,3 +27,6 @@ jobs:
 
       - name: Lint code
         run: npm run lint
+
+      - name: Circular dependency
+        run: npx dpdm ./src/* --circular --exit-code circular:1 --warning=false
