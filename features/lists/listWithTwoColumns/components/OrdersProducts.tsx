@@ -84,15 +84,13 @@ const styles = StyleSheet.create({
     padding: 10,
     backgroundColor: "#c0c0c0",
     elevation: 1,
-    boxShadow: [
-      {
-        offsetX: 0,
-        offsetY: 2,
-        blurRadius: 4,
-        spreadDistance: 0,
-        color: "#c0c0c0",
-      },
-    ],
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
   },
   orderTitle: {
     fontSize: 18,
