@@ -13,7 +13,7 @@
     "open-atlas": "sh -c \"if command -v open >/dev/null 2>&1; then open 'http://localhost:8081/_expo/atlas'; else xdg-open 'http://localhost:8081/_expo/atlas'; fi\" && EXPO_UNSTABLE_ATLAS=true npm run start:release",
     "test": "jest --watchAll",
     "test:e2e": "maestro test e2e",
-    "lint": "expo lint",
+    "lint": "eslint ./src",
     "android:build": "eas build --platform android",
     "android:submit": "eas submit --platform android",
     "unused-deps": "npx depcheck"
