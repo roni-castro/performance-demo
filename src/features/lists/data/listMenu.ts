@@ -1,6 +1,6 @@
-import { GridTypes } from "@/features/shared/types/grid";
-import { LongListTypes } from "@/features/shared/types/longList";
-import { TMenu } from "@/features/shared/types/menu";
+import { GridTypes } from "@/features/lists/listWithTwoColumns/types/grid";
+import { LongListTypes } from "@/features/lists/longList/types/longList";
+import { TMenu } from "@/components/Menu/types";
 
 const listMenu: TMenu = {
   id: "list",

@@ -1,8 +1,8 @@
-import { Fruit } from "@/data/types/Fruit";
+import { TFruit } from "@/data/types/Fruit";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-type FruitItemProps = Omit<Fruit, "id">;
+type FruitItemProps = Omit<TFruit, "id">;
 
 const FruitItem = ({ name, icon }: FruitItemProps) => {
   return (

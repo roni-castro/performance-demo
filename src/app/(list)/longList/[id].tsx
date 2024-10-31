@@ -1,7 +1,10 @@
 import LongListFlashList from "@/features/lists/longList/components/LongListFlashList";
 import LongListFlatList from "@/features/lists/longList/components/LongListFlatList";
 import LongListScrollView from "@/features/lists/longList/components/LongListScrollView";
-import { LongListType, LongListTypes } from "@/features/shared/types/longList";
+import {
+  TLongList,
+  LongListTypes,
+} from "@/features/lists/longList/types/longList";
 import { useLocalSearchParams, useNavigation } from "expo-router";
 import { useLayoutEffect } from "react";
 
@@ -12,7 +15,7 @@ const LongListMap = {
 } as const;
 
 export default function LongList() {
-  const { id } = useLocalSearchParams<{ id: LongListType }>();
+  const { id } = useLocalSearchParams<{ id: TLongList }>();
   const navigation = useNavigation();
 
   useLayoutEffect(() => {

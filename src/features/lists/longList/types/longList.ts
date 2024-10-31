@@ -1,4 +1,4 @@
-import { Values } from "./values";
+import { Values } from "@/types/values";
 
 export const LongListTypes = {
   FLATLIST: "flatlist",
@@ -6,4 +6,4 @@ export const LongListTypes = {
   SCROLLVIEW: "scrollview",
 } as const;
 
-export type LongListType = Values<typeof LongListTypes>;
+export type TLongList = Values<typeof LongListTypes>;

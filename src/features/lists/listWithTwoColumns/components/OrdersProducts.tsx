@@ -1,5 +1,8 @@
 import { Order } from "@/data/types/Order";
-import { GridType, GridTypes } from "@/features/shared/types/grid";
+import {
+  TGrid,
+  GridTypes,
+} from "@/features/lists/listWithTwoColumns/types/grid";
 import useFetchOrdersProducts from "@/hooks/useFetchOrdersProducts";
 import React, { useCallback } from "react";
 import {
@@ -15,7 +18,7 @@ import OrderProductsFlashList from "./OrderProductsFlashList";
 import OrderProductsFlatList from "./OrderProductsFlatList";
 
 type OrdersProductsProps = {
-  typeOfGrid: GridType;
+  typeOfGrid: TGrid;
 };
 
 const OrdersProducts = ({ typeOfGrid }: OrdersProductsProps) => {
