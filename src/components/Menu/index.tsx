@@ -1,4 +1,4 @@
-import { TMenu, TSubMenu } from "@/features/shared/types/menu";
+import { TMenu, TSubMenu } from "@/components/Menu/types";
 import { router } from "expo-router";
 import React, { useState } from "react";
 import {

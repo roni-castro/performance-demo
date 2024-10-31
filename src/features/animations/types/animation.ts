@@ -1,4 +1,4 @@
-import { Values } from "@/features/shared/types/values";
+import { Values } from "@/types/values";
 
 export const AnimationTypes = {
   VECTOR_LOTTIE_LOCAL: "vector-lottie-local",

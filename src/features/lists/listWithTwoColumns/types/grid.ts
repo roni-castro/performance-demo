@@ -1,4 +1,4 @@
-import { Values } from "./values";
+import { Values } from "@/types/values";
 
 export const GridTypes = {
   FLATLIST_GRID: "flatlist-grid",
@@ -6,4 +6,4 @@ export const GridTypes = {
   CUSTOM_GRID: "custom-grid",
 } as const;
 
-export type GridType = Values<typeof GridTypes>;
+export type TGrid = Values<typeof GridTypes>;

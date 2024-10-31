@@ -1,5 +1,5 @@
 import Menu from "@/components/Menu";
-import menus from "@/features/data/menus";
+import menus from "@/features/home/data/menus";
 import React from "react";
 
 const Home = () => {

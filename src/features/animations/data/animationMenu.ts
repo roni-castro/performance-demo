@@ -1,5 +1,5 @@
 import { AnimationTypes } from "@/features/animations/types/animation";
-import { TMenu } from "@/features/shared/types/menu";
+import { TMenu } from "@/components/Menu/types";
 
 const animationMenu: TMenu = {
   id: "animations",
