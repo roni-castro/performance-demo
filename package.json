@@ -22,8 +22,8 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "@dotlottie/react-player": "^1.6.19",
     "@expo/vector-icons": "^14.0.2",
+    "@lottiefiles/dotlottie-react": "^0.9.2",
     "@react-navigation/native": "^6.0.2",
     "@shopify/flash-list": "1.6.4",
     "expo": "~51.0.38",
