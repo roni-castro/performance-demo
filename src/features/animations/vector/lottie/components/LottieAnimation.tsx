@@ -1,3 +1,4 @@
+import { createTestID } from "@/utils/testId";
 import LottieView, { LottieViewProps } from "lottie-react-native";
 import { useRef } from "react";
 import { Button, StyleSheet, View } from "react-native";
@@ -21,31 +22,21 @@ export default function LottieAnimation({
       <LottieView
         autoPlay
         ref={animation}
-        style={{
-          width: 200,
-          height: 200,
-          backgroundColor: "#eee",
-        }}
+        style={styles.animation}
         source={source}
         testID={createTestID("lottieView", testID)}
       />
-      <View style={styles.buttonContainer}>
-        <Button
-          testID={createTestID("lottieButton", testID)}
-          title="Restart Animation"
-          onPress={() => {
-            animation.current?.reset();
-            animation.current?.play();
-          }}
-        />
-      </View>
+      <Button
+        testID={createTestID("lottieButton", testID)}
+        title="Restart Animation"
+        onPress={() => {
+          animation.current?.reset();
+          animation.current?.play();
+        }}
+      />
     </View>
   );
 }
-
-export const createTestID = (base: string, testID?: string): string => {
-  return testID ? `${base}-${testID}` : base;
-};
 
 const styles = StyleSheet.create({
   animationContainer: {
@@ -53,8 +44,13 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     flex: 1,
+    padding: 20,
   },
-  buttonContainer: {
-    paddingTop: 20,
+  animation: {
+    width: "100%",
+    height: 300,
+    maxWidth: 500,
+    backgroundColor: "#eee",
+    marginBottom: 20,
   },
 });

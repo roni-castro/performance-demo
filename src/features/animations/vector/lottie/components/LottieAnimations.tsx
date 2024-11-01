@@ -1,17 +1,17 @@
 import {
-  AnimationTypes,
-  TAnimation,
-} from "@/features/animations/types/animation";
+  LottieAnimationTypes,
+  TLottieAnimation,
+} from "@/features/animations/vector/lottie/types/lottieAnimation";
 import Lottie from "./LottieAnimation";
 
 const AnimationsMap = {
-  [AnimationTypes.VECTOR_LOTTIE_LOCAL]: () => (
+  [LottieAnimationTypes.VECTOR_LOTTIE_LOCAL]: () => (
     <Lottie
       testID="local"
       source={require("@/assets/animations/lottie/watermelon.json")}
     />
   ),
-  [AnimationTypes.VECTOR_LOTTIE_REMOTE]: () => (
+  [LottieAnimationTypes.VECTOR_LOTTIE_REMOTE]: () => (
     <Lottie
       testID="remote"
       source={{
@@ -22,7 +22,7 @@ const AnimationsMap = {
 } as const;
 
 type LottieAnimationsProps = {
-  type: TAnimation;
+  type: TLottieAnimation;
 };
 
 export default function LottieAnimations({ type }: LottieAnimationsProps) {

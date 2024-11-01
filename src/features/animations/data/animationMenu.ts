@@ -1,4 +1,4 @@
-import { AnimationTypes } from "@/features/animations/types/animation";
+import { AnimationTypes } from "@/features/animations/vector/lottie/types/lottieAnimation";
 import { TMenu } from "@/components/Menu/types";
 
 const animationMenu: TMenu = {
