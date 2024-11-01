@@ -55,7 +55,24 @@ export default {
       output: "static",
       favicon: "./assets/images/favicon.png",
     },
-    plugins: ["expo-router"],
+    plugins: [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          ios: {
+            deploymentTarget: "14.0",
+          },
+        },
+      ],
+      [
+        "expo-custom-assets",
+        {
+          // Add asset directory paths, the plugin copies the files in the given paths to the app bundle folder named Assets
+          assetsPaths: ["./assets/animations/rive"],
+        },
+      ],
+    ],
     experiments: {
       typedRoutes: true,
     },
