@@ -8,14 +8,14 @@ const AnimationsMap = {
   [AnimationTypes.VECTOR_LOTTIE_LOCAL]: () => (
     <Lottie
       testID="local"
-      source={require("@/assets/animations/watermelon.json")}
+      source={require("@/assets/animations/lottie/watermelon.json")}
     />
   ),
   [AnimationTypes.VECTOR_LOTTIE_REMOTE]: () => (
     <Lottie
       testID="remote"
       source={{
-        uri: "https://raw.githubusercontent.com/lottie-react-native/lottie-react-native/master/example/animations/Watermelon.json",
+        uri: "https://raw.githubusercontent.com/roni-castro/performance-demo/main/assets/animations/lottie/watermelon.json",
       }}
     />
   ),
