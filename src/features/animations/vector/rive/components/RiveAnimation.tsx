@@ -1,37 +1,35 @@
-import { createTestID } from "@/utils/testId";
-import LottieView, { LottieViewProps } from "lottie-react-native";
 import { useRef } from "react";
 import { Button, StyleSheet, View } from "react-native";
+import { RiveProps, RiveRef } from "../types/rive";
+import Rive from "./Rive";
+import { createTestID } from "@/utils/testId";
 
-type LottieAnimationProps = {
-  testID?: string;
-  source: LottieViewProps["source"];
-};
+export type RiveAnimationProps = RiveProps;
 
-export default function LottieAnimation({
+export default function RiveAnimation({
   testID,
-  source,
-}: LottieAnimationProps) {
-  const animation = useRef<LottieView>(null);
+  ...restProps
+}: RiveAnimationProps) {
+  const animation = useRef<RiveRef>(null);
 
   return (
     <View
       style={styles.animationContainer}
-      testID={createTestID("lottieContainer", testID)}
+      testID={createTestID("riveContainer", testID)}
     >
-      <LottieView
-        autoPlay
+      <Rive
+        autoplay
+        //@ts-ignore
         ref={animation}
         style={styles.animation}
-        source={source}
-        testID={createTestID("lottieView", testID)}
+        testID={createTestID("riveView", testID)}
+        {...restProps}
       />
       <Button
-        testID={createTestID("lottieButton", testID)}
+        testID={createTestID("riveButton", testID)}
         title="Restart Animation"
         onPress={() => {
           animation.current?.reset();
-          animation.current?.play();
         }}
       />
     </View>
@@ -47,6 +45,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   animation: {
+    flexGrow: 0,
     width: "100%",
     height: 300,
     maxWidth: 500,

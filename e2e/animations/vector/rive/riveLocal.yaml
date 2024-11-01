@@ -1,0 +1,11 @@
+appId: com.ronicesarrc.performance.demo
+---
+- launchApp
+- tapOn: "Animations"
+- tapOn: "Vector"
+- tapOn: "Show rive local animation"
+- assertVisible:
+    id: "riveView-local"
+- tapOn: "Restart Animation"
+- assertVisible:
+    id: "riveView-local"
