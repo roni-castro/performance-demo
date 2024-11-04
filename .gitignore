@@ -28,3 +28,4 @@ service-account-file.json
 settings.json
 
 /reports/*
+.env.local

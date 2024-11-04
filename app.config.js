@@ -72,6 +72,14 @@ export default {
           assetsPaths: ["./assets/animations/rive"],
         },
       ],
+      [
+        "@sentry/react-native/expo",
+        {
+          url: "https://sentry.io/",
+          project: "react-native",
+          organization: "roni-j0",
+        },
+      ],
     ],
     experiments: {
       typedRoutes: true,
