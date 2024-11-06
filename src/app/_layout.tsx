@@ -13,7 +13,9 @@ const navigationIntegration = Sentry.reactNavigationIntegration({
 });
 
 Sentry.init({
-  dsn: "https://1b27b8c56af5b5a47387fe0ecc726353@o4508241637146624.ingest.us.sentry.io/4508241637343232",
+  dsn: __DEV__
+    ? ""
+    : "https://1b27b8c56af5b5a47387fe0ecc726353@o4508241637146624.ingest.us.sentry.io/4508241637343232",
   tracesSampleRate: 1.0,
   // uncomment the line below to enable Spotlight (https://spotlightjs.com)
   // enableSpotlight: __DEV__,
