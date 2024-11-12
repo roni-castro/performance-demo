@@ -27,7 +27,7 @@ const listMenu: TMenu = {
       title: "Long list",
       items: [
         {
-          title: "Show long list using ScrollView",
+          title: "Show long list using ScrollView (slow)",
           routePath: `/longList/${LongListTypes.SCROLLVIEW}`,
         },
         {
