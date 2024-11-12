@@ -7,6 +7,7 @@
     "start:release": "npx expo start --no-dev --minify",
     "reset-project": "node ./scripts/reset-project.js",
     "dev": "APP_VARIANT=development npx expo start",
+    "prebuild": "expo prebuild --clean",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
@@ -52,7 +53,7 @@
     "react-native-safe-area-context": "4.12.0",
     "react-native-screens": "^4.0.0",
     "react-native-web": "~0.19.13",
-    "rive-react-native": "^8.0.0"
+    "rive-react-native": "^8.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -76,7 +77,12 @@
     "doctor": {
       "reactNativeDirectoryCheck": {
         "exclude": [
-          "@lottiefiles/dotlottie-react"
+          "@lottiefiles/dotlottie-react",
+          "@rive-app/react-canvas",
+          "eslint-plugin-react-compiler",
+          "react-compiler-runtime",
+          "rive-react-native",
+          "expo-custom-assets"
         ]
       }
     }
