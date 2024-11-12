@@ -33,6 +33,7 @@ export default {
     icon: "./assets/images/icon.png",
     scheme: "myapp",
     userInterfaceStyle: "automatic",
+    newArchEnabled: true,
     ios: {
       buildNumber: "1",
       supportsTablet: true,
