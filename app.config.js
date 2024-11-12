@@ -33,11 +33,6 @@ export default {
     icon: "./assets/images/icon.png",
     scheme: "myapp",
     userInterfaceStyle: "automatic",
-    splash: {
-      image: "./assets/images/splash.png",
-      resizeMode: "contain",
-      backgroundColor: "#25292e",
-    },
     ios: {
       buildNumber: "1",
       supportsTablet: true,
@@ -56,6 +51,14 @@ export default {
       favicon: "./assets/images/favicon.png",
     },
     plugins: [
+      [
+        "expo-splash-screen",
+        {
+          backgroundColor: "#25292e",
+          image: "./assets/images/icon.png",
+          imageWidth: 156,
+        },
+      ],
       "expo-router",
       [
         "expo-build-properties",
