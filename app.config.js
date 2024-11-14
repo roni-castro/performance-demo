@@ -28,12 +28,12 @@ export default {
   expo: {
     name: getAppName(),
     slug: "performance-demo",
-    version: "1.0.1",
+    version: "1.0.2",
     orientation: "portrait",
     icon: "./assets/images/icon.png",
     scheme: "myapp",
     userInterfaceStyle: "automatic",
-    newArchEnabled: false,
+    newArchEnabled: true,
     ios: {
       supportsTablet: true,
       bundleIdentifier: getUniqueIdentifier(),
