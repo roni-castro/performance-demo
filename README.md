@@ -2,25 +2,43 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## Performance tests
 
-1. Install dependencies
+See explanations in [here](https://github.com/roni-castro/performance-demo/wiki/)
 
-   ```bash
-   npm install
-   ```
+## Get Started
 
-2. Generate the android/ios folders
+### 1. Install Dependencies
+First, install the necessary packages:
+```bash
+npm install
+```
 
-   ```bash
-    npx expo prebuild
-   ```
+### 2. Generate native folders (Android/iOS)
+If you're making native changes or it's your first build, generate the android and ios folders:
 
-3. Start the app
+```bash
+npx expo prebuild
+```
 
-   ```bash
-    npx expo start
-   ```
+### 3. Install the App (For the first time or after native changes)
+This command will generate a development build:
+### For Android:
+```bash
+npm run android
+```
+
+### For iOS:
+```bash
+npm run ios
+```
+
+## (Optional) Run the App (No native changes & development build installed)
+If you've already installed the app and there are no native changes, simply start the app and choose a option:
+
+```bash
+npx expo start
+```
 
 In the output, you'll find options to open the app in a
 
@@ -38,6 +56,3 @@ To learn more about developing your project with Expo, look at the following res
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-### Performance tests
-
-See explanations in [here](https://github.com/roni-castro/performance-demo/wiki/)
